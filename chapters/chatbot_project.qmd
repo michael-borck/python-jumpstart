@@ -14,7 +14,8 @@ The project follows this progression:
 1. **Basic Rule-Based Chatbot** (Chapters 1-7)
    - Simple input/output with hardcoded responses
    - Basic string manipulation
-   - Introduction to variables and operators
+   - Introduction to variables and operators 
+   - input name, say hi {name} etc
 
 2. **Structured Chatbot** (Chapters 8-14)
    - Using functions to organize code

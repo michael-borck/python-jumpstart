@@ -144,3 +144,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+CONVERSION_README.md
+CONVERSION_TODO.md

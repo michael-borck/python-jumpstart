@@ -7,7 +7,6 @@ book:
   author: "Michael Borck"
   chapters:
     - index.qmd
-    - chapters/00_contents.qmd
     - part: "Core Python Fundamentals"
       chapters:
         - chapters/01_python_in_the_age_of_ai.qmd
@@ -53,11 +52,15 @@ book:
       chapters:
         - chapters/chatbot_project.qmd
 
-sidebar:
-  style: docked
-  search: true
-  collapse-level: 2
-  toc-depth: 3
+  downloads: [pdf, epub]
+  repo-url: https://github.com/michael-borck/python-jumpstart
+  repo-actions: [edit, issue]
+
+website:
+  favicon: assets/python-logo.png
+  repo-url: https://github.com/michael-borck/python-jumpstart
+  repo-actions: [edit, issue]
+  open-graph: true
 
 format:
   html:
@@ -79,12 +82,6 @@ format:
     toc: true
     toc-depth: 3
     cover-image: images/cover.png
-
-website:
-  favicon: assets/python-logo.png
-  repo-url: https://github.com/michael-borck/python-jumpstart
-  repo-actions: [edit, issue]
-  open-graph: true
 
 execute:
   enabled: false
