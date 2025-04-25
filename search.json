@@ -4,7 +4,49 @@
     "href": "index.html",
     "title": "Python Jumpstart: Coding Fundamentals for the AI Era",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books."
+    "text": "1 Welcome\nWelcome to “Python Jumpstart: Coding Fundamentals for the AI Era” - a comprehensive introduction to Python programming with a modern twist. This guide was created specifically for beginners who want to learn just enough Python to work effectively in today’s AI-assisted programming environment."
+  },
+  {
+    "objectID": "index.html#why-learn-python-today",
+    "href": "index.html#why-learn-python-today",
+    "title": "Python Jumpstart: Coding Fundamentals for the AI Era",
+    "section": "1.1 🚀 Why Learn Python Today?",
+    "text": "1.1 🚀 Why Learn Python Today?\nBecause knowing the fundamentals of coding makes you 10x faster and smarter with AI tools tomorrow.\nAI can write code, but it doesn’t always write the right code. If you blindly copy-paste, you’ll spend more time debugging than building.\nBut if you understand Python — even just the basics — you can:\n\n🧠 Spot errors instantly instead of wasting time guessing\n✍️ Tweak AI code to make it work for your needs\n📣 Give better prompts so AI helps you, not hinders you\n⚙️ Take control of your projects instead of relying on guesswork\n\nThis isn’t about becoming a full-time coder. It’s about becoming AI-literate, so you can collaborate with AI instead of depending on it.\nLearn enough Python to lead the AI, not follow it."
+  },
+  {
+    "objectID": "index.html#whats-inside",
+    "href": "index.html#whats-inside",
+    "title": "Python Jumpstart: Coding Fundamentals for the AI Era",
+    "section": "1.2 What’s Inside",
+    "text": "1.2 What’s Inside\nThis interactive guide covers everything from basic Python syntax to more advanced topics like object-oriented programming. It has been updated to include:\n\nTraditional Python programming fundamentals\nModern AI-assisted programming techniques\nTips for using AI coding assistants effectively\nExamples of Python integration with AI services"
+  },
+  {
+    "objectID": "index.html#related-resources",
+    "href": "index.html#related-resources",
+    "title": "Python Jumpstart: Coding Fundamentals for the AI Era",
+    "section": "1.3 Related Resources",
+    "text": "1.3 Related Resources\nThis guide is part of a trilogy of free resources to help you master modern software development:\n\nPython Jumpstart: Coding Fundamentals for the AI Era (this book): Learn fundamental Python with AI integration\nIntentional Prompting: Mastering the Human-AI Development Process: A methodology for effective AI collaboration (human oversight + methodology + LLM = success)\nFrom Zero to Production: A Practical Python Development Pipeline: Build professional-grade Python applications with modern tools (uv, ruff, mypy, pytest - simple but not simplistic)\n\nWhile this guide focuses on Python fundamentals with AI integration, you’ll find references to these complementary resources throughout, particularly in Chapters 17-22 which touch on the production pipeline concepts covered in-depth in “From Zero to Production.”"
+  },
+  {
+    "objectID": "index.html#how-to-use-this-guide",
+    "href": "index.html#how-to-use-this-guide",
+    "title": "Python Jumpstart: Coding Fundamentals for the AI Era",
+    "section": "1.4 How to Use This Guide",
+    "text": "1.4 How to Use This Guide\nEach chapter builds upon the previous one, with interactive code examples you can run directly in your browser. You can follow along sequentially or jump to specific topics that interest you.\nThe guide is organized into several sections:\n\nCore Python Fundamentals: Basic syntax and concepts\nFunctions and Control Flow: How to structure your code\nData Structures and Iteration: Working with collections of data\nWorking with Files: Input/output operations\nCode Quality: Debugging, testing, and organizing code\nPractical Python: How to run, install, and get help with Python\nPython in the AI Era: Using AI assistants and integrating AI into your Python apps"
+  },
+  {
+    "objectID": "index.html#getting-started",
+    "href": "index.html#getting-started",
+    "title": "Python Jumpstart: Coding Fundamentals for the AI Era",
+    "section": "1.5 Getting Started",
+    "text": "1.5 Getting Started\nJump right in with Chapter 1: Python in the Age of AI or browse the Table of Contents to find a specific topic."
+  },
+  {
+    "objectID": "index.html#interactive-learning",
+    "href": "index.html#interactive-learning",
+    "title": "Python Jumpstart: Coding Fundamentals for the AI Era",
+    "section": "1.6 Interactive Learning",
+    "text": "1.6 Interactive Learning\nThis guide supports:\n\nIn-browser code execution\nCopy/paste code examples\nDark/light mode for comfortable reading\nMobile-friendly format\n\nHappy coding!"
   },
   {
     "objectID": "chapters/00_contents.html",
