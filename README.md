@@ -1,37 +1,67 @@
-# Just Enough Python
+# Python Jumpstart: Coding Fundamentals for the AI Era
 
-This Quarto book introduces the essential components of the programming language Python. The focus of these chapters is on the programming language and not on the craft of programming. The book does not discuss everything about Python but provides a foundation so the student can [take it further](notebooks/24_taking_it_further.ipynb). The material has been prepared for students in the Faculty of Business and Law at Curtin University.
+This Quarto book introduces the essential components of Python programming with a modern twist for the AI era. The focus is on learning just enough Python to effectively work with AI coding assistants - not becoming a Python expert. 
 
-## Chapters
+The book teaches fundamental Python concepts and shows how they connect to AI collaboration, enabling you to:
+- Understand and modify AI-generated code
+- Give better prompts to AI assistants
+- Troubleshoot issues in AI-generated solutions
+- Build effective human-AI workflows for coding projects
 
-1. [Hello World](notebooks/01_hello_world.ipynb)
-2. [Basic Python Syntax](notebooks/02_basic_python_syntax.ipynb)
-3. [Values](notebooks/03_values.ipynb)
-4. [Variables](notebooks/04_variables.ipynb)
-5. [Output](notebooks/05_output.ipynb)
-6. [Input](notebooks/06_input.ipynb)
-7. [Operators](notebooks/07_operators.ipynb)
-8. [Using Functions](notebooks/08_using_functions.ipynb)
-9. [Creating Functions](notebooks/09_creating_functions.ipynb)
-10. [Making Decisions](notebooks/10_making_decisions.ipynb)
-11. [Lists](notebooks/11_lists.ipynb)
-12. [Going Loopy](notebooks/12_going_loopy.ipynb)
-13. [Strings](notebooks/13_strings.ipynb)
-14. [Dictionaries](notebooks/14_dictionaries.ipynb)
-15. [Files](notebooks/15_files.ipynb)
-16. [Errors and Exceptions](notebooks/16_errors_and_exceptions.ipynb)
-17. [Debugging](notebooks/17_debugging.ipynb)
-18. [Testing](notebooks/18_testing.ipynb)
-19. [Modules and Packages](notebooks/19_modules_and_packages.ipynb)
-20. [Orientating your Objects](notebooks/20_orientating_your_objects_ipynb.ipynb)
-21. [How to Run Python Code](notebooks/21_how_to_run_python_code.ipynb)
-22. [How to Install Python](notebooks/22_how_to_install_python.ipynb)
-23. [Getting Help](notebooks/23_getting_help.ipynb)
-24. [Taking it Further](notebooks/24_taking_it_further.ipynb)
+It doesn't cover everything about Python but provides the critical foundation needed to leverage AI tools effectively while maintaining control of your code.
 
-## Similar Python Tutorials
+## Key Topics
 
-Here are some free beginner tutorials that inspired this series of notebooks. They have a data science focus but you may find them useful in your learning journey.
+### Core Python Fundamentals
+- Python in the Age of AI: Coding with Digital Collaborators
+- Syntax Safari: Navigating the Python Language Landscape
+- Value Voyage: Exploring Python's Data Universe
+- Variable Vault: Naming and Storing Your Digital Treasures
+- Output Odyssey: Making Your Code Speak to the World
+- Input Inception: Getting Data from Users into Your Programs
+- Operator's Manual: Mastering Python's Mathematical and Logical Tools
+
+### Functions and Control Flow
+- Function Fiesta: Using Python's Pre-built Code Blocks
+- Function Factory: Crafting Your Own Reusable Code Magic
+- Decision Director: Guiding Your Program's Path with If Statements
+
+### Data Structures and Iteration
+- List Laboratory: Organizing Data in Python's Most Versatile Container
+- Going Loopy: Repeating Code Without Losing Your Mind
+- String Theory: Manipulating Text in the Python Universe
+- Dictionary Detectives: Mastering Python's Key-Value Pairs
+
+### Quality and Organization
+- Error Embassy: Understanding and Handling Exceptions with Grace
+- Debugging Detectives: Finding and Fixing Code Mysteries
+- Test Kitchen: Ensuring Your Code Works as Intended
+- Module Mastery: Organizing Your Code for Growth and Reuse
+- Orientating Your Objects: Building Digital Models of Real-World Things
+
+### Practical Python and AI Integration
+- Python Pilot: How to Execute Your Code in Different Environments
+- Installation Station: Setting Up Python and Required Libraries
+- Help Headquarters: Finding Answers When You Get Stuck
+- AI Programming Assistants: Coding with Digital Colleagues
+- Python AI Integration: Connecting Your Code to Intelligent Services
+- AI Assistance Tips: Maximizing Your Machine Learning Mentors
+- Intentional Prompting: Speaking the Language of AI Assistants
+
+### Project
+- Chatbot Construction Site: Building Your AI-Enhanced Python Conversation Partner
+
+## Related Resources
+
+This guide is part of a trilogy of free resources to help you master modern software development:
+
+1. **Python Jumpstart: Coding Fundamentals for the AI Era** (this book): Learn fundamental Python with AI integration
+2. **Intentional Prompting: Mastering the Human-AI Development Process**: A methodology for effective AI collaboration
+3. **From Zero to Production: A Practical Python Development Pipeline**: Build professional-grade Python applications with modern tools
+
+## Other Learning Resources
+
+Here are some free Python tutorials that may complement your learning journey:
 
 * [Introduction to Python (Microsoft)](https://docs.microsoft.com/en-us/learn/modules/intro-to-python/)
 * [Python (Kaggle)](https://www.kaggle.com/learn/python)
