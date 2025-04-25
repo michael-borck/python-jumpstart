@@ -9,6 +9,9 @@
 /_cache/
 /_quarto/
 /_quarto_cache/
+_notes/
+.DS_Store
+convert_notebooks.sh
 
 
 # Byte-compiled / optimized / DLL files

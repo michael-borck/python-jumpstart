@@ -1,0 +1,5 @@
+---
+title: "AI Assistance Tips"
+jupyter: python3
+---
+

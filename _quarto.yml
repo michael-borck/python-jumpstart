@@ -2,38 +2,71 @@ project:
   type: book
 
 book:
-  title: "Quick Start Guide Python"
+  title: "Quick Start Guide Python in the AI Era"
   author: "Michael Borck"
   chapters:
-    - notebooks/00_contents.ipynb
-    - notebooks/01_hello_world.ipynb
-    - notebooks/02_basic_python_syntax.ipynb
-    - notebooks/03_values.ipynb
-    - notebooks/04_variables.ipynb
-    - notebooks/05_output.ipynb
-    - notebooks/06_input.ipynb
-    - notebooks/07_operators.ipynb
-    - notebooks/08_using_functions.ipynb
-    - notebooks/09_creating_functions.ipynb
-    - notebooks/10_making_decisions.ipynb
-    - notebooks/11_lists.ipynb
-    - notebooks/12_going_loopy.ipynb
-    - notebooks/13_strings.ipynb
-    - notebooks/14_dictionaries.ipynb
-    - notebooks/15_files.ipynb
-    - notebooks/16_errors_and_exceptions.ipynb
-    - notebooks/17_debugging.ipynb
-    - notebooks/18_testing.ipynb
-    - notebooks/19_modules_and_packages.ipynb
-    - notebooks/20_orientating_your_objects_ipynb.ipynb
-    - notebooks/21_how_to_run_python_code.ipynb
-    - notebooks/22_how_to_install_python_testing.ipynb
-    - notebooks/23_getting_help.ipynb
+    - chapters/00_contents.qmd
+    - part: "Core Python Fundamentals"
+      chapters:
+        - chapters/01_python_in_the_age_of_ai.qmd
+        - chapters/02_basic_python_syntax.qmd
+        - chapters/03_values.qmd
+        - chapters/04_variables.qmd
+        - chapters/05_output.qmd
+        - chapters/06_input.qmd
+        - chapters/07_operators.qmd
+    - part: "Functions and Control Flow"
+      chapters:
+        - chapters/08_using_functions.qmd
+        - chapters/09_creating_functions.qmd
+        - chapters/10_making_decisions.qmd
+    - part: "Data Structures and Iteration"
+      chapters:
+        - chapters/11_lists.qmd
+        - chapters/12_going_loopy.qmd
+        - chapters/13_strings.qmd
+        - chapters/14_dictionaries.qmd
+    - part: "Working with Data and Files"
+      chapters:
+        - chapters/15_files.qmd
+    - part: "Code Quality and Organization"
+      chapters:
+        - chapters/16_errors_and_exceptions.qmd
+        - chapters/17_debugging.qmd
+        - chapters/18_testing.qmd
+        - chapters/19_modules_and_packages.qmd
+        - chapters/20_orientating_your_objects.qmd
+    - part: "Practical Python Usage"
+      chapters:
+        - chapters/21_how_to_run_python_code.qmd
+        - chapters/22_how_to_install_python_testing.qmd
+        - chapters/23_getting_help.qmd
+    - part: "Python in the AI Era"
+      chapters:
+        - chapters/24_ai_programming_assistants.qmd
+        - chapters/25_python_ai_integration.qmd
+        - chapters/26_ai_assistance_tips.qmd
+        - chapters/27_intentional_prompting.qmd
+    - part: "Project: Build Your Own AI Chatbot"
+      chapters:
+        - chapters/chatbot_project.qmd
 
 format:
   pdf: default
   html:
     toc: true
     number-sections: true
+    theme: cosmo
+    code-copy: true
+    code-tools: true
+    highlight-style: github
   epub: default
 
+execute:
+  freeze: auto
+
+website:
+  favicon: assets/python-logo.png
+  repo-url: https://github.com/michael-borck/quick-start-guide-python
+  repo-actions: [edit, issue]
+  open-graph: true
