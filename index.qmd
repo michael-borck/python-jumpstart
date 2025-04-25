@@ -1,10 +1,10 @@
 ---
-title: "Quick Start Guide Python in the AI Era"
+title: "Python Jumpstart: Coding Fundamentals for the AI Era"
 ---
 
 # Welcome
 
-Welcome to the "Quick Start Guide Python in the AI Era" - a comprehensive introduction to Python programming with a modern twist. This guide was created specifically for beginners who want to learn Python in today's AI-assisted programming environment.
+Welcome to "Python Jumpstart: Coding Fundamentals for the AI Era" - a comprehensive introduction to Python programming with a modern twist. This guide was created specifically for beginners who want to learn just enough Python to work effectively in today's AI-assisted programming environment.
 
 ## 🚀 Why Learn Python Today?
 
@@ -36,7 +36,7 @@ This interactive guide covers everything from basic Python syntax to more advanc
 
 This guide is part of a trilogy of free resources to help you master modern software development:
 
-1. **Quick Start Guide Python in the AI Era** (this book): Learn fundamental Python with AI integration
+1. **Python Jumpstart: Coding Fundamentals for the AI Era** (this book): Learn fundamental Python with AI integration
 2. **Intentional Prompting: Mastering the Human-AI Development Process**: A methodology for effective AI collaboration (human oversight + methodology + LLM = success)
 3. **From Zero to Production: A Practical Python Development Pipeline**: Build professional-grade Python applications with modern tools (uv, ruff, mypy, pytest - simple but not simplistic)
 

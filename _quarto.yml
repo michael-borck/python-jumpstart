@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "Quick Start Guide Python in the AI Era"
+  title: "Python Jumpstart: Coding Fundamentals for the AI Era"
   author: "Michael Borck"
   chapters:
     - chapters/00_contents.qmd
