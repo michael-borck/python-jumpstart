@@ -59,12 +59,12 @@ This guide is part of a trilogy of free resources to help you master modern soft
 2. **Intentional Prompting: Mastering the Human-AI Development Process**: A methodology for effective AI collaboration
 3. **From Zero to Production: A Practical Python Development Pipeline**: Build professional-grade Python applications with modern tools
 
-## Other Learning Resources
+## Learning Path
 
-Here are some free Python tutorials that may complement your learning journey:
+This guide is designed to be a complete entry point for coding in the AI era. After completing this book, you'll have:
 
-* [Introduction to Python (Microsoft)](https://docs.microsoft.com/en-us/learn/modules/intro-to-python/)
-* [Python (Kaggle)](https://www.kaggle.com/learn/python)
-* [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython/blob/master/Index.ipynb)
-* [Learn Python in 1 hour (Video)](https://youtu.be/kqtD5dpn9C8)
-* [Learn Python Basics for Data Analysis](https://openclassrooms.com/en/courses/2304731-learn-python-basics-for-data-analysis)
+1. **Fundamental Python knowledge** to understand and modify AI-generated code
+2. **AI collaboration skills** to effectively work with coding assistants
+3. **Practical experience** from building a real AI-enhanced chatbot project
+
+For readers wanting to take their skills to the next level, the companion books offer natural progression paths into effective AI prompting and professional Python development workflows.
