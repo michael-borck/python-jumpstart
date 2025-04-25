@@ -1,5 +1,72 @@
-# Preface {.unnumbered}
+---
+title: "Python Jumpstart: Coding Fundamentals for the AI Era"
+---
 
-This is a Quarto book.
+# Welcome
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+Welcome to "Python Jumpstart: Coding Fundamentals for the AI Era" - a comprehensive introduction to Python programming with a modern twist. This guide was created specifically for beginners who want to learn just enough Python to work effectively in today's AI-assisted programming environment.
+
+## 🚀 Why Learn Python Today?
+
+Because knowing the fundamentals of coding makes you 10x faster and smarter with AI tools tomorrow.
+
+AI can write code, but it doesn't always write the right code. If you blindly copy-paste, you'll spend more time debugging than building.
+
+But if you understand Python — even just the basics — you can:
+
+- 🧠 **Spot errors instantly** instead of wasting time guessing
+- ✍️ **Tweak AI code** to make it work for your needs
+- 📣 **Give better prompts** so AI helps you, not hinders you
+- ⚙️ **Take control of your projects** instead of relying on guesswork
+
+This isn't about becoming a full-time coder. It's about becoming AI-literate, so you can collaborate with AI instead of depending on it.
+
+**Learn enough Python to lead the AI, not follow it.**
+
+## What's Inside
+
+This interactive guide covers everything from basic Python syntax to more advanced topics like object-oriented programming. It has been updated to include:
+
+- Traditional Python programming fundamentals
+- Modern AI-assisted programming techniques
+- Tips for using AI coding assistants effectively
+- Examples of Python integration with AI services
+
+## Related Resources
+
+This guide is part of a trilogy of free resources to help you master modern software development:
+
+1. **Python Jumpstart: Coding Fundamentals for the AI Era** (this book): Learn fundamental Python with AI integration
+2. **Intentional Prompting: Mastering the Human-AI Development Process**: A methodology for effective AI collaboration (human oversight + methodology + LLM = success)
+3. **From Zero to Production: A Practical Python Development Pipeline**: Build professional-grade Python applications with modern tools (uv, ruff, mypy, pytest - simple but not simplistic)
+
+While this guide focuses on Python fundamentals with AI integration, you'll find references to these complementary resources throughout, particularly in Chapters 17-22 which touch on the production pipeline concepts covered in-depth in "From Zero to Production."
+
+## How to Use This Guide
+
+Each chapter builds upon the previous one, with interactive code examples you can run directly in your browser. You can follow along sequentially or jump to specific topics that interest you.
+
+The guide is organized into several sections:
+
+1. **Core Python Fundamentals**: Basic syntax and concepts
+2. **Functions and Control Flow**: How to structure your code
+3. **Data Structures and Iteration**: Working with collections of data
+4. **Working with Files**: Input/output operations
+5. **Code Quality**: Debugging, testing, and organizing code
+6. **Practical Python**: How to run, install, and get help with Python
+7. **Python in the AI Era**: Using AI assistants and integrating AI into your Python apps
+
+## Getting Started
+
+Jump right in with [Chapter 1: Python in the Age of AI](chapters/01_python_in_the_age_of_ai.qmd) or browse the [Table of Contents](chapters/00_contents.qmd) to find a specific topic.
+
+## Interactive Learning
+
+This guide supports:
+
+- In-browser code execution
+- Copy/paste code examples
+- Dark/light mode for comfortable reading
+- Mobile-friendly format
+
+Happy coding!
