@@ -2,9 +2,24 @@
 title: "Python Jumpstart: Coding Fundamentals for the AI Era"
 ---
 
-# Welcome
+# The AI-Era Advantage
 
-Welcome to "Python Jumpstart: Coding Fundamentals for the AI Era" - a comprehensive introduction to Python programming with a modern twist. This guide was created specifically for beginners who want to learn just enough Python to work effectively in today's AI-assisted programming environment.
+Welcome to "Python Jumpstart: Coding Fundamentals for the AI Era" - a
+comprehensive introduction to Python programming with a modern twist. This
+guide was created specifically for beginners who want to learn just enough
+Python to work effectively in today's AI-assisted programming environment.
+
+“Leverage AI assistants to debug code, explain concepts, and enhance your
+learning, mirroring real-world software development practices.”
+
+This guide recognises that the landscape of programming is changing fast. While
+fundamentals remain essential, the ability to collaborate with AI—using it as a
+learning aid, coding partner, and productivity booster—is a crucial new skill.
+
+“Python Jumpstart: Coding Fundamentals for the AI Era” is your gateway to
+Python programming, tailored for beginners who want to quickly become effective
+in a world where AI is part of everyday coding. You’ll master the basics, learn
+to work with AI tools, and gain practical skills that are relevant right now
 
 ## 🚀 Why Learn Python Today?
 
