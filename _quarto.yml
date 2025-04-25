@@ -64,6 +64,7 @@ format:
   epub: default
 
 execute:
+  enabled: false
   freeze: auto
 
 website:
