@@ -1,0 +1,145 @@
+/* Base styles for "Intentional Prompting" book */
+
+/* Typography */
+body {
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+  font-weight: 600;
+  color: #1a365d;
+}
+
+h1 {
+  font-size: 2.5em;
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 1.8em;
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: 0.2em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+/* Code blocks */
+pre {
+  padding: 1em;
+  border-radius: 4px;
+  overflow-x: auto;
+  background-color: #f6f8fa;
+  border: 1px solid #eaecef;
+}
+
+code {
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: 0.9em;
+  background-color: rgba(27, 31, 35, 0.05);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+/* Quotes for AI responses */
+blockquote {
+  border-left: 4px solid #4a5568;
+  padding-left: 1em;
+  color: #4a5568;
+  background-color: #f8fafc;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+th, td {
+  padding: 0.5em 1em;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f6f8fa;
+  font-weight: 600;
+}
+
+/* Custom classes for the book */
+.key-takeaway {
+  background-color: #ebf8ff;
+  border-left: 4px solid #4299e1;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.caution {
+  background-color: #fffaf0;
+  border-left: 4px solid #ed8936;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.exercise {
+  background-color: #f0fff4;
+  border-left: 4px solid #48bb78;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+/* Human-AI conversation formatting */
+.conversation {
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  margin: 1em 0;
+}
+
+.human-prompt {
+  background-color: #f7fafc;
+  padding: 1em;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.ai-response {
+  background-color: #f0f5fa;
+  padding: 1em;
+}
+
+/* Highlight boxes */
+.highlight-box {
+  background-color: #f7fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+/* Figures and captions */
+figure {
+  text-align: center;
+  margin: 1.5em 0;
+}
+
+figcaption {
+  font-style: italic;
+  color: #4a5568;
+  margin-top: 0.5em;
+  font-size: 0.9em;
+}

@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: _book
 
 book:
   title: "Python Jumpstart: Coding Fundamentals for the AI Era"
@@ -52,23 +53,39 @@ book:
       chapters:
         - chapters/chatbot_project.qmd
 
+sidebar:
+  style: docked
+  search: true
+  collapse-level: 2
+  toc-depth: 3
+
 format:
-  pdf: default
   html:
-    toc: true
-    number-sections: true
     theme: cosmo
+    cover-image: images/cover.png
     code-copy: true
     code-tools: true
     highlight-style: github
-  epub: default
-
-execute:
-  enabled: false
-  freeze: auto
+    toc: true
+    number-sections: true
+    downloads: [pdf, epub]
+  pdf:
+    documentclass: scrbook
+    toc: true
+    toc-depth: 3
+    colorlinks: true
+    cover-image: images/cover.png
+  epub:
+    toc: true
+    toc-depth: 3
+    cover-image: images/cover.png
 
 website:
   favicon: assets/python-logo.png
   repo-url: https://github.com/michael-borck/python-jumpstart
   repo-actions: [edit, issue]
   open-graph: true
+
+execute:
+  enabled: false
+  freeze: auto
