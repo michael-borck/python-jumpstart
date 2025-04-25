@@ -2,7 +2,7 @@
 title: "Python Jumpstart: Coding Fundamentals for the AI Era"
 ---
 
-# The AI-Era Advantage
+# The AI-Era Advantage {.unnumbered}
 
 Welcome to "Python Jumpstart: Coding Fundamentals for the AI Era" - a
 comprehensive introduction to Python programming with a modern twist. This
