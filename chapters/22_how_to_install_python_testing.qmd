@@ -1,5 +1,5 @@
 ---
-title: Installation and Testing
+title: 'Installation Station: Setting Up Python and Required Libraries'
 jupyter: python3
 ---
 

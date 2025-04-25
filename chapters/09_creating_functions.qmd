@@ -1,5 +1,5 @@
 ---
-title: Creating Functions
+title: 'Function Factory: Crafting Your Own Reusable Code Magic'
 jupyter: python3
 ---
 

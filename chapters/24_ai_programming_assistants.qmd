@@ -1,5 +1,5 @@
 ---
-title: "AI Programming Assistants"
+title: 'AI Programming Assistants: Coding with Digital Colleagues'
 jupyter: python3
 ---
 

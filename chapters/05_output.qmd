@@ -1,5 +1,5 @@
 ---
-title: Output
+title: 'Output Odyssey: Making Your Code Speak to the World'
 jupyter: python3
 ---
 

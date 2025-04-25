@@ -1,5 +1,5 @@
 ---
-title: "Debugging"
+title: 'Debugging Detectives: Finding and Fixing Code Mysteries'
 jupyter: python3
 ---
 

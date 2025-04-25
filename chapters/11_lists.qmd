@@ -1,5 +1,5 @@
 ---
-title: Lists
+title: 'List Laboratory: Organizing Data in Python''s Most Versatile Container'
 jupyter: python3
 ---
 

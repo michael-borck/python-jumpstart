@@ -1,5 +1,5 @@
 ---
-title: Errors and Exceptions
+title: 'Error Embassy: Understanding and Handling Exceptions with Grace'
 jupyter: python3
 ---
 

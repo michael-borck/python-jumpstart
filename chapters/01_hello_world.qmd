@@ -1,5 +1,5 @@
 ---
-title: 'Hello, world!'
+title: 'Hello, World!: Your First Step into Python Programming'
 jupyter: python3
 ---
 

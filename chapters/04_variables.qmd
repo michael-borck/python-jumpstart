@@ -1,5 +1,5 @@
 ---
-title: How do we store values?
+title: 'Variable Vault: Naming and Storing Your Digital Treasures'
 jupyter: python3
 ---
 

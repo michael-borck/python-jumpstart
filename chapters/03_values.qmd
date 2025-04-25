@@ -1,5 +1,5 @@
 ---
-title: What is a value?
+title: 'Value Voyage: Exploring Python''s Data Universe'
 jupyter: python3
 ---
 

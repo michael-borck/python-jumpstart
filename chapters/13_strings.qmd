@@ -1,5 +1,5 @@
 ---
-title: String Manipulation
+title: 'String Theory: Manipulating Text in the Python Universe'
 jupyter: python3
 ---
 

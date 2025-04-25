@@ -1,5 +1,5 @@
 ---
-title: Using Functions
+title: 'Function Fiesta: Using Python''s Pre-built Code Blocks'
 jupyter: python3
 ---
 

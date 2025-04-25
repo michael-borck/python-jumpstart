@@ -1,5 +1,5 @@
 ---
-title: "Python for AI Integration"
+title: 'Python AI Integration: Connecting Your Code to Intelligent Services'
 jupyter: python3
 ---
 

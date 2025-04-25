@@ -1,5 +1,5 @@
 ---
-title: Python Dictionary
+title: 'Dictionary Detectives: Mastering Python''s Key-Value Pairs'
 jupyter: python3
 ---
 

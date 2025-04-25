@@ -1,5 +1,5 @@
 ---
-title: A Quick Tour of Python Language Syntax
+title: 'Syntax Safari: Navigating the Python Language Landscape'
 jupyter: python3
 ---
 

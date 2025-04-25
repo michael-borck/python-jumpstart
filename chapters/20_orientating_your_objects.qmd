@@ -1,5 +1,5 @@
 ---
-title: Objects
+title: 'Orientating Your Objects: Building Digital Models of Real-World Things'
 jupyter: python3
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Building Your AI-Enhanced Python Chatbot: Project Guide"
+title: 'Chatbot Construction Site: Building Your AI-Enhanced Python Conversation Partner'
 jupyter: python3
 ---
 

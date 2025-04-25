@@ -1,5 +1,5 @@
 ---
-title: Modules and Packages
+title: 'Module Mastery: Organizing Your Code for Growth and Reuse'
 jupyter: python3
 ---
 
