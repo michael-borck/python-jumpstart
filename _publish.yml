@@ -1,0 +1,8 @@
+# _publish.yml
+project:
+  title: "Python Jumpstart: Coding Fundamentals for the AI Era"
+
+publish:
+  provider: gh-pages
+  repo: michael-borck/python-jumpstart
+  branch: gh-pages
