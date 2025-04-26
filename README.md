@@ -1,6 +1,6 @@
 # Python Jumpstart: Coding Fundamentals for the AI Era
 
-This Quarto book introduces the essential components of Python programming with a modern twist for the AI era. The focus is on learning just enough Python to effectively work with AI coding assistants - not becoming a Python expert. 
+This Quarto book introduces the essential components of Python programming with a modern twist for the AI era. The focus is on learning just enough Python to effectively work with AI coding assistants - not becoming a Python expert.
 
 The book teaches fundamental Python concepts and shows how they connect to AI collaboration, enabling you to:
 - Understand and modify AI-generated code
