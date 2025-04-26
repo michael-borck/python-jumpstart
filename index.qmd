@@ -21,7 +21,7 @@ Python programming, tailored for beginners who want to quickly become effective
 in a world where AI is part of everyday coding. You’ll master the basics, learn
 to work with AI tools, and gain practical skills that are relevant right now
 
-## 🚀 Why Learn Python Today? {.unnumbered}
+## Why Learn Python Today?  {.unnumbered}
 
 Because knowing the fundamentals of coding makes you 10x faster and smarter with AI tools tomorrow.
 
