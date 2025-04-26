@@ -1,5 +1,5 @@
 ---
-title: 'Debugging Detectives: Finding and Fixing Code Mysteries'
+title: "Debugging Detectives: Finding and Fixing Code Mysteries"
 ---
 
 # Chapter 17: Debugging - Finding and Fixing Code Mysteries
@@ -275,12 +275,12 @@ Let's debug a function with a problem:
 def find_highest_scorer(student_scores):
     highest_score = 0
     highest_scorer = None
-    
+
     for student, score in student_scores.items():
         if score > highest_score:
             highest_score = score
             highest_scorer = student
-    
+
     return highest_scorer
 
 # Test case
@@ -307,7 +307,7 @@ def find_highest_scorer(student_scores):
     print(f"Scores received: {student_scores}")
     highest_score = 0  # Bug is here - this should be initialized differently
     highest_scorer = None
-    
+
     for student, score in student_scores.items():
         print(f"Checking {student} with score {score}")
         print(f"Current highest: {highest_score} by {highest_scorer}")
@@ -315,7 +315,7 @@ def find_highest_scorer(student_scores):
             print(f"New highest score found: {score}")
             highest_score = score
             highest_scorer = student
-    
+
     print(f"Final highest scorer: {highest_scorer} with {highest_score}")
     return highest_scorer
 ```
@@ -339,17 +339,17 @@ The issue is that we initialized `highest_score` to 0, but all scores are negati
 def find_highest_scorer(student_scores):
     if not student_scores:
         return None
-        
+
     # Initialize with the first student's score
     students = list(student_scores.keys())
     highest_scorer = students[0]
     highest_score = student_scores[highest_scorer]
-    
+
     for student, score in student_scores.items():
         if score > highest_score:
             highest_score = score
             highest_scorer = student
-    
+
     return highest_scorer
 ```
 
@@ -413,7 +413,7 @@ def calculate_average(numbers):
     if not numbers:
         logging.warning("Empty list provided, returning 0")
         return 0
-        
+
     total = sum(numbers)
     logging.debug(f"Sum calculated: {total}")
     average = total / len(numbers)
@@ -477,7 +477,7 @@ response_templates = {
 
 class DebugChatbot:
     """A chatbot with enhanced debugging capabilities."""
-    
+
     def __init__(self, name="PyBot"):
         self.name = name
         self.user_name = None
@@ -486,56 +486,56 @@ class DebugChatbot:
         self.response_templates = response_templates
         self.debug_mode = False
         logging.info(f"Chatbot {name} initialized")
-    
+
     def toggle_debug(self):
         """Toggle debug mode on/off."""
         self.debug_mode = not self.debug_mode
         status = "ON" if self.debug_mode else "OFF"
         logging.info(f"Debug mode turned {status}")
         return f"Debug mode is now {status}"
-    
+
     def debug_print(self, message):
         """Print debug messages if debug mode is on."""
         if self.debug_mode:
             print(f"DEBUG: {message}")
         logging.debug(message)
-    
+
     def get_response(self, user_input):
         """Generate a response with debugging information."""
         self.debug_print(f"Processing input: '{user_input}'")
-        
+
         if not user_input:
             self.debug_print("Empty input received")
             return "I didn't catch that. Could you please say something?"
-            
+
         user_input = user_input.lower()
         self.debug_print(f"Lowercase input: '{user_input}'")
-        
+
         # Check if this is a debug command
         if user_input == "debug":
             return self.toggle_debug()
-        
+
         # Check each category of responses
         for category, patterns in self.response_patterns.items():
             self.debug_print(f"Checking category: {category}")
-            
+
             for pattern in patterns:
                 if pattern in user_input:
                     self.debug_print(f"Pattern match found: '{pattern}'")
-                    
+
                     # Get response templates for this category
                     templates = self.response_templates.get(category)
                     self.debug_print(f"Found {len(templates)} possible responses")
-                    
+
                     # Select a random response
                     response = random.choice(templates)
                     self.debug_print(f"Selected response: '{response}'")
                     return response
-        
+
         # No pattern matched
         self.debug_print("No pattern matches found")
         return "I'm still learning. Can you tell me more?"
-    
+
     def run(self):
         """Run the chatbot with error tracing."""
         try:
@@ -543,36 +543,36 @@ class DebugChatbot:
             self.user_name = input("What's your name? ")
             logging.info(f"User identified as {self.user_name}")
             print(f"Nice to meet you, {self.user_name}!")
-            
+
             self.add_to_history(self.name, f"Nice to meet you, {self.user_name}!")
-            
+
             while True:
                 try:
                     user_input = input(f"{self.user_name}> ")
                     self.add_to_history(self.user_name, user_input)
-                    
+
                     if user_input.lower() in ["bye", "goodbye", "exit"]:
                         response = f"Goodbye, {self.user_name}!"
                         print(f"{self.name}> {response}")
                         self.add_to_history(self.name, response)
                         break
-                    
+
                     response = self.get_response(user_input)
                     print(f"{self.name}> {response}")
                     self.add_to_history(self.name, response)
-                
+
                 except Exception as e:
                     error_msg = f"Error in conversation loop: {str(e)}"
                     logging.error(error_msg, exc_info=True)
                     if self.debug_mode:
                         print(f"DEBUG ERROR: {error_msg}")
                     print(f"{self.name}> Sorry, I encountered a problem. Let's continue.")
-        
+
         except Exception as e:
             logging.critical(f"Critical error in chatbot: {str(e)}", exc_info=True)
             print(f"Critical error: {str(e)}")
             print("Check the log file for details.")
-    
+
     def add_to_history(self, speaker, text):
         """Add a message to conversation history with timestamp."""
         timestamp = datetime.datetime.now().strftime("%H:%M:%S")
@@ -639,19 +639,19 @@ Make implicit assumptions explicit through comments and assertions:
 ```python
 def calculate_average(numbers):
     """Calculate the average of a list of numbers.
-    
+
     Args:
         numbers: A non-empty list of numeric values
-        
+
     Returns:
         The arithmetic mean of the numbers
-        
+
     Raises:
         ZeroDivisionError: If the input list is empty
     """
     # Assumption: numbers is a non-empty list
     assert len(numbers) > 0, "numbers list cannot be empty"
-    
+
     return sum(numbers) / len(numbers)
 ```
 

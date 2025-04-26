@@ -1,5 +1,5 @@
 ---
-title: 'Test Kitchen: Ensuring Your Code Works as Intended'
+title: "Test Kitchen: Ensuring Your Code Works as Intended"
 ---
 
 # Chapter 18: Testing - Ensuring Your Code Works as Intended
@@ -154,13 +154,13 @@ def add(a, b):
 class TestAddFunction(unittest.TestCase):
     def test_positive_numbers(self):
         self.assertEqual(add(2, 3), 5)
-        
+
     def test_negative_numbers(self):
         self.assertEqual(add(-1, -1), -2)
-        
+
     def test_mixed_numbers(self):
         self.assertEqual(add(-1, 1), 0)
-        
+
     def test_zeros(self):
         self.assertEqual(add(0, 0), 0)
 
@@ -199,15 +199,15 @@ class TestFileOperations(unittest.TestCase):
         self.filename = "test_file.txt"
         with open(self.filename, "w") as f:
             f.write("Test content")
-    
+
     def tearDown(self):
         # This runs after each test
         if os.path.exists(self.filename):
             os.remove(self.filename)
-    
+
     def test_file_exists(self):
         self.assertTrue(os.path.exists(self.filename))
-    
+
     def test_file_content(self):
         with open(self.filename, "r") as f:
             content = f.read()
@@ -238,7 +238,7 @@ class TestPrimeChecker(unittest.TestCase):
         self.assertTrue(is_prime(7))
         self.assertTrue(is_prime(11))
         self.assertTrue(is_prime(13))
-    
+
     def test_non_prime_numbers(self):
         """Test that non-prime numbers return False."""
         self.assertFalse(is_prime(1))  # 1 is not considered prime
@@ -247,7 +247,7 @@ class TestPrimeChecker(unittest.TestCase):
         self.assertFalse(is_prime(8))
         self.assertFalse(is_prime(9))
         self.assertFalse(is_prime(10))
-    
+
     def test_negative_and_zero(self):
         """Test that negative numbers and zero return False."""
         self.assertFalse(is_prime(0))
@@ -263,12 +263,12 @@ def is_prime(n):
     # Handle special cases
     if n <= 1:
         return False
-    
+
     # Check for divisibility
     for i in range(2, int(n**0.5) + 1):
         if n % i == 0:
             return False
-    
+
     return True
 ```
 
@@ -383,14 +383,14 @@ class Chatbot:
             "help": ["Here are my commands...", "I can help with..."],
             "default": ["I'm not sure about that.", "Can you tell me more?"]
         }
-    
+
     def get_response(self, user_input):
         """Generate a response based on user input."""
         if not user_input:
             return "I didn't catch that. Can you try again?"
-            
+
         user_input = user_input.lower()
-        
+
         # Check each category of responses
         for category, patterns in self.response_patterns.items():
             for pattern in patterns:
@@ -398,10 +398,10 @@ class Chatbot:
                     # In a real implementation, you might pick randomly
                     # but for testing, we'll use the first template
                     return self.response_templates[category][0]
-        
+
         # Default response if no patterns match
         return self.response_templates["default"][0]
-    
+
     def add_to_history(self, speaker, text):
         """Add a message to conversation history."""
         self.conversation_history.append(f"{speaker}: {text}")
@@ -411,7 +411,7 @@ class TestChatbot(unittest.TestCase):
     def setUp(self):
         """Create a fresh chatbot for each test."""
         self.chatbot = Chatbot(name="TestBot")
-    
+
     def test_initialization(self):
         """Test that chatbot initializes with correct default values."""
         self.assertEqual(self.chatbot.name, "TestBot")
@@ -419,41 +419,41 @@ class TestChatbot(unittest.TestCase):
         self.assertEqual(len(self.chatbot.conversation_history), 0)
         self.assertIn("greetings", self.chatbot.response_patterns)
         self.assertIn("farewells", self.chatbot.response_templates)
-    
+
     def test_greeting_response(self):
         """Test that chatbot responds to greetings."""
         response = self.chatbot.get_response("hello there")
         self.assertEqual(response, "Hello there!")
-        
+
         response = self.chatbot.get_response("HI everyone")  # Testing case insensitivity
         self.assertEqual(response, "Hello there!")
-    
+
     def test_farewell_response(self):
         """Test that chatbot responds to farewells."""
         response = self.chatbot.get_response("goodbye")
         self.assertEqual(response, "Goodbye!")
-    
+
     def test_default_response(self):
         """Test that chatbot gives default response for unknown input."""
         response = self.chatbot.get_response("blah blah random text")
         self.assertEqual(response, "I'm not sure about that.")
-    
+
     def test_empty_input(self):
         """Test that chatbot handles empty input."""
         response = self.chatbot.get_response("")
         self.assertEqual(response, "I didn't catch that. Can you try again?")
-    
+
     def test_conversation_history(self):
         """Test that messages are added to conversation history."""
         initial_length = len(self.chatbot.conversation_history)
         new_length = self.chatbot.add_to_history("User", "Test message")
-        
+
         # Check that length increased by 1
         self.assertEqual(new_length, initial_length + 1)
-        
+
         # Check that message was added correctly
         self.assertEqual(self.chatbot.conversation_history[-1], "User: Test message")
-    
+
     def test_multiple_patterns_in_input(self):
         """Test that chatbot handles input with multiple patterns."""
         # If input contains both greeting and farewell, it should match the first one found
@@ -484,13 +484,13 @@ class TestChatbotWithMocks(unittest.TestCase):
         chatbot = Chatbot()
         chatbot.add_to_history("User", "Hello")
         chatbot.add_to_history("Bot", "Hi there!")
-        
+
         # Call the save method
         chatbot.save_conversation("test_file.txt")
-        
+
         # Check that open was called with the right file
         mock_open.assert_called_once_with("test_file.txt", "w")
-        
+
         # Check what was written to the file
         written_data = ''.join(call.args[0] for call in mock_open().write.call_args_list)
         self.assertIn("User: Hello", written_data)

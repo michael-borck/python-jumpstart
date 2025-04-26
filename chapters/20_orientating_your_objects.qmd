@@ -1,6 +1,5 @@
 ---
-title: 'Orientating Your Objects: Building Digital Models of Real-World Things'
-jupyter: python3
+title: "Orientating Your Objects: Building Digital Models of Real-World Things"
 ---
 
 # Chapter 20: Object-Oriented Programming in Python

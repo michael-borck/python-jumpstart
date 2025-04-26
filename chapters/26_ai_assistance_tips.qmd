@@ -1,6 +1,5 @@
 ---
-title: 'AI Assistance Tips: Maximizing Your Machine Learning Mentors'
-jupyter: python3
+title: "AI Assistance Tips: Maximizing Your Machine Learning Mentors"
 ---
 
 # Chapter 26: AI Assistance Tips

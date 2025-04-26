@@ -1,5 +1,5 @@
 ---
-title: 'Dictionary Detectives: Mastering Python''s Key-Value Pairs'
+title: "Dictionary Detectives: Mastering Python's Key-Value Pairs"
 ---
 
 # Chapter 14: Dictionaries - Organizing Data with Key-Value Pairs
@@ -396,12 +396,12 @@ user_stats = {
 def get_response(user_input):
     """Get a response using dictionary-based pattern matching."""
     user_input = user_input.lower().strip()
-    
+
     # Update stats
     user_stats["message_count"] += 1
     if user_input.endswith("?"):
         user_stats["question_count"] += 1
-    
+
     # Check for special commands
     if user_input == "stats":
         user_stats["command_count"] += 1
@@ -413,7 +413,7 @@ Conversation Stats:
 - Commands used: {user_stats['command_count']}
 - Topics mentioned: {', '.join(user_stats['topics'].keys()) if user_stats['topics'] else 'None'}
         """.strip()
-    
+
     # Check for patterns in our response dictionary
     for category, patterns in response_patterns.items():
         for pattern in patterns:
@@ -423,13 +423,13 @@ Conversation Stats:
                     user_stats["topics"][category] += 1
                 else:
                     user_stats["topics"][category] = 1
-                
+
                 if category == "greetings":
                     user_stats["greeting_count"] += 1
-                
+
                 # Return a random response from the matching category
                 return random.choice(response_templates[category])
-    
+
     # No pattern matched, return an unknown response
     return random.choice(response_templates["unknown"])
 
@@ -466,12 +466,12 @@ save_to_history(bot_name, f"Nice to meet you, {user_name}!")
 while True:
     user_input = input(f"{user_name}> ")
     save_to_history(user_name, user_input)
-    
+
     if user_input.lower() in ["bye", "exit", "quit", "goodbye"]:
         duration = datetime.now() - user_stats["start_time"]
         minutes = int(duration.total_seconds() // 60)
         seconds = int(duration.total_seconds() % 60)
-        
+
         response = f"Goodbye, {user_name}! We chatted for {minutes} minutes and {seconds} seconds."
         print(f"{bot_name}> {response}")
         save_to_history(bot_name, response)
@@ -479,7 +479,7 @@ while True:
     elif user_input.lower() == "history":
         show_history()
         continue
-    
+
     response = get_response(user_input)
     print(f"{bot_name}> {response}")
     save_to_history(bot_name, response)
@@ -544,16 +544,16 @@ Dictionaries are foundational to many programming tasks. Here are some common re
    ```python
    # A simple function memoization
    fibonacci_cache = {}
-   
+
    def fibonacci(n):
        if n in fibonacci_cache:
            return fibonacci_cache[n]
-       
+
        if n <= 1:
            result = n
        else:
            result = fibonacci(n-1) + fibonacci(n-2)
-           
+
        fibonacci_cache[n] = result
        return result
    ```
@@ -563,7 +563,7 @@ Dictionaries are foundational to many programming tasks. Here are some common re
    # Count word frequency in a text
    text = "the quick brown fox jumps over the lazy dog"
    word_count = {}
-   
+
    for word in text.split():
        if word in word_count:
            word_count[word] += 1

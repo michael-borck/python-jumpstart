@@ -1,5 +1,5 @@
 ---
-title: 'List Laboratory: Organizing Data in Python''s Most Versatile Container'
+title: "List Laboratory: Organizing Data in Python's Most Versatile Container"
 ---
 
 # Chapter 11: Lists - Organizing Collections of Data
@@ -303,7 +303,7 @@ save_to_history(bot_name, f"Nice to meet you, {user_name}!")
 while True:
     user_input = input(f"{user_name}> ")
     save_to_history(user_name, user_input)
-    
+
     if user_input.lower() == "bye":
         response = f"Goodbye, {user_name}!"
         print(f"{bot_name}> {response}")
@@ -312,7 +312,7 @@ while True:
     elif user_input.lower() == "history":
         show_history()
         continue
-    
+
     # Simple response generation
     if "hello" in user_input.lower():
         response = f"Hello there, {user_name}!"
@@ -322,7 +322,7 @@ while True:
         response = f"My name is {bot_name}!"
     else:
         response = "I'm not sure how to respond to that yet."
-    
+
     print(f"{bot_name}> {response}")
     save_to_history(bot_name, response)
 ```

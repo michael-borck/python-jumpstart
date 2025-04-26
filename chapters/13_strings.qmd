@@ -1,5 +1,5 @@
 ---
-title: 'String Theory: Manipulating Text in the Python Universe'
+title: "String Theory: Manipulating Text in the Python Universe"
 ---
 
 # Chapter 13: Strings - Mastering Text Manipulation
@@ -318,13 +318,13 @@ def get_response(user_input):
     """Return a response based on the user input."""
     # Convert to lowercase for easier matching
     user_input = user_input.lower().strip()
-    
+
     # Handling special commands with string methods
     if user_input.startswith("tell me about "):
         # Extract the topic after "tell me about "
         topic = user_input[13:].strip().title()
         return f"I don't have much information about {topic} yet, but that's an interesting topic!"
-        
+
     elif user_input.startswith("repeat "):
         # Parse something like "repeat hello 3 times"
         parts = user_input.split()
@@ -334,7 +334,7 @@ def get_response(user_input):
             if count > 10:  # Limit repetitions
                 return "That's too many repetitions!"
             return "\n".join([f"{i+1}. {phrase}" for i in range(count)])
-            
+
     elif user_input == "help":
         return """
 I understand commands like:
@@ -343,24 +343,24 @@ I understand commands like:
 - "reverse [text]": I'll reverse the text for you
 - Basic questions about myself
         """.strip()
-            
+
     elif user_input.startswith("reverse "):
         text = user_input[8:].strip()
         return f"Here's your text reversed: {text[::-1]}"
-        
+
     # Basic keyword matching as before
     elif "hello" in user_input or "hi" in user_input:
         return f"Hello there, {user_name}!"
-    
+
     elif "how are you" in user_input:
         return "I'm just a computer program, but thanks for asking!"
-    
+
     elif "name" in user_input:
         return f"My name is {bot_name}!"
-    
+
     elif "bye" in user_input or "goodbye" in user_input:
         return "Goodbye! Have a great day!"
-    
+
     else:
         # String formatting for a more personalized response
         return f"I'm not sure how to respond to '{user_input}' yet. Try typing 'help' for a list of things I understand."
@@ -389,7 +389,7 @@ save_to_history(bot_name, f"Nice to meet you, {user_name}!")
 while True:
     user_input = input(f"{user_name}> ")
     save_to_history(user_name, user_input)
-    
+
     if user_input.lower().strip() == "bye":
         response = f"Goodbye, {user_name}!"
         print(f"{bot_name}> {response}")
@@ -398,7 +398,7 @@ while True:
     elif user_input.lower().strip() == "history":
         show_history()
         continue
-    
+
     response = get_response(user_input)
     print(f"{bot_name}> {response}")
     save_to_history(bot_name, response)

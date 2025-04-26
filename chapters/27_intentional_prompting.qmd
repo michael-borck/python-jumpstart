@@ -1,5 +1,5 @@
 ---
-title: 'Intentional Prompting: Speaking the Language of AI Assistants'
+title: "Intentional Prompting: Speaking the Language of AI Assistants"
 jupyter: python3
 ---
 

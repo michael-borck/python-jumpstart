@@ -1,6 +1,5 @@
 ---
-title: 'Help Headquarters: Finding Answers When You Get Stuck'
-jupyter: python3
+title: "Help Headquarters: Finding Answers When You Get Stuck"
 ---
 
 # Chapter 23: Getting Help with Python
@@ -108,10 +107,10 @@ When creating your own functions, classes, or modules, add docstrings (documenta
 def calculate_area(radius):
     """
     Calculate the area of a circle given its radius.
-    
+
     Parameters:
     radius (float): The radius of the circle
-    
+
     Returns:
     float: The area of the circle
     """
@@ -223,10 +222,10 @@ Knowing how to search effectively is a critical programming skill. Here are some
 - Use specific technical terms instead of ambiguous descriptions
 
 Examples:
-- ❌ "How to open a file" 
+- ❌ "How to open a file"
 - ✅ "python how to read csv file with pandas"
 
-- ❌ "python list error" 
+- ❌ "python list error"
 - ✅ "python TypeError: 'list' object is not callable"
 
 ### Search Operators and Advanced Techniques
@@ -268,14 +267,14 @@ The simplest approach is to add print statements to trace code execution:
 ```python
 def process_data(data):
     print(f"Starting process_data with: {data}")
-    
+
     result = []
     for item in data:
         print(f"Processing item: {item}")
         processed = item * 2
         print(f"Processed to: {processed}")
         result.append(processed)
-    
+
     print(f"Final result: {result}")
     return result
 ```
@@ -402,7 +401,7 @@ To get the best results from AI assistants:
 ### Example AI Prompts for Python Help
 
 ```
-Prompt: "I'm getting this error when trying to use a list comprehension: 
+Prompt: "I'm getting this error when trying to use a list comprehension:
 'TypeError: 'int' object is not iterable'. Here's my code:
 numbers = 100
 result = [x for x in numbers if x % 2 == 0]
@@ -410,14 +409,14 @@ What am I doing wrong?"
 ```
 
 ```
-Prompt: "Can you help me understand Python decorators? I know they use the @ symbol, 
-but I don't understand how they work or why they're useful. Could you explain the 
+Prompt: "Can you help me understand Python decorators? I know they use the @ symbol,
+but I don't understand how they work or why they're useful. Could you explain the
 concept and show a simple example?"
 ```
 
 ```
-Prompt: "I need to create a function that takes a list of strings and returns 
-a dictionary with the count of each unique string. What's the most efficient 
+Prompt: "I need to create a function that takes a list of strings and returns
+a dictionary with the count of each unique string. What's the most efficient
 way to do this in Python?"
 ```
 
@@ -474,21 +473,21 @@ Start by adding comprehensive docstrings to your chatbot code to make it self-do
 class Chatbot:
     """
     A simple rule-based chatbot that can respond to user inputs.
-    
+
     This chatbot uses pattern matching to identify user intents and
     generates appropriate responses based on pre-defined templates.
-    
+
     Attributes:
         name (str): The name of the chatbot
         response_patterns (dict): Patterns to match in user input
         response_templates (dict): Response templates for each category
         conversation_history (list): Record of the conversation
     """
-    
+
     def __init__(self, name="PyBot"):
         """
         Initialize a new Chatbot instance.
-        
+
         Args:
             name (str, optional): The chatbot's name. Defaults to "PyBot".
         """
@@ -496,14 +495,14 @@ class Chatbot:
         self.user_name = None
         self.conversation_history = []
         # ... rest of initialization code
-    
+
     def get_response(self, user_input):
         """
         Generate a response based on the user's input.
-        
+
         Args:
             user_input (str): The user's message to the chatbot
-            
+
         Returns:
             str: The chatbot's response
         """
@@ -519,39 +518,39 @@ Add a debug mode to your chatbot for easier troubleshooting:
 ```python
 class DebuggableChatbot(Chatbot):
     """An extension of the Chatbot class with debugging capabilities."""
-    
+
     def __init__(self, name="DebugBot", debug=False):
         """Initialize with optional debug mode."""
         super().__init__(name)
         self.debug = debug
-    
+
     def get_response(self, user_input):
         """Get response with debug information if debug mode is on."""
         if self.debug:
             print(f"DEBUG: Processing input: '{user_input}'")
             print(f"DEBUG: Current response patterns: {self.response_patterns.keys()}")
-        
+
         # Standard processing
         user_input = user_input.lower()
-        
+
         # Match patterns
         for category, patterns in self.response_patterns.items():
             for pattern in patterns:
                 if pattern in user_input:
                     if self.debug:
                         print(f"DEBUG: Matched pattern '{pattern}' in category '{category}'")
-                    
+
                     # Get response from standard method
                     response = super().get_response(user_input)
-                    
+
                     if self.debug:
                         print(f"DEBUG: Selected response: '{response}'")
-                    
+
                     return response
-        
+
         if self.debug:
             print("DEBUG: No pattern match found, using default response")
-        
+
         return super().get_response(user_input)
 ```
 
@@ -563,7 +562,7 @@ Develop tests to verify your chatbot behaves as expected:
 def test_chatbot_responses():
     """Test that the chatbot produces expected responses."""
     bot = Chatbot(name="TestBot")
-    
+
     # Test greeting responses
     greeting_inputs = ["hello", "hi there", "hey", "good morning"]
     for input_text in greeting_inputs:
@@ -571,7 +570,7 @@ def test_chatbot_responses():
         print(f"Input: '{input_text}', Response: '{response}'")
         assert "hello" in response.lower() or "hi" in response.lower(), \
             f"Greeting response expected for '{input_text}', got '{response}'"
-    
+
     # Test farewell responses
     farewell_inputs = ["goodbye", "bye", "see you later"]
     for input_text in farewell_inputs:
@@ -579,7 +578,7 @@ def test_chatbot_responses():
         print(f"Input: '{input_text}', Response: '{response}'")
         assert "bye" in response.lower() or "goodbye" in response.lower(), \
             f"Farewell response expected for '{input_text}', got '{response}'"
-    
+
     print("All tests passed!")
 
 # Run the tests
@@ -590,7 +589,7 @@ test_chatbot_responses()
 
 When you need help with specific chatbot features, consult these resources:
 
-1. **Pattern Matching**: 
+1. **Pattern Matching**:
    - Python's `re` module documentation
    - [Regular Expression HOWTO](https://docs.python.org/3/howto/regex.html)
 
@@ -617,21 +616,21 @@ When you need community help with your chatbot, phrase your questions effectivel
 ```
 ## Chatbot Response Issue
 
-I'm developing a rule-based chatbot in Python and having trouble with pattern matching. 
-When users enter a greeting with additional text (e.g., "hello, how's the weather?"), 
+I'm developing a rule-based chatbot in Python and having trouble with pattern matching.
+When users enter a greeting with additional text (e.g., "hello, how's the weather?"),
 my bot isn't recognizing it as a greeting.
 
 ## Current Code
 ```python
 def get_response(self, user_input):
     user_input = user_input.lower()
-    
+
     # Check for greetings
     greeting_patterns = ["hello", "hi", "hey", "howdy"]
     for pattern in greeting_patterns:
         if user_input == pattern:  # This is the problem line
             return f"Hello there, {self.user_name}!"
-    
+
     # Other patterns...
     return "I didn't understand that."
 ```
@@ -641,7 +640,7 @@ def get_response(self, user_input):
 - Using regular expressions but struggling with the pattern
 
 ## What I Need
-I need a way to identify greetings at the beginning of messages without 
+I need a way to identify greetings at the beginning of messages without
 matching unrelated content that happens to contain greeting words.
 ```
 

@@ -1,6 +1,5 @@
 ---
-title: 'Installation Station: Setting Up Python and Required Libraries'
-jupyter: python3
+title: "Installation Station: Setting Up Python and Required Libraries"
 ---
 
 # Chapter 22: Installing Python and Essential Libraries
@@ -590,14 +589,14 @@ from pathlib import Path
 def check_structure():
     """Verify the project structure."""
     print("Checking project structure...")
-    
+
     # Check directories
     dirs = ["chatbot", "data", "tests", "docs"]
     for d in dirs:
         if not Path(d).is_dir():
             print(f"ERROR: Directory '{d}' not found!")
             return False
-    
+
     # Check key files
     files = [
         "chatbot/__init__.py",
@@ -610,31 +609,31 @@ def check_structure():
         if not Path(f).is_file():
             print(f"ERROR: File '{f}' not found!")
             return False
-    
+
     print("Project structure looks good!")
     return True
 
 def check_environment():
     """Verify the Python environment."""
     print("\nChecking Python environment...")
-    
+
     # Check Python version
     py_version = sys.version.split()[0]
     print(f"Python version: {py_version}")
-    
+
     # Try importing key packages
     try:
         import dotenv
         print("python-dotenv: Installed")
     except ImportError:
         print("WARNING: python-dotenv not installed!")
-    
+
     try:
         import requests
         print("requests: Installed")
     except ImportError:
         print("WARNING: requests not installed!")
-    
+
     print("Environment check complete!")
 
 if __name__ == "__main__":

@@ -1,6 +1,5 @@
 ---
-title: 'Python Pilot: How to Execute Your Code in Different Environments'
-jupyter: python3
+title: "Python Pilot: How to Execute Your Code in Different Environments"
 ---
 
 # Chapter 21: How to Run Python Code
@@ -103,7 +102,7 @@ Python 3.10.4 (default, Jun 5 2023, 09:35:24)
 Type 'copyright', 'credits' or 'license' for more information
 IPython 8.4.0 -- An enhanced Interactive Python. Type '?' for help.
 
-In [1]: 
+In [1]:
 ```
 
 IPython offers numerous improvements over the standard interpreter:
@@ -193,13 +192,13 @@ You can also create more complex scripts with multiple functions, classes, and m
 
 def add(a, b):
     return a + b
-    
+
 def subtract(a, b):
     return a - b
-    
+
 def multiply(a, b):
     return a * b
-    
+
 def divide(a, b):
     if b == 0:
         return "Error: Division by zero"
@@ -452,23 +451,23 @@ def on_send_clicked(b):
     user_input = text_input.value
     if not user_input:
         return
-        
+
     # Clear input box
     text_input.value = ""
-    
+
     # Add user message to display
     messages.append(f"You: {user_input}")
-    
+
     # Get bot response
     bot_response = bot.get_response(user_input)
     messages.append(f"JupyterBot: {bot_response}")
-    
+
     # Update display
     with output:
         clear_output()
         for message in messages:
             print(message)
-    
+
 # Connect button click to handler
 send_button.on_click(on_send_clicked)
 ```

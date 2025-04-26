@@ -29,10 +29,10 @@ AI can write code, but it doesn't always write the right code. If you blindly co
 
 But if you understand Python — even just the basics — you can:
 
-- **Spot errors instantly** instead of wasting time guessing
-- **Tweak AI code** to make it work for your needs
-- **Give better prompts** so AI helps you, not hinders you
-- **Take control of your projects** instead of relying on guesswork
+- 🧠 **Spot errors instantly** instead of wasting time guessing
+- ✍️ **Tweak AI code** to make it work for your needs
+- 📣 **Give better prompts** so AI helps you, not hinders you
+- ⚙️ **Take control of your projects** instead of relying on guesswork
 
 This isn't about becoming a full-time coder. It's about becoming AI-literate, so you can collaborate with AI instead of depending on it.
 
