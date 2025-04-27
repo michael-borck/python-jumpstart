@@ -195,19 +195,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/05_output.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Output: Making Your Code Speak</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Output Odyssey: Making Your Code Speak to the World</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/06_input.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Input: Collecting User Data in Python</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Input Inception: Getting Data from Users into Your Programs</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/07_operators.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Operators: Powering Up Your Python Calculations</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Operator’s Manual: Mastering Python’s Mathematical and Logical Tools</span></span></a>
   </div>
 </li>
       </ul>
@@ -381,7 +381,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/25_python_ai_integration.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Python AI Integration: Connecting Your Code to Intelligent Services</span></span></a>
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">AI Integrator: Connecting Python Applications to AI Services</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -738,13 +738,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Return a response based on the user input."""</span></span>
 <span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Convert to lowercase for easier matching</span></span>
 <span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>    user_input <span class="op">=</span> user_input.lower().strip()</span>
-<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Handling special commands with string methods</span></span>
 <span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> user_input.startswith(<span class="st">"tell me about "</span>):</span>
 <span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Extract the topic after "tell me about "</span></span>
 <span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>        topic <span class="op">=</span> user_input[<span class="dv">13</span>:].strip().title()</span>
 <span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="ss">f"I don't have much information about </span><span class="sc">{</span>topic<span class="sc">}</span><span class="ss"> yet, but that's an interesting topic!"</span></span>
-<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> user_input.startswith(<span class="st">"repeat "</span>):</span>
 <span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Parse something like "repeat hello 3 times"</span></span>
 <span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>        parts <span class="op">=</span> user_input.split()</span>
@@ -754,7 +754,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> count <span class="op">&gt;</span> <span class="dv">10</span>:  <span class="co"># Limit repetitions</span></span>
 <span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>                <span class="cf">return</span> <span class="st">"That's too many repetitions!"</span></span>
 <span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="st">"</span><span class="ch">\n</span><span class="st">"</span>.join([<span class="ss">f"</span><span class="sc">{</span>i<span class="op">+</span><span class="dv">1</span><span class="sc">}</span><span class="ss">. </span><span class="sc">{</span>phrase<span class="sc">}</span><span class="ss">"</span> <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(count)])</span>
-<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> user_input <span class="op">==</span> <span class="st">"help"</span>:</span>
 <span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">"""</span></span>
 <span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a><span class="st">I understand commands like:</span></span>
@@ -763,24 +763,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a><span class="st">- "reverse [text]": I'll reverse the text for you</span></span>
 <span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a><span class="st">- Basic questions about myself</span></span>
 <span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a><span class="st">        """</span>.strip()</span>
-<span id="cb14-30"><a href="#cb14-30" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb14-30"><a href="#cb14-30" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-31"><a href="#cb14-31" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> user_input.startswith(<span class="st">"reverse "</span>):</span>
 <span id="cb14-32"><a href="#cb14-32" aria-hidden="true" tabindex="-1"></a>        text <span class="op">=</span> user_input[<span class="dv">8</span>:].strip()</span>
 <span id="cb14-33"><a href="#cb14-33" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="ss">f"Here's your text reversed: </span><span class="sc">{</span>text[::<span class="op">-</span><span class="dv">1</span>]<span class="sc">}</span><span class="ss">"</span></span>
-<span id="cb14-34"><a href="#cb14-34" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb14-34"><a href="#cb14-34" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-35"><a href="#cb14-35" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Basic keyword matching as before</span></span>
 <span id="cb14-36"><a href="#cb14-36" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> <span class="st">"hello"</span> <span class="kw">in</span> user_input <span class="kw">or</span> <span class="st">"hi"</span> <span class="kw">in</span> user_input:</span>
 <span id="cb14-37"><a href="#cb14-37" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="ss">f"Hello there, </span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">!"</span></span>
-<span id="cb14-38"><a href="#cb14-38" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb14-38"><a href="#cb14-38" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-39"><a href="#cb14-39" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> <span class="st">"how are you"</span> <span class="kw">in</span> user_input:</span>
 <span id="cb14-40"><a href="#cb14-40" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">"I'm just a computer program, but thanks for asking!"</span></span>
-<span id="cb14-41"><a href="#cb14-41" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb14-41"><a href="#cb14-41" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-42"><a href="#cb14-42" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> <span class="st">"name"</span> <span class="kw">in</span> user_input:</span>
 <span id="cb14-43"><a href="#cb14-43" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="ss">f"My name is </span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss">!"</span></span>
-<span id="cb14-44"><a href="#cb14-44" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb14-44"><a href="#cb14-44" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-45"><a href="#cb14-45" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> <span class="st">"bye"</span> <span class="kw">in</span> user_input <span class="kw">or</span> <span class="st">"goodbye"</span> <span class="kw">in</span> user_input:</span>
 <span id="cb14-46"><a href="#cb14-46" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">"Goodbye! Have a great day!"</span></span>
-<span id="cb14-47"><a href="#cb14-47" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb14-47"><a href="#cb14-47" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-48"><a href="#cb14-48" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
 <span id="cb14-49"><a href="#cb14-49" aria-hidden="true" tabindex="-1"></a>        <span class="co"># String formatting for a more personalized response</span></span>
 <span id="cb14-50"><a href="#cb14-50" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="ss">f"I'm not sure how to respond to '</span><span class="sc">{</span>user_input<span class="sc">}</span><span class="ss">' yet. Try typing 'help' for a list of things I understand."</span></span>
@@ -809,7 +809,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb14-73"><a href="#cb14-73" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="va">True</span>:</span>
 <span id="cb14-74"><a href="#cb14-74" aria-hidden="true" tabindex="-1"></a>    user_input <span class="op">=</span> <span class="bu">input</span>(<span class="ss">f"</span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">&gt; "</span>)</span>
 <span id="cb14-75"><a href="#cb14-75" aria-hidden="true" tabindex="-1"></a>    save_to_history(user_name, user_input)</span>
-<span id="cb14-76"><a href="#cb14-76" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb14-76"><a href="#cb14-76" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-77"><a href="#cb14-77" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> user_input.lower().strip() <span class="op">==</span> <span class="st">"bye"</span>:</span>
 <span id="cb14-78"><a href="#cb14-78" aria-hidden="true" tabindex="-1"></a>        response <span class="op">=</span> <span class="ss">f"Goodbye, </span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">!"</span></span>
 <span id="cb14-79"><a href="#cb14-79" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss">&gt; </span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">"</span>)</span>
@@ -818,7 +818,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb14-82"><a href="#cb14-82" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> user_input.lower().strip() <span class="op">==</span> <span class="st">"history"</span>:</span>
 <span id="cb14-83"><a href="#cb14-83" aria-hidden="true" tabindex="-1"></a>        show_history()</span>
 <span id="cb14-84"><a href="#cb14-84" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span></span>
-<span id="cb14-85"><a href="#cb14-85" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb14-85"><a href="#cb14-85" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-86"><a href="#cb14-86" aria-hidden="true" tabindex="-1"></a>    response <span class="op">=</span> get_response(user_input)</span>
 <span id="cb14-87"><a href="#cb14-87" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss">&gt; </span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb14-88"><a href="#cb14-88" aria-hidden="true" tabindex="-1"></a>    save_to_history(bot_name, response)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -1163,7 +1163,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="sourceCode" id="cb20" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> 'String Theory: Manipulating Text in the Python Universe'</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "String Theory: Manipulating Text in the Python Universe"</span></span>
 <span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a><span class="fu"># Chapter 13: Strings - Mastering Text Manipulation</span></span>
@@ -1482,13 +1482,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb20-318"><a href="#cb20-318" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Return a response based on the user input."""</span></span>
 <span id="cb20-319"><a href="#cb20-319" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Convert to lowercase for easier matching</span></span>
 <span id="cb20-320"><a href="#cb20-320" aria-hidden="true" tabindex="-1"></a>    user_input <span class="op">=</span> user_input.lower().strip()</span>
-<span id="cb20-321"><a href="#cb20-321" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb20-321"><a href="#cb20-321" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-322"><a href="#cb20-322" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Handling special commands with string methods</span></span>
 <span id="cb20-323"><a href="#cb20-323" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> user_input.startswith(<span class="st">"tell me about "</span>):</span>
 <span id="cb20-324"><a href="#cb20-324" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Extract the topic after "tell me about "</span></span>
 <span id="cb20-325"><a href="#cb20-325" aria-hidden="true" tabindex="-1"></a>        topic <span class="op">=</span> user_input[<span class="dv">13</span>:].strip().title()</span>
 <span id="cb20-326"><a href="#cb20-326" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="ss">f"I don't have much information about </span><span class="sc">{</span>topic<span class="sc">}</span><span class="ss"> yet, but that's an interesting topic!"</span></span>
-<span id="cb20-327"><a href="#cb20-327" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb20-327"><a href="#cb20-327" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-328"><a href="#cb20-328" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> user_input.startswith(<span class="st">"repeat "</span>):</span>
 <span id="cb20-329"><a href="#cb20-329" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Parse something like "repeat hello 3 times"</span></span>
 <span id="cb20-330"><a href="#cb20-330" aria-hidden="true" tabindex="-1"></a>        parts <span class="op">=</span> user_input.split()</span>
@@ -1498,7 +1498,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb20-334"><a href="#cb20-334" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> count <span class="op">&gt;</span> <span class="dv">10</span>:  <span class="co"># Limit repetitions</span></span>
 <span id="cb20-335"><a href="#cb20-335" aria-hidden="true" tabindex="-1"></a>                <span class="cf">return</span> <span class="st">"That's too many repetitions!"</span></span>
 <span id="cb20-336"><a href="#cb20-336" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="st">"</span><span class="ch">\n</span><span class="st">"</span>.join([<span class="ss">f"</span><span class="sc">{</span>i<span class="op">+</span><span class="dv">1</span><span class="sc">}</span><span class="ss">. </span><span class="sc">{</span>phrase<span class="sc">}</span><span class="ss">"</span> <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(count)])</span>
-<span id="cb20-337"><a href="#cb20-337" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb20-337"><a href="#cb20-337" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-338"><a href="#cb20-338" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> user_input <span class="op">==</span> <span class="st">"help"</span>:</span>
 <span id="cb20-339"><a href="#cb20-339" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">"""</span></span>
 <span id="cb20-340"><a href="#cb20-340" aria-hidden="true" tabindex="-1"></a><span class="st">I understand commands like:</span></span>
@@ -1507,24 +1507,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb20-343"><a href="#cb20-343" aria-hidden="true" tabindex="-1"></a><span class="st">- "reverse [text]": I'll reverse the text for you</span></span>
 <span id="cb20-344"><a href="#cb20-344" aria-hidden="true" tabindex="-1"></a><span class="st">- Basic questions about myself</span></span>
 <span id="cb20-345"><a href="#cb20-345" aria-hidden="true" tabindex="-1"></a><span class="st">        """</span>.strip()</span>
-<span id="cb20-346"><a href="#cb20-346" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb20-346"><a href="#cb20-346" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-347"><a href="#cb20-347" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> user_input.startswith(<span class="st">"reverse "</span>):</span>
 <span id="cb20-348"><a href="#cb20-348" aria-hidden="true" tabindex="-1"></a>        text <span class="op">=</span> user_input[<span class="dv">8</span>:].strip()</span>
 <span id="cb20-349"><a href="#cb20-349" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="ss">f"Here's your text reversed: </span><span class="sc">{</span>text[::<span class="op">-</span><span class="dv">1</span>]<span class="sc">}</span><span class="ss">"</span></span>
-<span id="cb20-350"><a href="#cb20-350" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb20-350"><a href="#cb20-350" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-351"><a href="#cb20-351" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Basic keyword matching as before</span></span>
 <span id="cb20-352"><a href="#cb20-352" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> <span class="st">"hello"</span> <span class="kw">in</span> user_input <span class="kw">or</span> <span class="st">"hi"</span> <span class="kw">in</span> user_input:</span>
 <span id="cb20-353"><a href="#cb20-353" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="ss">f"Hello there, </span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">!"</span></span>
-<span id="cb20-354"><a href="#cb20-354" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb20-354"><a href="#cb20-354" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-355"><a href="#cb20-355" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> <span class="st">"how are you"</span> <span class="kw">in</span> user_input:</span>
 <span id="cb20-356"><a href="#cb20-356" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">"I'm just a computer program, but thanks for asking!"</span></span>
-<span id="cb20-357"><a href="#cb20-357" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb20-357"><a href="#cb20-357" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-358"><a href="#cb20-358" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> <span class="st">"name"</span> <span class="kw">in</span> user_input:</span>
 <span id="cb20-359"><a href="#cb20-359" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="ss">f"My name is </span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss">!"</span></span>
-<span id="cb20-360"><a href="#cb20-360" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb20-360"><a href="#cb20-360" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-361"><a href="#cb20-361" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> <span class="st">"bye"</span> <span class="kw">in</span> user_input <span class="kw">or</span> <span class="st">"goodbye"</span> <span class="kw">in</span> user_input:</span>
 <span id="cb20-362"><a href="#cb20-362" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">"Goodbye! Have a great day!"</span></span>
-<span id="cb20-363"><a href="#cb20-363" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb20-363"><a href="#cb20-363" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-364"><a href="#cb20-364" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
 <span id="cb20-365"><a href="#cb20-365" aria-hidden="true" tabindex="-1"></a>        <span class="co"># String formatting for a more personalized response</span></span>
 <span id="cb20-366"><a href="#cb20-366" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="ss">f"I'm not sure how to respond to '</span><span class="sc">{</span>user_input<span class="sc">}</span><span class="ss">' yet. Try typing 'help' for a list of things I understand."</span></span>
@@ -1553,7 +1553,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb20-389"><a href="#cb20-389" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="va">True</span>:</span>
 <span id="cb20-390"><a href="#cb20-390" aria-hidden="true" tabindex="-1"></a>    user_input <span class="op">=</span> <span class="bu">input</span>(<span class="ss">f"</span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">&gt; "</span>)</span>
 <span id="cb20-391"><a href="#cb20-391" aria-hidden="true" tabindex="-1"></a>    save_to_history(user_name, user_input)</span>
-<span id="cb20-392"><a href="#cb20-392" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb20-392"><a href="#cb20-392" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-393"><a href="#cb20-393" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> user_input.lower().strip() <span class="op">==</span> <span class="st">"bye"</span>:</span>
 <span id="cb20-394"><a href="#cb20-394" aria-hidden="true" tabindex="-1"></a>        response <span class="op">=</span> <span class="ss">f"Goodbye, </span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">!"</span></span>
 <span id="cb20-395"><a href="#cb20-395" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss">&gt; </span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">"</span>)</span>
@@ -1562,7 +1562,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb20-398"><a href="#cb20-398" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> user_input.lower().strip() <span class="op">==</span> <span class="st">"history"</span>:</span>
 <span id="cb20-399"><a href="#cb20-399" aria-hidden="true" tabindex="-1"></a>        show_history()</span>
 <span id="cb20-400"><a href="#cb20-400" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span></span>
-<span id="cb20-401"><a href="#cb20-401" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb20-401"><a href="#cb20-401" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-402"><a href="#cb20-402" aria-hidden="true" tabindex="-1"></a>    response <span class="op">=</span> get_response(user_input)</span>
 <span id="cb20-403"><a href="#cb20-403" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss">&gt; </span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb20-404"><a href="#cb20-404" aria-hidden="true" tabindex="-1"></a>    save_to_history(bot_name, response)</span>

@@ -195,19 +195,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/05_output.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Output: Making Your Code Speak</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Output Odyssey: Making Your Code Speak to the World</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/06_input.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Input: Collecting User Data in Python</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Input Inception: Getting Data from Users into Your Programs</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/07_operators.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Operators: Powering Up Your Python Calculations</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Operator’s Manual: Mastering Python’s Mathematical and Logical Tools</span></span></a>
   </div>
 </li>
       </ul>
@@ -381,7 +381,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/25_python_ai_integration.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Python AI Integration: Connecting Your Code to Intelligent Services</span></span></a>
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">AI Integrator: Connecting Python Applications to AI Services</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -587,7 +587,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 data-number="17.6.3" class="anchored" data-anchor-id="reading-all-lines-into-a-list"><span class="header-section-number">17.6.3</span> Reading All Lines into a List</h3>
 <div class="sourceCode" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">'example.txt'</span>, <span class="st">'r'</span>) <span class="im">as</span> <span class="bu">file</span>:</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    lines <span class="op">=</span> <span class="bu">file</span>.readlines()  <span class="co"># Returns a list where each element is a line</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> line <span class="kw">in</span> lines:</span>
 <span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(line.strip())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
@@ -727,11 +727,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">'data.csv'</span>, <span class="st">'r'</span>) <span class="im">as</span> <span class="bu">file</span>:</span>
 <span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>    csv_reader <span class="op">=</span> csv.reader(<span class="bu">file</span>)</span>
-<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Skip the header row (if present)</span></span>
 <span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>    header <span class="op">=</span> <span class="bu">next</span>(csv_reader)</span>
 <span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Column names: </span><span class="sc">{</span>header<span class="sc">}</span><span class="ss">"</span>)</span>
-<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Process each row</span></span>
 <span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> row <span class="kw">in</span> csv_reader:</span>
 <span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(row)  <span class="co"># Each row is a list of values</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -749,7 +749,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">'output.csv'</span>, <span class="st">'w'</span>, newline<span class="op">=</span><span class="st">''</span>) <span class="im">as</span> <span class="bu">file</span>:</span>
 <span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>    csv_writer <span class="op">=</span> csv.writer(<span class="bu">file</span>)</span>
-<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Write all rows at once</span></span>
 <span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a>    csv_writer.writerows(data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
@@ -763,7 +763,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">'config.json'</span>, <span class="st">'r'</span>) <span class="im">as</span> <span class="bu">file</span>:</span>
 <span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>    data <span class="op">=</span> json.load(<span class="bu">file</span>)  <span class="co"># Parses JSON into a Python dictionary</span></span>
-<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(data[<span class="st">'name'</span>])</span>
 <span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(data[<span class="st">'settings'</span>][<span class="st">'theme'</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
@@ -864,14 +864,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb22-22"><a href="#cb22-22" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_response(user_input):</span>
 <span id="cb22-23"><a href="#cb22-23" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Get a response based on the user input."""</span></span>
 <span id="cb22-24"><a href="#cb22-24" aria-hidden="true" tabindex="-1"></a>    user_input <span class="op">=</span> user_input.lower()</span>
-<span id="cb22-25"><a href="#cb22-25" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb22-25"><a href="#cb22-25" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-26"><a href="#cb22-26" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Check each category of responses</span></span>
 <span id="cb22-27"><a href="#cb22-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> category, patterns <span class="kw">in</span> response_patterns.items():</span>
 <span id="cb22-28"><a href="#cb22-28" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> pattern <span class="kw">in</span> patterns:</span>
 <span id="cb22-29"><a href="#cb22-29" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> pattern <span class="kw">in</span> user_input:</span>
 <span id="cb22-30"><a href="#cb22-30" aria-hidden="true" tabindex="-1"></a>                <span class="co"># Return a random response from the appropriate category</span></span>
 <span id="cb22-31"><a href="#cb22-31" aria-hidden="true" tabindex="-1"></a>                <span class="cf">return</span> random.choice(response_templates[category])</span>
-<span id="cb22-32"><a href="#cb22-32" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb22-32"><a href="#cb22-32" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-33"><a href="#cb22-33" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Default response if no patterns match</span></span>
 <span id="cb22-34"><a href="#cb22-34" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="st">"I'm still learning. Can you tell me more?"</span></span>
 <span id="cb22-35"><a href="#cb22-35" aria-hidden="true" tabindex="-1"></a></span>
@@ -880,21 +880,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb22-38"><a href="#cb22-38" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Create 'chats' directory if it doesn't exist</span></span>
 <span id="cb22-39"><a href="#cb22-39" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> os.path.exists(<span class="st">'chats'</span>):</span>
 <span id="cb22-40"><a href="#cb22-40" aria-hidden="true" tabindex="-1"></a>        os.makedirs(<span class="st">'chats'</span>)</span>
-<span id="cb22-41"><a href="#cb22-41" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb22-41"><a href="#cb22-41" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-42"><a href="#cb22-42" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Generate a unique filename with timestamp</span></span>
 <span id="cb22-43"><a href="#cb22-43" aria-hidden="true" tabindex="-1"></a>    timestamp <span class="op">=</span> datetime.datetime.now().strftime(<span class="st">"%Y%m</span><span class="sc">%d</span><span class="st">_%H%M%S"</span>)</span>
 <span id="cb22-44"><a href="#cb22-44" aria-hidden="true" tabindex="-1"></a>    filename <span class="op">=</span> <span class="ss">f"chats/chat_with_</span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">_</span><span class="sc">{</span>timestamp<span class="sc">}</span><span class="ss">.txt"</span></span>
-<span id="cb22-45"><a href="#cb22-45" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb22-45"><a href="#cb22-45" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-46"><a href="#cb22-46" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
 <span id="cb22-47"><a href="#cb22-47" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> <span class="bu">open</span>(filename, <span class="st">"w"</span>) <span class="im">as</span> f:</span>
 <span id="cb22-48"><a href="#cb22-48" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Write header information</span></span>
 <span id="cb22-49"><a href="#cb22-49" aria-hidden="true" tabindex="-1"></a>            f.write(<span class="ss">f"Conversation with </span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss"> and </span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span>)</span>
 <span id="cb22-50"><a href="#cb22-50" aria-hidden="true" tabindex="-1"></a>            f.write(<span class="ss">f"Date: </span><span class="sc">{</span>datetime<span class="sc">.</span>datetime<span class="sc">.</span>now()<span class="sc">.</span>strftime(<span class="st">'%Y-%m-</span><span class="sc">%d</span><span class="st"> %H:%M:%S'</span>)<span class="sc">}</span><span class="ch">\n\n</span><span class="ss">"</span>)</span>
-<span id="cb22-51"><a href="#cb22-51" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb22-51"><a href="#cb22-51" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-52"><a href="#cb22-52" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Write each line of conversation</span></span>
 <span id="cb22-53"><a href="#cb22-53" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> entry <span class="kw">in</span> conversation_history:</span>
 <span id="cb22-54"><a href="#cb22-54" aria-hidden="true" tabindex="-1"></a>                f.write(<span class="ss">f"</span><span class="sc">{</span>entry<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span>)</span>
-<span id="cb22-55"><a href="#cb22-55" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb22-55"><a href="#cb22-55" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-56"><a href="#cb22-56" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> filename</span>
 <span id="cb22-57"><a href="#cb22-57" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span> <span class="pp">Exception</span> <span class="im">as</span> e:</span>
 <span id="cb22-58"><a href="#cb22-58" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="ss">f"Error saving conversation: </span><span class="sc">{</span><span class="bu">str</span>(e)<span class="sc">}</span><span class="ss">"</span></span>
@@ -904,7 +904,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb22-62"><a href="#cb22-62" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
 <span id="cb22-63"><a href="#cb22-63" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> <span class="bu">open</span>(filename, <span class="st">"r"</span>) <span class="im">as</span> f:</span>
 <span id="cb22-64"><a href="#cb22-64" aria-hidden="true" tabindex="-1"></a>            lines <span class="op">=</span> f.readlines()</span>
-<span id="cb22-65"><a href="#cb22-65" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb22-65"><a href="#cb22-65" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-66"><a href="#cb22-66" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"</span><span class="ch">\n</span><span class="st">----- Loaded Conversation -----"</span>)</span>
 <span id="cb22-67"><a href="#cb22-67" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> line <span class="kw">in</span> lines:</span>
 <span id="cb22-68"><a href="#cb22-68" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(line.strip())</span>
@@ -924,12 +924,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb22-82"><a href="#cb22-82" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> os.path.exists(<span class="st">'chats'</span>):</span>
 <span id="cb22-83"><a href="#cb22-83" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"No saved conversations found."</span>)</span>
 <span id="cb22-84"><a href="#cb22-84" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span></span>
-<span id="cb22-85"><a href="#cb22-85" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb22-85"><a href="#cb22-85" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-86"><a href="#cb22-86" aria-hidden="true" tabindex="-1"></a>    chat_files <span class="op">=</span> os.listdir(<span class="st">'chats'</span>)</span>
 <span id="cb22-87"><a href="#cb22-87" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> chat_files:</span>
 <span id="cb22-88"><a href="#cb22-88" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"No saved conversations found."</span>)</span>
 <span id="cb22-89"><a href="#cb22-89" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span></span>
-<span id="cb22-90"><a href="#cb22-90" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb22-90"><a href="#cb22-90" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-91"><a href="#cb22-91" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"</span><span class="ch">\n</span><span class="st">Available saved conversations:"</span>)</span>
 <span id="cb22-92"><a href="#cb22-92" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i, chat_file <span class="kw">in</span> <span class="bu">enumerate</span>(chat_files, <span class="dv">1</span>):</span>
 <span id="cb22-93"><a href="#cb22-93" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">. </span><span class="sc">{</span>chat_file<span class="sc">}</span><span class="ss">"</span>)</span>
@@ -958,7 +958,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb22-116"><a href="#cb22-116" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="va">True</span>:</span>
 <span id="cb22-117"><a href="#cb22-117" aria-hidden="true" tabindex="-1"></a>    user_input <span class="op">=</span> <span class="bu">input</span>(<span class="ss">f"</span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">&gt; "</span>)</span>
 <span id="cb22-118"><a href="#cb22-118" aria-hidden="true" tabindex="-1"></a>    save_to_history(user_name, user_input)</span>
-<span id="cb22-119"><a href="#cb22-119" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb22-119"><a href="#cb22-119" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-120"><a href="#cb22-120" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Check for special commands</span></span>
 <span id="cb22-121"><a href="#cb22-121" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> user_input.lower() <span class="op">==</span> <span class="st">"bye"</span>:</span>
 <span id="cb22-122"><a href="#cb22-122" aria-hidden="true" tabindex="-1"></a>        response <span class="op">=</span> <span class="ss">f"Goodbye, </span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">!"</span></span>
@@ -977,7 +977,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb22-135"><a href="#cb22-135" aria-hidden="true" tabindex="-1"></a>        filename <span class="op">=</span> user_input[<span class="dv">5</span>:].strip()</span>
 <span id="cb22-136"><a href="#cb22-136" aria-hidden="true" tabindex="-1"></a>        load_conversation(filename)</span>
 <span id="cb22-137"><a href="#cb22-137" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span></span>
-<span id="cb22-138"><a href="#cb22-138" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb22-138"><a href="#cb22-138" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-139"><a href="#cb22-139" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Get and display response</span></span>
 <span id="cb22-140"><a href="#cb22-140" aria-hidden="true" tabindex="-1"></a>    response <span class="op">=</span> get_response(user_input)</span>
 <span id="cb22-141"><a href="#cb22-141" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss">&gt; </span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">"</span>)</span>
@@ -1354,7 +1354,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="sourceCode" id="cb28" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> 'File Frontier: Reading and Writing Data to Permanent Storage'</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "File Frontier: Reading and Writing Data to Permanent Storage"</span></span>
 <span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a><span class="fu"># Chapter 15: Files - Persisting Your Data</span></span>
@@ -1478,7 +1478,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb28-123"><a href="#cb28-123" aria-hidden="true" tabindex="-1"></a><span class="in">```python</span></span>
 <span id="cb28-124"><a href="#cb28-124" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">'example.txt'</span>, <span class="st">'r'</span>) <span class="im">as</span> <span class="bu">file</span>:</span>
 <span id="cb28-125"><a href="#cb28-125" aria-hidden="true" tabindex="-1"></a>    lines <span class="op">=</span> <span class="bu">file</span>.readlines()  <span class="co"># Returns a list where each element is a line</span></span>
-<span id="cb28-126"><a href="#cb28-126" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb28-126"><a href="#cb28-126" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-127"><a href="#cb28-127" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> line <span class="kw">in</span> lines:</span>
 <span id="cb28-128"><a href="#cb28-128" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(line.strip())</span>
 <span id="cb28-129"><a href="#cb28-129" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
@@ -1654,11 +1654,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb28-299"><a href="#cb28-299" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-300"><a href="#cb28-300" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">'data.csv'</span>, <span class="st">'r'</span>) <span class="im">as</span> <span class="bu">file</span>:</span>
 <span id="cb28-301"><a href="#cb28-301" aria-hidden="true" tabindex="-1"></a>    csv_reader <span class="op">=</span> csv.reader(<span class="bu">file</span>)</span>
-<span id="cb28-302"><a href="#cb28-302" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb28-302"><a href="#cb28-302" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-303"><a href="#cb28-303" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Skip the header row (if present)</span></span>
 <span id="cb28-304"><a href="#cb28-304" aria-hidden="true" tabindex="-1"></a>    header <span class="op">=</span> <span class="bu">next</span>(csv_reader)</span>
 <span id="cb28-305"><a href="#cb28-305" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Column names: </span><span class="sc">{</span>header<span class="sc">}</span><span class="ss">"</span>)</span>
-<span id="cb28-306"><a href="#cb28-306" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb28-306"><a href="#cb28-306" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-307"><a href="#cb28-307" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Process each row</span></span>
 <span id="cb28-308"><a href="#cb28-308" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> row <span class="kw">in</span> csv_reader:</span>
 <span id="cb28-309"><a href="#cb28-309" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(row)  <span class="co"># Each row is a list of values</span></span>
@@ -1678,7 +1678,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb28-323"><a href="#cb28-323" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-324"><a href="#cb28-324" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">'output.csv'</span>, <span class="st">'w'</span>, newline<span class="op">=</span><span class="st">''</span>) <span class="im">as</span> <span class="bu">file</span>:</span>
 <span id="cb28-325"><a href="#cb28-325" aria-hidden="true" tabindex="-1"></a>    csv_writer <span class="op">=</span> csv.writer(<span class="bu">file</span>)</span>
-<span id="cb28-326"><a href="#cb28-326" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb28-326"><a href="#cb28-326" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-327"><a href="#cb28-327" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Write all rows at once</span></span>
 <span id="cb28-328"><a href="#cb28-328" aria-hidden="true" tabindex="-1"></a>    csv_writer.writerows(data)</span>
 <span id="cb28-329"><a href="#cb28-329" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
@@ -1694,7 +1694,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb28-339"><a href="#cb28-339" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-340"><a href="#cb28-340" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">'config.json'</span>, <span class="st">'r'</span>) <span class="im">as</span> <span class="bu">file</span>:</span>
 <span id="cb28-341"><a href="#cb28-341" aria-hidden="true" tabindex="-1"></a>    data <span class="op">=</span> json.load(<span class="bu">file</span>)  <span class="co"># Parses JSON into a Python dictionary</span></span>
-<span id="cb28-342"><a href="#cb28-342" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb28-342"><a href="#cb28-342" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-343"><a href="#cb28-343" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(data[<span class="st">'name'</span>])</span>
 <span id="cb28-344"><a href="#cb28-344" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(data[<span class="st">'settings'</span>][<span class="st">'theme'</span>])</span>
 <span id="cb28-345"><a href="#cb28-345" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
@@ -1795,14 +1795,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb28-440"><a href="#cb28-440" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_response(user_input):</span>
 <span id="cb28-441"><a href="#cb28-441" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Get a response based on the user input."""</span></span>
 <span id="cb28-442"><a href="#cb28-442" aria-hidden="true" tabindex="-1"></a>    user_input <span class="op">=</span> user_input.lower()</span>
-<span id="cb28-443"><a href="#cb28-443" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb28-443"><a href="#cb28-443" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-444"><a href="#cb28-444" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Check each category of responses</span></span>
 <span id="cb28-445"><a href="#cb28-445" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> category, patterns <span class="kw">in</span> response_patterns.items():</span>
 <span id="cb28-446"><a href="#cb28-446" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> pattern <span class="kw">in</span> patterns:</span>
 <span id="cb28-447"><a href="#cb28-447" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> pattern <span class="kw">in</span> user_input:</span>
 <span id="cb28-448"><a href="#cb28-448" aria-hidden="true" tabindex="-1"></a>                <span class="co"># Return a random response from the appropriate category</span></span>
 <span id="cb28-449"><a href="#cb28-449" aria-hidden="true" tabindex="-1"></a>                <span class="cf">return</span> random.choice(response_templates[category])</span>
-<span id="cb28-450"><a href="#cb28-450" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb28-450"><a href="#cb28-450" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-451"><a href="#cb28-451" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Default response if no patterns match</span></span>
 <span id="cb28-452"><a href="#cb28-452" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="st">"I'm still learning. Can you tell me more?"</span></span>
 <span id="cb28-453"><a href="#cb28-453" aria-hidden="true" tabindex="-1"></a></span>
@@ -1811,21 +1811,21 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb28-456"><a href="#cb28-456" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Create 'chats' directory if it doesn't exist</span></span>
 <span id="cb28-457"><a href="#cb28-457" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> os.path.exists(<span class="st">'chats'</span>):</span>
 <span id="cb28-458"><a href="#cb28-458" aria-hidden="true" tabindex="-1"></a>        os.makedirs(<span class="st">'chats'</span>)</span>
-<span id="cb28-459"><a href="#cb28-459" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb28-459"><a href="#cb28-459" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-460"><a href="#cb28-460" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Generate a unique filename with timestamp</span></span>
 <span id="cb28-461"><a href="#cb28-461" aria-hidden="true" tabindex="-1"></a>    timestamp <span class="op">=</span> datetime.datetime.now().strftime(<span class="st">"%Y%m</span><span class="sc">%d</span><span class="st">_%H%M%S"</span>)</span>
 <span id="cb28-462"><a href="#cb28-462" aria-hidden="true" tabindex="-1"></a>    filename <span class="op">=</span> <span class="ss">f"chats/chat_with_</span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">_</span><span class="sc">{</span>timestamp<span class="sc">}</span><span class="ss">.txt"</span></span>
-<span id="cb28-463"><a href="#cb28-463" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb28-463"><a href="#cb28-463" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-464"><a href="#cb28-464" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
 <span id="cb28-465"><a href="#cb28-465" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> <span class="bu">open</span>(filename, <span class="st">"w"</span>) <span class="im">as</span> f:</span>
 <span id="cb28-466"><a href="#cb28-466" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Write header information</span></span>
 <span id="cb28-467"><a href="#cb28-467" aria-hidden="true" tabindex="-1"></a>            f.write(<span class="ss">f"Conversation with </span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss"> and </span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span>)</span>
 <span id="cb28-468"><a href="#cb28-468" aria-hidden="true" tabindex="-1"></a>            f.write(<span class="ss">f"Date: </span><span class="sc">{</span>datetime<span class="sc">.</span>datetime<span class="sc">.</span>now()<span class="sc">.</span>strftime(<span class="st">'%Y-%m-</span><span class="sc">%d</span><span class="st"> %H:%M:%S'</span>)<span class="sc">}</span><span class="ch">\n\n</span><span class="ss">"</span>)</span>
-<span id="cb28-469"><a href="#cb28-469" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb28-469"><a href="#cb28-469" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-470"><a href="#cb28-470" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Write each line of conversation</span></span>
 <span id="cb28-471"><a href="#cb28-471" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> entry <span class="kw">in</span> conversation_history:</span>
 <span id="cb28-472"><a href="#cb28-472" aria-hidden="true" tabindex="-1"></a>                f.write(<span class="ss">f"</span><span class="sc">{</span>entry<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span>)</span>
-<span id="cb28-473"><a href="#cb28-473" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb28-473"><a href="#cb28-473" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-474"><a href="#cb28-474" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> filename</span>
 <span id="cb28-475"><a href="#cb28-475" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span> <span class="pp">Exception</span> <span class="im">as</span> e:</span>
 <span id="cb28-476"><a href="#cb28-476" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="ss">f"Error saving conversation: </span><span class="sc">{</span><span class="bu">str</span>(e)<span class="sc">}</span><span class="ss">"</span></span>
@@ -1835,7 +1835,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb28-480"><a href="#cb28-480" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
 <span id="cb28-481"><a href="#cb28-481" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> <span class="bu">open</span>(filename, <span class="st">"r"</span>) <span class="im">as</span> f:</span>
 <span id="cb28-482"><a href="#cb28-482" aria-hidden="true" tabindex="-1"></a>            lines <span class="op">=</span> f.readlines()</span>
-<span id="cb28-483"><a href="#cb28-483" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb28-483"><a href="#cb28-483" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-484"><a href="#cb28-484" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"</span><span class="ch">\n</span><span class="st">----- Loaded Conversation -----"</span>)</span>
 <span id="cb28-485"><a href="#cb28-485" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> line <span class="kw">in</span> lines:</span>
 <span id="cb28-486"><a href="#cb28-486" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(line.strip())</span>
@@ -1855,12 +1855,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb28-500"><a href="#cb28-500" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> os.path.exists(<span class="st">'chats'</span>):</span>
 <span id="cb28-501"><a href="#cb28-501" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"No saved conversations found."</span>)</span>
 <span id="cb28-502"><a href="#cb28-502" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span></span>
-<span id="cb28-503"><a href="#cb28-503" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb28-503"><a href="#cb28-503" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-504"><a href="#cb28-504" aria-hidden="true" tabindex="-1"></a>    chat_files <span class="op">=</span> os.listdir(<span class="st">'chats'</span>)</span>
 <span id="cb28-505"><a href="#cb28-505" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> chat_files:</span>
 <span id="cb28-506"><a href="#cb28-506" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"No saved conversations found."</span>)</span>
 <span id="cb28-507"><a href="#cb28-507" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span></span>
-<span id="cb28-508"><a href="#cb28-508" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb28-508"><a href="#cb28-508" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-509"><a href="#cb28-509" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"</span><span class="ch">\n</span><span class="st">Available saved conversations:"</span>)</span>
 <span id="cb28-510"><a href="#cb28-510" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i, chat_file <span class="kw">in</span> <span class="bu">enumerate</span>(chat_files, <span class="dv">1</span>):</span>
 <span id="cb28-511"><a href="#cb28-511" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">. </span><span class="sc">{</span>chat_file<span class="sc">}</span><span class="ss">"</span>)</span>
@@ -1889,7 +1889,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb28-534"><a href="#cb28-534" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="va">True</span>:</span>
 <span id="cb28-535"><a href="#cb28-535" aria-hidden="true" tabindex="-1"></a>    user_input <span class="op">=</span> <span class="bu">input</span>(<span class="ss">f"</span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">&gt; "</span>)</span>
 <span id="cb28-536"><a href="#cb28-536" aria-hidden="true" tabindex="-1"></a>    save_to_history(user_name, user_input)</span>
-<span id="cb28-537"><a href="#cb28-537" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb28-537"><a href="#cb28-537" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-538"><a href="#cb28-538" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Check for special commands</span></span>
 <span id="cb28-539"><a href="#cb28-539" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> user_input.lower() <span class="op">==</span> <span class="st">"bye"</span>:</span>
 <span id="cb28-540"><a href="#cb28-540" aria-hidden="true" tabindex="-1"></a>        response <span class="op">=</span> <span class="ss">f"Goodbye, </span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">!"</span></span>
@@ -1908,7 +1908,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb28-553"><a href="#cb28-553" aria-hidden="true" tabindex="-1"></a>        filename <span class="op">=</span> user_input[<span class="dv">5</span>:].strip()</span>
 <span id="cb28-554"><a href="#cb28-554" aria-hidden="true" tabindex="-1"></a>        load_conversation(filename)</span>
 <span id="cb28-555"><a href="#cb28-555" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span></span>
-<span id="cb28-556"><a href="#cb28-556" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb28-556"><a href="#cb28-556" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-557"><a href="#cb28-557" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Get and display response</span></span>
 <span id="cb28-558"><a href="#cb28-558" aria-hidden="true" tabindex="-1"></a>    response <span class="op">=</span> get_response(user_input)</span>
 <span id="cb28-559"><a href="#cb28-559" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss">&gt; </span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">"</span>)</span>
@@ -1945,11 +1945,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb28-590"><a href="#cb28-590" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Configuration Files**: Store application settings in a format like JSON or INI.</span>
 <span id="cb28-591"><a href="#cb28-591" aria-hidden="true" tabindex="-1"></a>   <span class="in">```python</span></span>
 <span id="cb28-592"><a href="#cb28-592" aria-hidden="true" tabindex="-1"></a>   <span class="im">import</span> json</span>
-<span id="cb28-593"><a href="#cb28-593" aria-hidden="true" tabindex="-1"></a>   </span>
+<span id="cb28-593"><a href="#cb28-593" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-594"><a href="#cb28-594" aria-hidden="true" tabindex="-1"></a>   <span class="co"># Load configuration</span></span>
 <span id="cb28-595"><a href="#cb28-595" aria-hidden="true" tabindex="-1"></a>   <span class="cf">with</span> <span class="bu">open</span>(<span class="st">'config.json'</span>, <span class="st">'r'</span>) <span class="im">as</span> f:</span>
 <span id="cb28-596"><a href="#cb28-596" aria-hidden="true" tabindex="-1"></a>       config <span class="op">=</span> json.load(f)</span>
-<span id="cb28-597"><a href="#cb28-597" aria-hidden="true" tabindex="-1"></a>   </span>
+<span id="cb28-597"><a href="#cb28-597" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-598"><a href="#cb28-598" aria-hidden="true" tabindex="-1"></a>   <span class="co"># Use configuration</span></span>
 <span id="cb28-599"><a href="#cb28-599" aria-hidden="true" tabindex="-1"></a>   theme <span class="op">=</span> config[<span class="st">'theme'</span>]</span>
 <span id="cb28-600"><a href="#cb28-600" aria-hidden="true" tabindex="-1"></a>   <span class="in">```</span></span>
@@ -1985,23 +1985,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb28-630"><a href="#cb28-630" aria-hidden="true" tabindex="-1"></a>   <span class="in">```python</span></span>
 <span id="cb28-631"><a href="#cb28-631" aria-hidden="true" tabindex="-1"></a>   <span class="im">import</span> os</span>
 <span id="cb28-632"><a href="#cb28-632" aria-hidden="true" tabindex="-1"></a>   <span class="im">import</span> json</span>
-<span id="cb28-633"><a href="#cb28-633" aria-hidden="true" tabindex="-1"></a>   </span>
+<span id="cb28-633"><a href="#cb28-633" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-634"><a href="#cb28-634" aria-hidden="true" tabindex="-1"></a>   <span class="kw">def</span> get_data(query, use_cache<span class="op">=</span><span class="va">True</span>):</span>
 <span id="cb28-635"><a href="#cb28-635" aria-hidden="true" tabindex="-1"></a>       cache_file <span class="op">=</span> <span class="ss">f"cache/</span><span class="sc">{</span>query<span class="sc">.</span>replace(<span class="st">' '</span>, <span class="st">'_'</span>)<span class="sc">}</span><span class="ss">.json"</span></span>
-<span id="cb28-636"><a href="#cb28-636" aria-hidden="true" tabindex="-1"></a>       </span>
+<span id="cb28-636"><a href="#cb28-636" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-637"><a href="#cb28-637" aria-hidden="true" tabindex="-1"></a>       <span class="co"># Check for cached result</span></span>
 <span id="cb28-638"><a href="#cb28-638" aria-hidden="true" tabindex="-1"></a>       <span class="cf">if</span> use_cache <span class="kw">and</span> os.path.exists(cache_file):</span>
 <span id="cb28-639"><a href="#cb28-639" aria-hidden="true" tabindex="-1"></a>           <span class="cf">with</span> <span class="bu">open</span>(cache_file, <span class="st">'r'</span>) <span class="im">as</span> f:</span>
 <span id="cb28-640"><a href="#cb28-640" aria-hidden="true" tabindex="-1"></a>               <span class="cf">return</span> json.load(f)</span>
-<span id="cb28-641"><a href="#cb28-641" aria-hidden="true" tabindex="-1"></a>       </span>
+<span id="cb28-641"><a href="#cb28-641" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-642"><a href="#cb28-642" aria-hidden="true" tabindex="-1"></a>       <span class="co"># Perform expensive operation</span></span>
 <span id="cb28-643"><a href="#cb28-643" aria-hidden="true" tabindex="-1"></a>       result <span class="op">=</span> expensive_operation(query)</span>
-<span id="cb28-644"><a href="#cb28-644" aria-hidden="true" tabindex="-1"></a>       </span>
+<span id="cb28-644"><a href="#cb28-644" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-645"><a href="#cb28-645" aria-hidden="true" tabindex="-1"></a>       <span class="co"># Cache the result</span></span>
 <span id="cb28-646"><a href="#cb28-646" aria-hidden="true" tabindex="-1"></a>       os.makedirs(os.path.dirname(cache_file), exist_ok<span class="op">=</span><span class="va">True</span>)</span>
 <span id="cb28-647"><a href="#cb28-647" aria-hidden="true" tabindex="-1"></a>       <span class="cf">with</span> <span class="bu">open</span>(cache_file, <span class="st">'w'</span>) <span class="im">as</span> f:</span>
 <span id="cb28-648"><a href="#cb28-648" aria-hidden="true" tabindex="-1"></a>           json.dump(result, f)</span>
-<span id="cb28-649"><a href="#cb28-649" aria-hidden="true" tabindex="-1"></a>       </span>
+<span id="cb28-649"><a href="#cb28-649" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-650"><a href="#cb28-650" aria-hidden="true" tabindex="-1"></a>       <span class="cf">return</span> result</span>
 <span id="cb28-651"><a href="#cb28-651" aria-hidden="true" tabindex="-1"></a>   <span class="in">```</span></span>
 <span id="cb28-652"><a href="#cb28-652" aria-hidden="true" tabindex="-1"></a></span>

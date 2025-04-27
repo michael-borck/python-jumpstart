@@ -195,19 +195,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/05_output.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Output: Making Your Code Speak</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Output Odyssey: Making Your Code Speak to the World</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/06_input.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Input: Collecting User Data in Python</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Input Inception: Getting Data from Users into Your Programs</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/07_operators.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Operators: Powering Up Your Python Calculations</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Operator’s Manual: Mastering Python’s Mathematical and Logical Tools</span></span></a>
   </div>
 </li>
       </ul>
@@ -381,7 +381,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/25_python_ai_integration.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Python AI Integration: Connecting Your Code to Intelligent Services</span></span></a>
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">AI Integrator: Connecting Python Applications to AI Services</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -800,12 +800,12 @@ ZeroDivisionError: division by zero</code></pre>
 <span id="cb19-18"><a href="#cb19-18" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_response(user_input):</span>
 <span id="cb19-19"><a href="#cb19-19" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Get a response based on the user input."""</span></span>
 <span id="cb19-20"><a href="#cb19-20" aria-hidden="true" tabindex="-1"></a>    user_input <span class="op">=</span> user_input.lower()</span>
-<span id="cb19-21"><a href="#cb19-21" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb19-21"><a href="#cb19-21" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-22"><a href="#cb19-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> category, patterns <span class="kw">in</span> response_patterns.items():</span>
 <span id="cb19-23"><a href="#cb19-23" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> pattern <span class="kw">in</span> patterns:</span>
 <span id="cb19-24"><a href="#cb19-24" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> pattern <span class="kw">in</span> user_input:</span>
 <span id="cb19-25"><a href="#cb19-25" aria-hidden="true" tabindex="-1"></a>                <span class="cf">return</span> random.choice(response_templates[category])</span>
-<span id="cb19-26"><a href="#cb19-26" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb19-26"><a href="#cb19-26" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-27"><a href="#cb19-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="st">"I'm still learning. Can you tell me more?"</span></span>
 <span id="cb19-28"><a href="#cb19-28" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-29"><a href="#cb19-29" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> save_conversation():</span>
@@ -814,17 +814,17 @@ ZeroDivisionError: division by zero</code></pre>
 <span id="cb19-32"><a href="#cb19-32" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Create the chats directory if it doesn't exist</span></span>
 <span id="cb19-33"><a href="#cb19-33" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> os.path.exists(<span class="st">'chats'</span>):</span>
 <span id="cb19-34"><a href="#cb19-34" aria-hidden="true" tabindex="-1"></a>            os.makedirs(<span class="st">'chats'</span>)</span>
-<span id="cb19-35"><a href="#cb19-35" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb19-35"><a href="#cb19-35" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-36"><a href="#cb19-36" aria-hidden="true" tabindex="-1"></a>        timestamp <span class="op">=</span> datetime.datetime.now().strftime(<span class="st">"%Y%m</span><span class="sc">%d</span><span class="st">_%H%M%S"</span>)</span>
 <span id="cb19-37"><a href="#cb19-37" aria-hidden="true" tabindex="-1"></a>        filename <span class="op">=</span> <span class="ss">f"chats/chat_with_</span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">_</span><span class="sc">{</span>timestamp<span class="sc">}</span><span class="ss">.txt"</span></span>
-<span id="cb19-38"><a href="#cb19-38" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb19-38"><a href="#cb19-38" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-39"><a href="#cb19-39" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> <span class="bu">open</span>(filename, <span class="st">"w"</span>) <span class="im">as</span> f:</span>
 <span id="cb19-40"><a href="#cb19-40" aria-hidden="true" tabindex="-1"></a>            f.write(<span class="ss">f"Conversation with </span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss"> and </span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span>)</span>
 <span id="cb19-41"><a href="#cb19-41" aria-hidden="true" tabindex="-1"></a>            f.write(<span class="ss">f"Date: </span><span class="sc">{</span>datetime<span class="sc">.</span>datetime<span class="sc">.</span>now()<span class="sc">.</span>strftime(<span class="st">'%Y-%m-</span><span class="sc">%d</span><span class="st"> %H:%M:%S'</span>)<span class="sc">}</span><span class="ch">\n\n</span><span class="ss">"</span>)</span>
-<span id="cb19-42"><a href="#cb19-42" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb19-42"><a href="#cb19-42" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-43"><a href="#cb19-43" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> entry <span class="kw">in</span> conversation_history:</span>
 <span id="cb19-44"><a href="#cb19-44" aria-hidden="true" tabindex="-1"></a>                f.write(<span class="ss">f"</span><span class="sc">{</span>entry<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span>)</span>
-<span id="cb19-45"><a href="#cb19-45" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb19-45"><a href="#cb19-45" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-46"><a href="#cb19-46" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="ss">f"Conversation saved to </span><span class="sc">{</span>filename<span class="sc">}</span><span class="ss">"</span></span>
 <span id="cb19-47"><a href="#cb19-47" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span> <span class="pp">PermissionError</span>:</span>
 <span id="cb19-48"><a href="#cb19-48" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">"Sorry, I don't have permission to save in that location."</span></span>
@@ -839,10 +839,10 @@ ZeroDivisionError: division by zero</code></pre>
 <span id="cb19-57"><a href="#cb19-57" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Make sure the file is in the chats directory for security</span></span>
 <span id="cb19-58"><a href="#cb19-58" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> filename.startswith(<span class="st">'chats/'</span>):</span>
 <span id="cb19-59"><a href="#cb19-59" aria-hidden="true" tabindex="-1"></a>            filename <span class="op">=</span> <span class="ss">f"chats/</span><span class="sc">{</span>filename<span class="sc">}</span><span class="ss">"</span></span>
-<span id="cb19-60"><a href="#cb19-60" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb19-60"><a href="#cb19-60" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-61"><a href="#cb19-61" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> <span class="bu">open</span>(filename, <span class="st">"r"</span>) <span class="im">as</span> f:</span>
 <span id="cb19-62"><a href="#cb19-62" aria-hidden="true" tabindex="-1"></a>            lines <span class="op">=</span> f.readlines()</span>
-<span id="cb19-63"><a href="#cb19-63" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb19-63"><a href="#cb19-63" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-64"><a href="#cb19-64" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"</span><span class="ch">\n</span><span class="st">----- Loaded Conversation -----"</span>)</span>
 <span id="cb19-65"><a href="#cb19-65" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> line <span class="kw">in</span> lines:</span>
 <span id="cb19-66"><a href="#cb19-66" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(line.strip())</span>
@@ -868,12 +868,12 @@ ZeroDivisionError: division by zero</code></pre>
 <span id="cb19-86"><a href="#cb19-86" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> os.path.exists(<span class="st">'chats'</span>):</span>
 <span id="cb19-87"><a href="#cb19-87" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">"No saved conversations found."</span>)</span>
 <span id="cb19-88"><a href="#cb19-88" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span></span>
-<span id="cb19-89"><a href="#cb19-89" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb19-89"><a href="#cb19-89" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-90"><a href="#cb19-90" aria-hidden="true" tabindex="-1"></a>        chat_files <span class="op">=</span> os.listdir(<span class="st">'chats'</span>)</span>
 <span id="cb19-91"><a href="#cb19-91" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> chat_files:</span>
 <span id="cb19-92"><a href="#cb19-92" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">"No saved conversations found."</span>)</span>
 <span id="cb19-93"><a href="#cb19-93" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span></span>
-<span id="cb19-94"><a href="#cb19-94" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb19-94"><a href="#cb19-94" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-95"><a href="#cb19-95" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"</span><span class="ch">\n</span><span class="st">Available saved conversations:"</span>)</span>
 <span id="cb19-96"><a href="#cb19-96" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> i, chat_file <span class="kw">in</span> <span class="bu">enumerate</span>(chat_files, <span class="dv">1</span>):</span>
 <span id="cb19-97"><a href="#cb19-97" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">. </span><span class="sc">{</span>chat_file<span class="sc">}</span><span class="ss">"</span>)</span>
@@ -884,15 +884,15 @@ ZeroDivisionError: division by zero</code></pre>
 <span id="cb19-102"><a href="#cb19-102" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Repeatedly prompt the user until valid input is received."""</span></span>
 <span id="cb19-103"><a href="#cb19-103" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> <span class="va">True</span>:</span>
 <span id="cb19-104"><a href="#cb19-104" aria-hidden="true" tabindex="-1"></a>        user_input <span class="op">=</span> <span class="bu">input</span>(prompt)</span>
-<span id="cb19-105"><a href="#cb19-105" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb19-105"><a href="#cb19-105" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-106"><a href="#cb19-106" aria-hidden="true" tabindex="-1"></a>        <span class="co"># If no validation function was provided, any input is valid</span></span>
 <span id="cb19-107"><a href="#cb19-107" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> validation_func <span class="kw">is</span> <span class="va">None</span>:</span>
 <span id="cb19-108"><a href="#cb19-108" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> user_input</span>
-<span id="cb19-109"><a href="#cb19-109" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb19-109"><a href="#cb19-109" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-110"><a href="#cb19-110" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Check if the input is valid</span></span>
 <span id="cb19-111"><a href="#cb19-111" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> validation_func(user_input):</span>
 <span id="cb19-112"><a href="#cb19-112" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> user_input</span>
-<span id="cb19-113"><a href="#cb19-113" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb19-113"><a href="#cb19-113" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-114"><a href="#cb19-114" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Display error message and try again</span></span>
 <span id="cb19-115"><a href="#cb19-115" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> error_message:</span>
 <span id="cb19-116"><a href="#cb19-116" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(error_message)</span>
@@ -929,39 +929,39 @@ ZeroDivisionError: division by zero</code></pre>
 <span id="cb19-147"><a href="#cb19-147" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
 <span id="cb19-148"><a href="#cb19-148" aria-hidden="true" tabindex="-1"></a>        user_input <span class="op">=</span> <span class="bu">input</span>(<span class="ss">f"</span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">&gt; "</span>)</span>
 <span id="cb19-149"><a href="#cb19-149" aria-hidden="true" tabindex="-1"></a>        save_to_history(user_name, user_input)</span>
-<span id="cb19-150"><a href="#cb19-150" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb19-150"><a href="#cb19-150" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-151"><a href="#cb19-151" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Check for special commands</span></span>
 <span id="cb19-152"><a href="#cb19-152" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> user_input.lower() <span class="op">==</span> <span class="st">"bye"</span>:</span>
 <span id="cb19-153"><a href="#cb19-153" aria-hidden="true" tabindex="-1"></a>            response <span class="op">=</span> <span class="ss">f"Goodbye, </span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">!"</span></span>
 <span id="cb19-154"><a href="#cb19-154" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss">&gt; </span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb19-155"><a href="#cb19-155" aria-hidden="true" tabindex="-1"></a>            save_to_history(bot_name, response)</span>
 <span id="cb19-156"><a href="#cb19-156" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span></span>
-<span id="cb19-157"><a href="#cb19-157" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb19-157"><a href="#cb19-157" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-158"><a href="#cb19-158" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> user_input.lower() <span class="op">==</span> <span class="st">"save"</span>:</span>
 <span id="cb19-159"><a href="#cb19-159" aria-hidden="true" tabindex="-1"></a>            result <span class="op">=</span> save_conversation()</span>
 <span id="cb19-160"><a href="#cb19-160" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss">&gt; </span><span class="sc">{</span>result<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb19-161"><a href="#cb19-161" aria-hidden="true" tabindex="-1"></a>            save_to_history(bot_name, result)</span>
 <span id="cb19-162"><a href="#cb19-162" aria-hidden="true" tabindex="-1"></a>            <span class="cf">continue</span></span>
-<span id="cb19-163"><a href="#cb19-163" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb19-163"><a href="#cb19-163" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-164"><a href="#cb19-164" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> user_input.lower() <span class="op">==</span> <span class="st">"chats"</span>:</span>
 <span id="cb19-165"><a href="#cb19-165" aria-hidden="true" tabindex="-1"></a>            show_available_chats()</span>
 <span id="cb19-166"><a href="#cb19-166" aria-hidden="true" tabindex="-1"></a>            <span class="cf">continue</span></span>
-<span id="cb19-167"><a href="#cb19-167" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb19-167"><a href="#cb19-167" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-168"><a href="#cb19-168" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> user_input.lower().startswith(<span class="st">"load "</span>):</span>
 <span id="cb19-169"><a href="#cb19-169" aria-hidden="true" tabindex="-1"></a>            filename <span class="op">=</span> user_input[<span class="dv">5</span>:].strip()</span>
 <span id="cb19-170"><a href="#cb19-170" aria-hidden="true" tabindex="-1"></a>            load_conversation(filename)</span>
 <span id="cb19-171"><a href="#cb19-171" aria-hidden="true" tabindex="-1"></a>            <span class="cf">continue</span></span>
-<span id="cb19-172"><a href="#cb19-172" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb19-172"><a href="#cb19-172" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-173"><a href="#cb19-173" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Get and display response</span></span>
 <span id="cb19-174"><a href="#cb19-174" aria-hidden="true" tabindex="-1"></a>        response <span class="op">=</span> get_response(user_input)</span>
 <span id="cb19-175"><a href="#cb19-175" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss">&gt; </span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb19-176"><a href="#cb19-176" aria-hidden="true" tabindex="-1"></a>        save_to_history(bot_name, response)</span>
-<span id="cb19-177"><a href="#cb19-177" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb19-177"><a href="#cb19-177" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-178"><a href="#cb19-178" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span> <span class="pp">KeyboardInterrupt</span>:</span>
 <span id="cb19-179"><a href="#cb19-179" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Handle Ctrl+C gracefully</span></span>
 <span id="cb19-180"><a href="#cb19-180" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"</span><span class="ch">\n</span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss">&gt; Conversation interrupted. Goodbye!"</span>)</span>
 <span id="cb19-181"><a href="#cb19-181" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span></span>
-<span id="cb19-182"><a href="#cb19-182" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb19-182"><a href="#cb19-182" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-183"><a href="#cb19-183" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span> <span class="pp">Exception</span> <span class="im">as</span> e:</span>
 <span id="cb19-184"><a href="#cb19-184" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Catch-all for unexpected errors to prevent program crashes</span></span>
 <span id="cb19-185"><a href="#cb19-185" aria-hidden="true" tabindex="-1"></a>        error_msg <span class="op">=</span> <span class="ss">f"I encountered an error: </span><span class="sc">{</span><span class="bu">str</span>(e)<span class="sc">}</span><span class="ss">"</span></span>
@@ -1015,7 +1015,7 @@ ZeroDivisionError: division by zero</code></pre>
 <p>For complex applications, custom exceptions can make error handling more specific:</p>
 <div class="sourceCode" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> InsufficientFundsError(<span class="pp">Exception</span>):</span>
 <span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Raised when a bank account has insufficient funds for a withdrawal."""</span></span>
-<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, account, amount, balance):</span>
 <span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.account <span class="op">=</span> account</span>
 <span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.amount <span class="op">=</span> amount</span>
@@ -1347,7 +1347,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="sourceCode" id="cb22" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> 'Error Embassy: Understanding and Handling Exceptions with Grace'</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Error Embassy: Understanding and Handling Exceptions with Grace"</span></span>
 <span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a><span class="fu"># Chapter 16: Errors and Exceptions - Handling the Unexpected</span></span>
@@ -1726,12 +1726,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb22-378"><a href="#cb22-378" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_response(user_input):</span>
 <span id="cb22-379"><a href="#cb22-379" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Get a response based on the user input."""</span></span>
 <span id="cb22-380"><a href="#cb22-380" aria-hidden="true" tabindex="-1"></a>    user_input <span class="op">=</span> user_input.lower()</span>
-<span id="cb22-381"><a href="#cb22-381" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb22-381"><a href="#cb22-381" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-382"><a href="#cb22-382" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> category, patterns <span class="kw">in</span> response_patterns.items():</span>
 <span id="cb22-383"><a href="#cb22-383" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> pattern <span class="kw">in</span> patterns:</span>
 <span id="cb22-384"><a href="#cb22-384" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> pattern <span class="kw">in</span> user_input:</span>
 <span id="cb22-385"><a href="#cb22-385" aria-hidden="true" tabindex="-1"></a>                <span class="cf">return</span> random.choice(response_templates[category])</span>
-<span id="cb22-386"><a href="#cb22-386" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb22-386"><a href="#cb22-386" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-387"><a href="#cb22-387" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="st">"I'm still learning. Can you tell me more?"</span></span>
 <span id="cb22-388"><a href="#cb22-388" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-389"><a href="#cb22-389" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> save_conversation():</span>
@@ -1740,17 +1740,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb22-392"><a href="#cb22-392" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Create the chats directory if it doesn't exist</span></span>
 <span id="cb22-393"><a href="#cb22-393" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> os.path.exists(<span class="st">'chats'</span>):</span>
 <span id="cb22-394"><a href="#cb22-394" aria-hidden="true" tabindex="-1"></a>            os.makedirs(<span class="st">'chats'</span>)</span>
-<span id="cb22-395"><a href="#cb22-395" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb22-395"><a href="#cb22-395" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-396"><a href="#cb22-396" aria-hidden="true" tabindex="-1"></a>        timestamp <span class="op">=</span> datetime.datetime.now().strftime(<span class="st">"%Y%m</span><span class="sc">%d</span><span class="st">_%H%M%S"</span>)</span>
 <span id="cb22-397"><a href="#cb22-397" aria-hidden="true" tabindex="-1"></a>        filename <span class="op">=</span> <span class="ss">f"chats/chat_with_</span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">_</span><span class="sc">{</span>timestamp<span class="sc">}</span><span class="ss">.txt"</span></span>
-<span id="cb22-398"><a href="#cb22-398" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb22-398"><a href="#cb22-398" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-399"><a href="#cb22-399" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> <span class="bu">open</span>(filename, <span class="st">"w"</span>) <span class="im">as</span> f:</span>
 <span id="cb22-400"><a href="#cb22-400" aria-hidden="true" tabindex="-1"></a>            f.write(<span class="ss">f"Conversation with </span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss"> and </span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span>)</span>
 <span id="cb22-401"><a href="#cb22-401" aria-hidden="true" tabindex="-1"></a>            f.write(<span class="ss">f"Date: </span><span class="sc">{</span>datetime<span class="sc">.</span>datetime<span class="sc">.</span>now()<span class="sc">.</span>strftime(<span class="st">'%Y-%m-</span><span class="sc">%d</span><span class="st"> %H:%M:%S'</span>)<span class="sc">}</span><span class="ch">\n\n</span><span class="ss">"</span>)</span>
-<span id="cb22-402"><a href="#cb22-402" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb22-402"><a href="#cb22-402" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-403"><a href="#cb22-403" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> entry <span class="kw">in</span> conversation_history:</span>
 <span id="cb22-404"><a href="#cb22-404" aria-hidden="true" tabindex="-1"></a>                f.write(<span class="ss">f"</span><span class="sc">{</span>entry<span class="sc">}</span><span class="ch">\n</span><span class="ss">"</span>)</span>
-<span id="cb22-405"><a href="#cb22-405" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb22-405"><a href="#cb22-405" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-406"><a href="#cb22-406" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="ss">f"Conversation saved to </span><span class="sc">{</span>filename<span class="sc">}</span><span class="ss">"</span></span>
 <span id="cb22-407"><a href="#cb22-407" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span> <span class="pp">PermissionError</span>:</span>
 <span id="cb22-408"><a href="#cb22-408" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">"Sorry, I don't have permission to save in that location."</span></span>
@@ -1765,10 +1765,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb22-417"><a href="#cb22-417" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Make sure the file is in the chats directory for security</span></span>
 <span id="cb22-418"><a href="#cb22-418" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> filename.startswith(<span class="st">'chats/'</span>):</span>
 <span id="cb22-419"><a href="#cb22-419" aria-hidden="true" tabindex="-1"></a>            filename <span class="op">=</span> <span class="ss">f"chats/</span><span class="sc">{</span>filename<span class="sc">}</span><span class="ss">"</span></span>
-<span id="cb22-420"><a href="#cb22-420" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb22-420"><a href="#cb22-420" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-421"><a href="#cb22-421" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> <span class="bu">open</span>(filename, <span class="st">"r"</span>) <span class="im">as</span> f:</span>
 <span id="cb22-422"><a href="#cb22-422" aria-hidden="true" tabindex="-1"></a>            lines <span class="op">=</span> f.readlines()</span>
-<span id="cb22-423"><a href="#cb22-423" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb22-423"><a href="#cb22-423" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-424"><a href="#cb22-424" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"</span><span class="ch">\n</span><span class="st">----- Loaded Conversation -----"</span>)</span>
 <span id="cb22-425"><a href="#cb22-425" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> line <span class="kw">in</span> lines:</span>
 <span id="cb22-426"><a href="#cb22-426" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(line.strip())</span>
@@ -1794,12 +1794,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb22-446"><a href="#cb22-446" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> os.path.exists(<span class="st">'chats'</span>):</span>
 <span id="cb22-447"><a href="#cb22-447" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">"No saved conversations found."</span>)</span>
 <span id="cb22-448"><a href="#cb22-448" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span></span>
-<span id="cb22-449"><a href="#cb22-449" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb22-449"><a href="#cb22-449" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-450"><a href="#cb22-450" aria-hidden="true" tabindex="-1"></a>        chat_files <span class="op">=</span> os.listdir(<span class="st">'chats'</span>)</span>
 <span id="cb22-451"><a href="#cb22-451" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> chat_files:</span>
 <span id="cb22-452"><a href="#cb22-452" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">"No saved conversations found."</span>)</span>
 <span id="cb22-453"><a href="#cb22-453" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span></span>
-<span id="cb22-454"><a href="#cb22-454" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb22-454"><a href="#cb22-454" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-455"><a href="#cb22-455" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"</span><span class="ch">\n</span><span class="st">Available saved conversations:"</span>)</span>
 <span id="cb22-456"><a href="#cb22-456" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> i, chat_file <span class="kw">in</span> <span class="bu">enumerate</span>(chat_files, <span class="dv">1</span>):</span>
 <span id="cb22-457"><a href="#cb22-457" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">. </span><span class="sc">{</span>chat_file<span class="sc">}</span><span class="ss">"</span>)</span>
@@ -1810,15 +1810,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb22-462"><a href="#cb22-462" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Repeatedly prompt the user until valid input is received."""</span></span>
 <span id="cb22-463"><a href="#cb22-463" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> <span class="va">True</span>:</span>
 <span id="cb22-464"><a href="#cb22-464" aria-hidden="true" tabindex="-1"></a>        user_input <span class="op">=</span> <span class="bu">input</span>(prompt)</span>
-<span id="cb22-465"><a href="#cb22-465" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb22-465"><a href="#cb22-465" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-466"><a href="#cb22-466" aria-hidden="true" tabindex="-1"></a>        <span class="co"># If no validation function was provided, any input is valid</span></span>
 <span id="cb22-467"><a href="#cb22-467" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> validation_func <span class="kw">is</span> <span class="va">None</span>:</span>
 <span id="cb22-468"><a href="#cb22-468" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> user_input</span>
-<span id="cb22-469"><a href="#cb22-469" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb22-469"><a href="#cb22-469" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-470"><a href="#cb22-470" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Check if the input is valid</span></span>
 <span id="cb22-471"><a href="#cb22-471" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> validation_func(user_input):</span>
 <span id="cb22-472"><a href="#cb22-472" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> user_input</span>
-<span id="cb22-473"><a href="#cb22-473" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb22-473"><a href="#cb22-473" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-474"><a href="#cb22-474" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Display error message and try again</span></span>
 <span id="cb22-475"><a href="#cb22-475" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> error_message:</span>
 <span id="cb22-476"><a href="#cb22-476" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(error_message)</span>
@@ -1855,39 +1855,39 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb22-507"><a href="#cb22-507" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
 <span id="cb22-508"><a href="#cb22-508" aria-hidden="true" tabindex="-1"></a>        user_input <span class="op">=</span> <span class="bu">input</span>(<span class="ss">f"</span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">&gt; "</span>)</span>
 <span id="cb22-509"><a href="#cb22-509" aria-hidden="true" tabindex="-1"></a>        save_to_history(user_name, user_input)</span>
-<span id="cb22-510"><a href="#cb22-510" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb22-510"><a href="#cb22-510" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-511"><a href="#cb22-511" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Check for special commands</span></span>
 <span id="cb22-512"><a href="#cb22-512" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> user_input.lower() <span class="op">==</span> <span class="st">"bye"</span>:</span>
 <span id="cb22-513"><a href="#cb22-513" aria-hidden="true" tabindex="-1"></a>            response <span class="op">=</span> <span class="ss">f"Goodbye, </span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">!"</span></span>
 <span id="cb22-514"><a href="#cb22-514" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss">&gt; </span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb22-515"><a href="#cb22-515" aria-hidden="true" tabindex="-1"></a>            save_to_history(bot_name, response)</span>
 <span id="cb22-516"><a href="#cb22-516" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span></span>
-<span id="cb22-517"><a href="#cb22-517" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb22-517"><a href="#cb22-517" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-518"><a href="#cb22-518" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> user_input.lower() <span class="op">==</span> <span class="st">"save"</span>:</span>
 <span id="cb22-519"><a href="#cb22-519" aria-hidden="true" tabindex="-1"></a>            result <span class="op">=</span> save_conversation()</span>
 <span id="cb22-520"><a href="#cb22-520" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss">&gt; </span><span class="sc">{</span>result<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb22-521"><a href="#cb22-521" aria-hidden="true" tabindex="-1"></a>            save_to_history(bot_name, result)</span>
 <span id="cb22-522"><a href="#cb22-522" aria-hidden="true" tabindex="-1"></a>            <span class="cf">continue</span></span>
-<span id="cb22-523"><a href="#cb22-523" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb22-523"><a href="#cb22-523" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-524"><a href="#cb22-524" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> user_input.lower() <span class="op">==</span> <span class="st">"chats"</span>:</span>
 <span id="cb22-525"><a href="#cb22-525" aria-hidden="true" tabindex="-1"></a>            show_available_chats()</span>
 <span id="cb22-526"><a href="#cb22-526" aria-hidden="true" tabindex="-1"></a>            <span class="cf">continue</span></span>
-<span id="cb22-527"><a href="#cb22-527" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb22-527"><a href="#cb22-527" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-528"><a href="#cb22-528" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> user_input.lower().startswith(<span class="st">"load "</span>):</span>
 <span id="cb22-529"><a href="#cb22-529" aria-hidden="true" tabindex="-1"></a>            filename <span class="op">=</span> user_input[<span class="dv">5</span>:].strip()</span>
 <span id="cb22-530"><a href="#cb22-530" aria-hidden="true" tabindex="-1"></a>            load_conversation(filename)</span>
 <span id="cb22-531"><a href="#cb22-531" aria-hidden="true" tabindex="-1"></a>            <span class="cf">continue</span></span>
-<span id="cb22-532"><a href="#cb22-532" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb22-532"><a href="#cb22-532" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-533"><a href="#cb22-533" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Get and display response</span></span>
 <span id="cb22-534"><a href="#cb22-534" aria-hidden="true" tabindex="-1"></a>        response <span class="op">=</span> get_response(user_input)</span>
 <span id="cb22-535"><a href="#cb22-535" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss">&gt; </span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb22-536"><a href="#cb22-536" aria-hidden="true" tabindex="-1"></a>        save_to_history(bot_name, response)</span>
-<span id="cb22-537"><a href="#cb22-537" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb22-537"><a href="#cb22-537" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-538"><a href="#cb22-538" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span> <span class="pp">KeyboardInterrupt</span>:</span>
 <span id="cb22-539"><a href="#cb22-539" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Handle Ctrl+C gracefully</span></span>
 <span id="cb22-540"><a href="#cb22-540" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"</span><span class="ch">\n</span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss">&gt; Conversation interrupted. Goodbye!"</span>)</span>
 <span id="cb22-541"><a href="#cb22-541" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span></span>
-<span id="cb22-542"><a href="#cb22-542" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb22-542"><a href="#cb22-542" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-543"><a href="#cb22-543" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span> <span class="pp">Exception</span> <span class="im">as</span> e:</span>
 <span id="cb22-544"><a href="#cb22-544" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Catch-all for unexpected errors to prevent program crashes</span></span>
 <span id="cb22-545"><a href="#cb22-545" aria-hidden="true" tabindex="-1"></a>        error_msg <span class="op">=</span> <span class="ss">f"I encountered an error: </span><span class="sc">{</span><span class="bu">str</span>(e)<span class="sc">}</span><span class="ss">"</span></span>
@@ -1954,7 +1954,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb22-606"><a href="#cb22-606" aria-hidden="true" tabindex="-1"></a><span class="in">```python</span></span>
 <span id="cb22-607"><a href="#cb22-607" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> InsufficientFundsError(<span class="pp">Exception</span>):</span>
 <span id="cb22-608"><a href="#cb22-608" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Raised when a bank account has insufficient funds for a withdrawal."""</span></span>
-<span id="cb22-609"><a href="#cb22-609" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb22-609"><a href="#cb22-609" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb22-610"><a href="#cb22-610" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, account, amount, balance):</span>
 <span id="cb22-611"><a href="#cb22-611" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.account <span class="op">=</span> account</span>
 <span id="cb22-612"><a href="#cb22-612" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.amount <span class="op">=</span> amount</span>

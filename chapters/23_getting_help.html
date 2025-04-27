@@ -197,19 +197,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/05_output.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Output: Making Your Code Speak</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Output Odyssey: Making Your Code Speak to the World</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/06_input.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Input: Collecting User Data in Python</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Input Inception: Getting Data from Users into Your Programs</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/07_operators.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Operators: Powering Up Your Python Calculations</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Operator's Manual: Mastering Python's Mathematical and Logical Tools</span></span></a>
   </div>
 </li>
       </ul>
@@ -383,7 +383,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/25_python_ai_integration.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Python AI Integration: Connecting Your Code to Intelligent Services</span></span></a>
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">AI Integrator: Connecting Python Applications to AI Services</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -631,10 +631,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calculate_area(radius):</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">    Calculate the area of a circle given its radius.</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co">    </span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co">    Parameters:</span></span>
 <span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co">    radius (float): The radius of the circle</span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co">    </span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co">    Returns:</span></span>
 <span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="co">    float: The area of the circle</span></span>
 <span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
@@ -792,14 +792,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>The simplest approach is to add print statements to trace code execution:</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> process_data(data):</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Starting process_data with: </span><span class="sc">{</span>data<span class="sc">}</span><span class="ss">"</span>)</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> []</span>
 <span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> item <span class="kw">in</span> data:</span>
 <span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"Processing item: </span><span class="sc">{</span>item<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>        processed <span class="op">=</span> item <span class="op">*</span> <span class="dv">2</span></span>
 <span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"Processed to: </span><span class="sc">{</span>processed<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>        result.append(processed)</span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Final result: </span><span class="sc">{</span>result<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> result</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
@@ -979,21 +979,21 @@ Start by adding comprehensive docstrings to your chatbot code to make it self-do
 class Chatbot:
     """
     A simple rule-based chatbot that can respond to user inputs.
-    
+
     This chatbot uses pattern matching to identify user intents and
     generates appropriate responses based on pre-defined templates.
-    
+
     Attributes:
         name (str): The name of the chatbot
         response_patterns (dict): Patterns to match in user input
         response_templates (dict): Response templates for each category
         conversation_history (list): Record of the conversation
     """
-    
+
     def __init__(self, name="PyBot"):
         """
         Initialize a new Chatbot instance.
-        
+
         Args:
             name (str, optional): The chatbot's name. Defaults to "PyBot".
         """
@@ -1001,14 +1001,14 @@ class Chatbot:
         self.user_name = None
         self.conversation_history = []
         # ... rest of initialization code
-    
+
     def get_response(self, user_input):
         """
         Generate a response based on the user's input.
-        
+
         Args:
             user_input (str): The user's message to the chatbot
-            
+
         Returns:
             str: The chatbot's response
         """
@@ -1019,39 +1019,39 @@ class Chatbot:
 <p>Add a debug mode to your chatbot for easier troubleshooting:</p>
 <div class="sourceCode" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> DebuggableChatbot(Chatbot):</span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""An extension of the Chatbot class with debugging capabilities."""</span></span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, name<span class="op">=</span><span class="st">"DebugBot"</span>, debug<span class="op">=</span><span class="va">False</span>):</span>
 <span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>        <span class="co">"""Initialize with optional debug mode."""</span></span>
 <span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>        <span class="bu">super</span>().<span class="fu">__init__</span>(name)</span>
 <span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.debug <span class="op">=</span> debug</span>
-<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> get_response(<span class="va">self</span>, user_input):</span>
 <span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>        <span class="co">"""Get response with debug information if debug mode is on."""</span></span>
 <span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.debug:</span>
 <span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"DEBUG: Processing input: '</span><span class="sc">{</span>user_input<span class="sc">}</span><span class="ss">'"</span>)</span>
 <span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"DEBUG: Current response patterns: </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>response_patterns<span class="sc">.</span>keys()<span class="sc">}</span><span class="ss">"</span>)</span>
-<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Standard processing</span></span>
 <span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>        user_input <span class="op">=</span> user_input.lower()</span>
-<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Match patterns</span></span>
 <span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> category, patterns <span class="kw">in</span> <span class="va">self</span>.response_patterns.items():</span>
 <span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> pattern <span class="kw">in</span> patterns:</span>
 <span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> pattern <span class="kw">in</span> user_input:</span>
 <span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">if</span> <span class="va">self</span>.debug:</span>
 <span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>                        <span class="bu">print</span>(<span class="ss">f"DEBUG: Matched pattern '</span><span class="sc">{</span>pattern<span class="sc">}</span><span class="ss">' in category '</span><span class="sc">{</span>category<span class="sc">}</span><span class="ss">'"</span>)</span>
-<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a>                    </span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a>                    <span class="co"># Get response from standard method</span></span>
 <span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a>                    response <span class="op">=</span> <span class="bu">super</span>().get_response(user_input)</span>
-<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a>                    </span>
+<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">if</span> <span class="va">self</span>.debug:</span>
 <span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a>                        <span class="bu">print</span>(<span class="ss">f"DEBUG: Selected response: '</span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">'"</span>)</span>
-<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a>                    </span>
+<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb13-31"><a href="#cb13-31" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">return</span> response</span>
-<span id="cb13-32"><a href="#cb13-32" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb13-32"><a href="#cb13-32" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb13-33"><a href="#cb13-33" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.debug:</span>
 <span id="cb13-34"><a href="#cb13-34" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">"DEBUG: No pattern match found, using default response"</span>)</span>
-<span id="cb13-35"><a href="#cb13-35" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb13-35"><a href="#cb13-35" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb13-36"><a href="#cb13-36" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="bu">super</span>().get_response(user_input)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="creating-a-test-suite-for-troubleshooting" class="level3" data-number="25.12.2">
@@ -1060,7 +1060,7 @@ class Chatbot:
 <div class="sourceCode" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> test_chatbot_responses():</span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Test that the chatbot produces expected responses."""</span></span>
 <span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    bot <span class="op">=</span> Chatbot(name<span class="op">=</span><span class="st">"TestBot"</span>)</span>
-<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Test greeting responses</span></span>
 <span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>    greeting_inputs <span class="op">=</span> [<span class="st">"hello"</span>, <span class="st">"hi there"</span>, <span class="st">"hey"</span>, <span class="st">"good morning"</span>]</span>
 <span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> input_text <span class="kw">in</span> greeting_inputs:</span>
@@ -1068,7 +1068,7 @@ class Chatbot:
 <span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"Input: '</span><span class="sc">{</span>input_text<span class="sc">}</span><span class="ss">', Response: '</span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">'"</span>)</span>
 <span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">assert</span> <span class="st">"hello"</span> <span class="kw">in</span> response.lower() <span class="kw">or</span> <span class="st">"hi"</span> <span class="kw">in</span> response.lower(), <span class="op">\</span></span>
 <span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>            <span class="ss">f"Greeting response expected for '</span><span class="sc">{</span>input_text<span class="sc">}</span><span class="ss">', got '</span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">'"</span></span>
-<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Test farewell responses</span></span>
 <span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>    farewell_inputs <span class="op">=</span> [<span class="st">"goodbye"</span>, <span class="st">"bye"</span>, <span class="st">"see you later"</span>]</span>
 <span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> input_text <span class="kw">in</span> farewell_inputs:</span>
@@ -1076,7 +1076,7 @@ class Chatbot:
 <span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"Input: '</span><span class="sc">{</span>input_text<span class="sc">}</span><span class="ss">', Response: '</span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">'"</span>)</span>
 <span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>        <span class="cf">assert</span> <span class="st">"bye"</span> <span class="kw">in</span> response.lower() <span class="kw">or</span> <span class="st">"goodbye"</span> <span class="kw">in</span> response.lower(), <span class="op">\</span></span>
 <span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>            <span class="ss">f"Farewell response expected for '</span><span class="sc">{</span>input_text<span class="sc">}</span><span class="ss">', got '</span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">'"</span></span>
-<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"All tests passed!"</span>)</span>
 <span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Run the tests</span></span>
@@ -1118,21 +1118,21 @@ class Chatbot:
 <p>When you need community help with your chatbot, phrase your questions effectively:</p>
 <pre><code>## Chatbot Response Issue
 
-I'm developing a rule-based chatbot in Python and having trouble with pattern matching. 
-When users enter a greeting with additional text (e.g., "hello, how's the weather?"), 
+I'm developing a rule-based chatbot in Python and having trouble with pattern matching.
+When users enter a greeting with additional text (e.g., "hello, how's the weather?"),
 my bot isn't recognizing it as a greeting.
 
 ## Current Code
 ```python
 def get_response(self, user_input):
     user_input = user_input.lower()
-    
+
     # Check for greetings
     greeting_patterns = ["hello", "hi", "hey", "howdy"]
     for pattern in greeting_patterns:
         if user_input == pattern:  # This is the problem line
             return f"Hello there, {self.user_name}!"
-    
+
     # Other patterns...
     return "I didn't understand that."</code></pre>
 </section>
@@ -1176,7 +1176,6 @@ As you continue developing your chatbot and other Python projects, you'll build 
 
 
 
-
 :::{#quarto-navigation-envelope .hidden}
 [Python Jumpstart: Coding Fundamentals for the AI Era]{.hidden render-id="quarto-int-sidebar-title"}
 [Python Jumpstart: Coding Fundamentals for the AI Era]{.hidden render-id="quarto-int-navbar-title"}
@@ -1188,9 +1187,9 @@ As you continue developing your chatbot and other Python projects, you'll build 
 [&lt;span class='chapter-number'&gt;3&lt;/span&gt;&nbsp; &lt;span class='chapter-title'&gt;Python Language Syntax: Your Coding Roadmap&lt;/span&gt;]{.hidden render-id="quarto-int-sidebar:/chapters/02_basic_python_syntax.html"}
 [&lt;span class='chapter-number'&gt;4&lt;/span&gt;&nbsp; &lt;span class='chapter-title'&gt;Values: The Building Blocks of Python Data&lt;/span&gt;]{.hidden render-id="quarto-int-sidebar:/chapters/03_values.html"}
 [&lt;span class='chapter-number'&gt;5&lt;/span&gt;&nbsp; &lt;span class='chapter-title'&gt;Variables: Your Data's Home in Python&lt;/span&gt;]{.hidden render-id="quarto-int-sidebar:/chapters/04_variables.html"}
-[&lt;span class='chapter-number'&gt;6&lt;/span&gt;&nbsp; &lt;span class='chapter-title'&gt;Output: Making Your Code Speak&lt;/span&gt;]{.hidden render-id="quarto-int-sidebar:/chapters/05_output.html"}
-[&lt;span class='chapter-number'&gt;7&lt;/span&gt;&nbsp; &lt;span class='chapter-title'&gt;Input: Collecting User Data in Python&lt;/span&gt;]{.hidden render-id="quarto-int-sidebar:/chapters/06_input.html"}
-[&lt;span class='chapter-number'&gt;8&lt;/span&gt;&nbsp; &lt;span class='chapter-title'&gt;Operators: Powering Up Your Python Calculations&lt;/span&gt;]{.hidden render-id="quarto-int-sidebar:/chapters/07_operators.html"}
+[&lt;span class='chapter-number'&gt;6&lt;/span&gt;&nbsp; &lt;span class='chapter-title'&gt;Output Odyssey: Making Your Code Speak to the World&lt;/span&gt;]{.hidden render-id="quarto-int-sidebar:/chapters/05_output.html"}
+[&lt;span class='chapter-number'&gt;7&lt;/span&gt;&nbsp; &lt;span class='chapter-title'&gt;Input Inception: Getting Data from Users into Your Programs&lt;/span&gt;]{.hidden render-id="quarto-int-sidebar:/chapters/06_input.html"}
+[&lt;span class='chapter-number'&gt;8&lt;/span&gt;&nbsp; &lt;span class='chapter-title'&gt;Operator's Manual: Mastering Python's Mathematical and Logical Tools&lt;/span&gt;]{.hidden render-id="quarto-int-sidebar:/chapters/07_operators.html"}
 [Functions and Control Flow]{.hidden render-id="quarto-int-sidebar:quarto-sidebar-section-2"}
 [&lt;span class='chapter-number'&gt;9&lt;/span&gt;&nbsp; &lt;span class='chapter-title'&gt;Function Fiesta: Using Python's Pre-built Code Blocks&lt;/span&gt;]{.hidden render-id="quarto-int-sidebar:/chapters/08_using_functions.html"}
 [&lt;span class='chapter-number'&gt;10&lt;/span&gt;&nbsp; &lt;span class='chapter-title'&gt;Function Factory: Crafting Your Own Reusable Code Magic&lt;/span&gt;]{.hidden render-id="quarto-int-sidebar:/chapters/09_creating_functions.html"}
@@ -1214,7 +1213,7 @@ As you continue developing your chatbot and other Python projects, you'll build 
 [&lt;span class='chapter-number'&gt;24&lt;/span&gt;&nbsp; &lt;span class='chapter-title'&gt;Help Headquarters: Finding Answers When You Get Stuck&lt;/span&gt;]{.hidden render-id="quarto-int-sidebar:/chapters/23_getting_help.html"}
 [Python in the AI Era]{.hidden render-id="quarto-int-sidebar:quarto-sidebar-section-7"}
 [&lt;span class='chapter-number'&gt;25&lt;/span&gt;&nbsp; &lt;span class='chapter-title'&gt;AI Programming Assistants: Coding with Digital Colleagues&lt;/span&gt;]{.hidden render-id="quarto-int-sidebar:/chapters/24_ai_programming_assistants.html"}
-[&lt;span class='chapter-number'&gt;26&lt;/span&gt;&nbsp; &lt;span class='chapter-title'&gt;Python AI Integration: Connecting Your Code to Intelligent Services&lt;/span&gt;]{.hidden render-id="quarto-int-sidebar:/chapters/25_python_ai_integration.html"}
+[&lt;span class='chapter-number'&gt;26&lt;/span&gt;&nbsp; &lt;span class='chapter-title'&gt;AI Integrator: Connecting Python Applications to AI Services&lt;/span&gt;]{.hidden render-id="quarto-int-sidebar:/chapters/25_python_ai_integration.html"}
 [&lt;span class='chapter-number'&gt;27&lt;/span&gt;&nbsp; &lt;span class='chapter-title'&gt;AI Assistance Tips: Maximizing Your Machine Learning Mentors&lt;/span&gt;]{.hidden render-id="quarto-int-sidebar:/chapters/26_ai_assistance_tips.html"}
 [&lt;span class='chapter-number'&gt;28&lt;/span&gt;&nbsp; &lt;span class='chapter-title'&gt;Intentional Prompting: Speaking the Language of AI Assistants&lt;/span&gt;]{.hidden render-id="quarto-int-sidebar:/chapters/27_intentional_prompting.html"}
 [Project: Build Your Own AI Chatbot]{.hidden render-id="quarto-int-sidebar:quarto-sidebar-section-8"}
@@ -1242,8 +1241,7 @@ As you continue developing your chatbot and other Python projects, you'll build 
 ::: {.quarto-embedded-source-code}
 ```````````````````{.markdown shortcodes="false"}
 ---
-title: 'Help Headquarters: Finding Answers When You Get Stuck'
-jupyter: python3
+title: "Help Headquarters: Finding Answers When You Get Stuck"
 ---
 
 # Chapter 23: Getting Help with Python
@@ -1338,10 +1336,10 @@ help(os)     # Help on a module</code></pre>
 <div class="sourceCode" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calculate_area(radius):</span>
 <span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
 <span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="co">    Calculate the area of a circle given its radius.</span></span>
-<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="co">    </span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a><span class="co">    Parameters:</span></span>
 <span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a><span class="co">    radius (float): The radius of the circle</span></span>
-<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a><span class="co">    </span></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a><span class="co">    Returns:</span></span>
 <span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a><span class="co">    float: The area of the circle</span></span>
 <span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
@@ -1499,14 +1497,14 @@ help(os)     # Help on a module</code></pre>
 <p>The simplest approach is to add print statements to trace code execution:</p>
 <div class="sourceCode" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> process_data(data):</span>
 <span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Starting process_data with: </span><span class="sc">{</span>data<span class="sc">}</span><span class="ss">"</span>)</span>
-<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> []</span>
 <span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> item <span class="kw">in</span> data:</span>
 <span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"Processing item: </span><span class="sc">{</span>item<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>        processed <span class="op">=</span> item <span class="op">*</span> <span class="dv">2</span></span>
 <span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"Processed to: </span><span class="sc">{</span>processed<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>        result.append(processed)</span>
-<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Final result: </span><span class="sc">{</span>result<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> result</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
@@ -1686,21 +1684,21 @@ Start by adding comprehensive docstrings to your chatbot code to make it self-do
 class Chatbot:
     """
     A simple rule-based chatbot that can respond to user inputs.
-    
+
     This chatbot uses pattern matching to identify user intents and
     generates appropriate responses based on pre-defined templates.
-    
+
     Attributes:
         name (str): The name of the chatbot
         response_patterns (dict): Patterns to match in user input
         response_templates (dict): Response templates for each category
         conversation_history (list): Record of the conversation
     """
-    
+
     def __init__(self, name="PyBot"):
         """
         Initialize a new Chatbot instance.
-        
+
         Args:
             name (str, optional): The chatbot's name. Defaults to "PyBot".
         """
@@ -1708,14 +1706,14 @@ class Chatbot:
         self.user_name = None
         self.conversation_history = []
         # ... rest of initialization code
-    
+
     def get_response(self, user_input):
         """
         Generate a response based on the user's input.
-        
+
         Args:
             user_input (str): The user's message to the chatbot
-            
+
         Returns:
             str: The chatbot's response
         """
@@ -1726,39 +1724,39 @@ class Chatbot:
 <p>Add a debug mode to your chatbot for easier troubleshooting:</p>
 <div class="sourceCode" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> DebuggableChatbot(Chatbot):</span>
 <span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""An extension of the Chatbot class with debugging capabilities."""</span></span>
-<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, name<span class="op">=</span><span class="st">"DebugBot"</span>, debug<span class="op">=</span><span class="va">False</span>):</span>
 <span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>        <span class="co">"""Initialize with optional debug mode."""</span></span>
 <span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>        <span class="bu">super</span>().<span class="fu">__init__</span>(name)</span>
 <span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.debug <span class="op">=</span> debug</span>
-<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> get_response(<span class="va">self</span>, user_input):</span>
 <span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a>        <span class="co">"""Get response with debug information if debug mode is on."""</span></span>
 <span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.debug:</span>
 <span id="cb28-12"><a href="#cb28-12" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"DEBUG: Processing input: '</span><span class="sc">{</span>user_input<span class="sc">}</span><span class="ss">'"</span>)</span>
 <span id="cb28-13"><a href="#cb28-13" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"DEBUG: Current response patterns: </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>response_patterns<span class="sc">.</span>keys()<span class="sc">}</span><span class="ss">"</span>)</span>
-<span id="cb28-14"><a href="#cb28-14" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb28-14"><a href="#cb28-14" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-15"><a href="#cb28-15" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Standard processing</span></span>
 <span id="cb28-16"><a href="#cb28-16" aria-hidden="true" tabindex="-1"></a>        user_input <span class="op">=</span> user_input.lower()</span>
-<span id="cb28-17"><a href="#cb28-17" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb28-17"><a href="#cb28-17" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-18"><a href="#cb28-18" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Match patterns</span></span>
 <span id="cb28-19"><a href="#cb28-19" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> category, patterns <span class="kw">in</span> <span class="va">self</span>.response_patterns.items():</span>
 <span id="cb28-20"><a href="#cb28-20" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> pattern <span class="kw">in</span> patterns:</span>
 <span id="cb28-21"><a href="#cb28-21" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> pattern <span class="kw">in</span> user_input:</span>
 <span id="cb28-22"><a href="#cb28-22" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">if</span> <span class="va">self</span>.debug:</span>
 <span id="cb28-23"><a href="#cb28-23" aria-hidden="true" tabindex="-1"></a>                        <span class="bu">print</span>(<span class="ss">f"DEBUG: Matched pattern '</span><span class="sc">{</span>pattern<span class="sc">}</span><span class="ss">' in category '</span><span class="sc">{</span>category<span class="sc">}</span><span class="ss">'"</span>)</span>
-<span id="cb28-24"><a href="#cb28-24" aria-hidden="true" tabindex="-1"></a>                    </span>
+<span id="cb28-24"><a href="#cb28-24" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-25"><a href="#cb28-25" aria-hidden="true" tabindex="-1"></a>                    <span class="co"># Get response from standard method</span></span>
 <span id="cb28-26"><a href="#cb28-26" aria-hidden="true" tabindex="-1"></a>                    response <span class="op">=</span> <span class="bu">super</span>().get_response(user_input)</span>
-<span id="cb28-27"><a href="#cb28-27" aria-hidden="true" tabindex="-1"></a>                    </span>
+<span id="cb28-27"><a href="#cb28-27" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-28"><a href="#cb28-28" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">if</span> <span class="va">self</span>.debug:</span>
 <span id="cb28-29"><a href="#cb28-29" aria-hidden="true" tabindex="-1"></a>                        <span class="bu">print</span>(<span class="ss">f"DEBUG: Selected response: '</span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">'"</span>)</span>
-<span id="cb28-30"><a href="#cb28-30" aria-hidden="true" tabindex="-1"></a>                    </span>
+<span id="cb28-30"><a href="#cb28-30" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-31"><a href="#cb28-31" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">return</span> response</span>
-<span id="cb28-32"><a href="#cb28-32" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb28-32"><a href="#cb28-32" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-33"><a href="#cb28-33" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.debug:</span>
 <span id="cb28-34"><a href="#cb28-34" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">"DEBUG: No pattern match found, using default response"</span>)</span>
-<span id="cb28-35"><a href="#cb28-35" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb28-35"><a href="#cb28-35" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb28-36"><a href="#cb28-36" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="bu">super</span>().get_response(user_input)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="creating-a-test-suite-for-troubleshooting-1" class="level3" data-number="25.22.2">
@@ -1767,7 +1765,7 @@ class Chatbot:
 <div class="sourceCode" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> test_chatbot_responses():</span>
 <span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Test that the chatbot produces expected responses."""</span></span>
 <span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>    bot <span class="op">=</span> Chatbot(name<span class="op">=</span><span class="st">"TestBot"</span>)</span>
-<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Test greeting responses</span></span>
 <span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>    greeting_inputs <span class="op">=</span> [<span class="st">"hello"</span>, <span class="st">"hi there"</span>, <span class="st">"hey"</span>, <span class="st">"good morning"</span>]</span>
 <span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> input_text <span class="kw">in</span> greeting_inputs:</span>
@@ -1775,7 +1773,7 @@ class Chatbot:
 <span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"Input: '</span><span class="sc">{</span>input_text<span class="sc">}</span><span class="ss">', Response: '</span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">'"</span>)</span>
 <span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">assert</span> <span class="st">"hello"</span> <span class="kw">in</span> response.lower() <span class="kw">or</span> <span class="st">"hi"</span> <span class="kw">in</span> response.lower(), <span class="op">\</span></span>
 <span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a>            <span class="ss">f"Greeting response expected for '</span><span class="sc">{</span>input_text<span class="sc">}</span><span class="ss">', got '</span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">'"</span></span>
-<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb29-13"><a href="#cb29-13" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Test farewell responses</span></span>
 <span id="cb29-14"><a href="#cb29-14" aria-hidden="true" tabindex="-1"></a>    farewell_inputs <span class="op">=</span> [<span class="st">"goodbye"</span>, <span class="st">"bye"</span>, <span class="st">"see you later"</span>]</span>
 <span id="cb29-15"><a href="#cb29-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> input_text <span class="kw">in</span> farewell_inputs:</span>
@@ -1783,7 +1781,7 @@ class Chatbot:
 <span id="cb29-17"><a href="#cb29-17" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"Input: '</span><span class="sc">{</span>input_text<span class="sc">}</span><span class="ss">', Response: '</span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">'"</span>)</span>
 <span id="cb29-18"><a href="#cb29-18" aria-hidden="true" tabindex="-1"></a>        <span class="cf">assert</span> <span class="st">"bye"</span> <span class="kw">in</span> response.lower() <span class="kw">or</span> <span class="st">"goodbye"</span> <span class="kw">in</span> response.lower(), <span class="op">\</span></span>
 <span id="cb29-19"><a href="#cb29-19" aria-hidden="true" tabindex="-1"></a>            <span class="ss">f"Farewell response expected for '</span><span class="sc">{</span>input_text<span class="sc">}</span><span class="ss">', got '</span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">'"</span></span>
-<span id="cb29-20"><a href="#cb29-20" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb29-20"><a href="#cb29-20" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb29-21"><a href="#cb29-21" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"All tests passed!"</span>)</span>
 <span id="cb29-22"><a href="#cb29-22" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb29-23"><a href="#cb29-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Run the tests</span></span>
@@ -1825,21 +1823,21 @@ class Chatbot:
 <p>When you need community help with your chatbot, phrase your questions effectively:</p>
 <pre><code>## Chatbot Response Issue
 
-I'm developing a rule-based chatbot in Python and having trouble with pattern matching. 
-When users enter a greeting with additional text (e.g., "hello, how's the weather?"), 
+I'm developing a rule-based chatbot in Python and having trouble with pattern matching.
+When users enter a greeting with additional text (e.g., "hello, how's the weather?"),
 my bot isn't recognizing it as a greeting.
 
 ## Current Code
 ```python
 def get_response(self, user_input):
     user_input = user_input.lower()
-    
+
     # Check for greetings
     greeting_patterns = ["hello", "hi", "hey", "howdy"]
     for pattern in greeting_patterns:
         if user_input == pattern:  # This is the problem line
             return f"Hello there, {self.user_name}!"
-    
+
     # Other patterns...
     return "I didn't understand that."</code></pre>
 </section>

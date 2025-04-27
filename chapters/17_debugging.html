@@ -195,19 +195,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/05_output.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Output: Making Your Code Speak</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Output Odyssey: Making Your Code Speak to the World</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/06_input.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Input: Collecting User Data in Python</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Input Inception: Getting Data from Users into Your Programs</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/07_operators.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Operators: Powering Up Your Python Calculations</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Operator’s Manual: Mastering Python’s Mathematical and Logical Tools</span></span></a>
   </div>
 </li>
       </ul>
@@ -381,7 +381,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/25_python_ai_integration.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Python AI Integration: Connecting Your Code to Intelligent Services</span></span></a>
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">AI Integrator: Connecting Python Applications to AI Services</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -728,12 +728,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> find_highest_scorer(student_scores):</span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>    highest_score <span class="op">=</span> <span class="dv">0</span></span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>    highest_scorer <span class="op">=</span> <span class="va">None</span></span>
-<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> student, score <span class="kw">in</span> student_scores.items():</span>
 <span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> score <span class="op">&gt;</span> highest_score:</span>
 <span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>            highest_score <span class="op">=</span> score</span>
 <span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>            highest_scorer <span class="op">=</span> student</span>
-<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> highest_scorer</span>
 <span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Test case</span></span>
@@ -752,7 +752,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Scores received: </span><span class="sc">{</span>student_scores<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>    highest_score <span class="op">=</span> <span class="dv">0</span>  <span class="co"># Bug is here - this should be initialized differently</span></span>
 <span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>    highest_scorer <span class="op">=</span> <span class="va">None</span></span>
-<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> student, score <span class="kw">in</span> student_scores.items():</span>
 <span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"Checking </span><span class="sc">{</span>student<span class="sc">}</span><span class="ss"> with score </span><span class="sc">{</span>score<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"Current highest: </span><span class="sc">{</span>highest_score<span class="sc">}</span><span class="ss"> by </span><span class="sc">{</span>highest_scorer<span class="sc">}</span><span class="ss">"</span>)</span>
@@ -760,7 +760,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"New highest score found: </span><span class="sc">{</span>score<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>            highest_score <span class="op">=</span> score</span>
 <span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>            highest_scorer <span class="op">=</span> student</span>
-<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Final highest scorer: </span><span class="sc">{</span>highest_scorer<span class="sc">}</span><span class="ss"> with </span><span class="sc">{</span>highest_score<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> highest_scorer</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>The output reveals our bug:</p>
@@ -776,17 +776,17 @@ Final highest scorer: None with 0</code></pre>
 <div class="sourceCode" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> find_highest_scorer(student_scores):</span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> student_scores:</span>
 <span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">None</span></span>
-<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Initialize with the first student's score</span></span>
 <span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>    students <span class="op">=</span> <span class="bu">list</span>(student_scores.keys())</span>
 <span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>    highest_scorer <span class="op">=</span> students[<span class="dv">0</span>]</span>
 <span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>    highest_score <span class="op">=</span> student_scores[highest_scorer]</span>
-<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> student, score <span class="kw">in</span> student_scores.items():</span>
 <span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> score <span class="op">&gt;</span> highest_score:</span>
 <span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>            highest_score <span class="op">=</span> score</span>
 <span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>            highest_scorer <span class="op">=</span> student</span>
-<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> highest_scorer</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 </section>
@@ -850,7 +850,7 @@ Final highest scorer: None with 0</code></pre>
 <span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> numbers:</span>
 <span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>        logging.warning(<span class="st">"Empty list provided, returning 0"</span>)</span>
 <span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="dv">0</span></span>
-<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a>    total <span class="op">=</span> <span class="bu">sum</span>(numbers)</span>
 <span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a>    logging.debug(<span class="ss">f"Sum calculated: </span><span class="sc">{</span>total<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a>    average <span class="op">=</span> total <span class="op">/</span> <span class="bu">len</span>(numbers)</span>
@@ -903,7 +903,7 @@ Final highest scorer: None with 0</code></pre>
 <span id="cb18-29"><a href="#cb18-29" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-30"><a href="#cb18-30" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> DebugChatbot:</span>
 <span id="cb18-31"><a href="#cb18-31" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""A chatbot with enhanced debugging capabilities."""</span></span>
-<span id="cb18-32"><a href="#cb18-32" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb18-32"><a href="#cb18-32" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-33"><a href="#cb18-33" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, name<span class="op">=</span><span class="st">"PyBot"</span>):</span>
 <span id="cb18-34"><a href="#cb18-34" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.name <span class="op">=</span> name</span>
 <span id="cb18-35"><a href="#cb18-35" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.user_name <span class="op">=</span> <span class="va">None</span></span>
@@ -912,56 +912,56 @@ Final highest scorer: None with 0</code></pre>
 <span id="cb18-38"><a href="#cb18-38" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.response_templates <span class="op">=</span> response_templates</span>
 <span id="cb18-39"><a href="#cb18-39" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.debug_mode <span class="op">=</span> <span class="va">False</span></span>
 <span id="cb18-40"><a href="#cb18-40" aria-hidden="true" tabindex="-1"></a>        logging.info(<span class="ss">f"Chatbot </span><span class="sc">{</span>name<span class="sc">}</span><span class="ss"> initialized"</span>)</span>
-<span id="cb18-41"><a href="#cb18-41" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb18-41"><a href="#cb18-41" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-42"><a href="#cb18-42" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> toggle_debug(<span class="va">self</span>):</span>
 <span id="cb18-43"><a href="#cb18-43" aria-hidden="true" tabindex="-1"></a>        <span class="co">"""Toggle debug mode on/off."""</span></span>
 <span id="cb18-44"><a href="#cb18-44" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.debug_mode <span class="op">=</span> <span class="kw">not</span> <span class="va">self</span>.debug_mode</span>
 <span id="cb18-45"><a href="#cb18-45" aria-hidden="true" tabindex="-1"></a>        status <span class="op">=</span> <span class="st">"ON"</span> <span class="cf">if</span> <span class="va">self</span>.debug_mode <span class="cf">else</span> <span class="st">"OFF"</span></span>
 <span id="cb18-46"><a href="#cb18-46" aria-hidden="true" tabindex="-1"></a>        logging.info(<span class="ss">f"Debug mode turned </span><span class="sc">{</span>status<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb18-47"><a href="#cb18-47" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="ss">f"Debug mode is now </span><span class="sc">{</span>status<span class="sc">}</span><span class="ss">"</span></span>
-<span id="cb18-48"><a href="#cb18-48" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb18-48"><a href="#cb18-48" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-49"><a href="#cb18-49" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> debug_print(<span class="va">self</span>, message):</span>
 <span id="cb18-50"><a href="#cb18-50" aria-hidden="true" tabindex="-1"></a>        <span class="co">"""Print debug messages if debug mode is on."""</span></span>
 <span id="cb18-51"><a href="#cb18-51" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.debug_mode:</span>
 <span id="cb18-52"><a href="#cb18-52" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"DEBUG: </span><span class="sc">{</span>message<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb18-53"><a href="#cb18-53" aria-hidden="true" tabindex="-1"></a>        logging.debug(message)</span>
-<span id="cb18-54"><a href="#cb18-54" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb18-54"><a href="#cb18-54" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-55"><a href="#cb18-55" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> get_response(<span class="va">self</span>, user_input):</span>
 <span id="cb18-56"><a href="#cb18-56" aria-hidden="true" tabindex="-1"></a>        <span class="co">"""Generate a response with debugging information."""</span></span>
 <span id="cb18-57"><a href="#cb18-57" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.debug_print(<span class="ss">f"Processing input: '</span><span class="sc">{</span>user_input<span class="sc">}</span><span class="ss">'"</span>)</span>
-<span id="cb18-58"><a href="#cb18-58" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb18-58"><a href="#cb18-58" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-59"><a href="#cb18-59" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> user_input:</span>
 <span id="cb18-60"><a href="#cb18-60" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.debug_print(<span class="st">"Empty input received"</span>)</span>
 <span id="cb18-61"><a href="#cb18-61" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="st">"I didn't catch that. Could you please say something?"</span></span>
-<span id="cb18-62"><a href="#cb18-62" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb18-62"><a href="#cb18-62" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-63"><a href="#cb18-63" aria-hidden="true" tabindex="-1"></a>        user_input <span class="op">=</span> user_input.lower()</span>
 <span id="cb18-64"><a href="#cb18-64" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.debug_print(<span class="ss">f"Lowercase input: '</span><span class="sc">{</span>user_input<span class="sc">}</span><span class="ss">'"</span>)</span>
-<span id="cb18-65"><a href="#cb18-65" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb18-65"><a href="#cb18-65" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-66"><a href="#cb18-66" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Check if this is a debug command</span></span>
 <span id="cb18-67"><a href="#cb18-67" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> user_input <span class="op">==</span> <span class="st">"debug"</span>:</span>
 <span id="cb18-68"><a href="#cb18-68" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="va">self</span>.toggle_debug()</span>
-<span id="cb18-69"><a href="#cb18-69" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb18-69"><a href="#cb18-69" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-70"><a href="#cb18-70" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Check each category of responses</span></span>
 <span id="cb18-71"><a href="#cb18-71" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> category, patterns <span class="kw">in</span> <span class="va">self</span>.response_patterns.items():</span>
 <span id="cb18-72"><a href="#cb18-72" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.debug_print(<span class="ss">f"Checking category: </span><span class="sc">{</span>category<span class="sc">}</span><span class="ss">"</span>)</span>
-<span id="cb18-73"><a href="#cb18-73" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb18-73"><a href="#cb18-73" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-74"><a href="#cb18-74" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> pattern <span class="kw">in</span> patterns:</span>
 <span id="cb18-75"><a href="#cb18-75" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> pattern <span class="kw">in</span> user_input:</span>
 <span id="cb18-76"><a href="#cb18-76" aria-hidden="true" tabindex="-1"></a>                    <span class="va">self</span>.debug_print(<span class="ss">f"Pattern match found: '</span><span class="sc">{</span>pattern<span class="sc">}</span><span class="ss">'"</span>)</span>
-<span id="cb18-77"><a href="#cb18-77" aria-hidden="true" tabindex="-1"></a>                    </span>
+<span id="cb18-77"><a href="#cb18-77" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-78"><a href="#cb18-78" aria-hidden="true" tabindex="-1"></a>                    <span class="co"># Get response templates for this category</span></span>
 <span id="cb18-79"><a href="#cb18-79" aria-hidden="true" tabindex="-1"></a>                    templates <span class="op">=</span> <span class="va">self</span>.response_templates.get(category)</span>
 <span id="cb18-80"><a href="#cb18-80" aria-hidden="true" tabindex="-1"></a>                    <span class="va">self</span>.debug_print(<span class="ss">f"Found </span><span class="sc">{</span><span class="bu">len</span>(templates)<span class="sc">}</span><span class="ss"> possible responses"</span>)</span>
-<span id="cb18-81"><a href="#cb18-81" aria-hidden="true" tabindex="-1"></a>                    </span>
+<span id="cb18-81"><a href="#cb18-81" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-82"><a href="#cb18-82" aria-hidden="true" tabindex="-1"></a>                    <span class="co"># Select a random response</span></span>
 <span id="cb18-83"><a href="#cb18-83" aria-hidden="true" tabindex="-1"></a>                    response <span class="op">=</span> random.choice(templates)</span>
 <span id="cb18-84"><a href="#cb18-84" aria-hidden="true" tabindex="-1"></a>                    <span class="va">self</span>.debug_print(<span class="ss">f"Selected response: '</span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">'"</span>)</span>
 <span id="cb18-85"><a href="#cb18-85" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">return</span> response</span>
-<span id="cb18-86"><a href="#cb18-86" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb18-86"><a href="#cb18-86" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-87"><a href="#cb18-87" aria-hidden="true" tabindex="-1"></a>        <span class="co"># No pattern matched</span></span>
 <span id="cb18-88"><a href="#cb18-88" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.debug_print(<span class="st">"No pattern matches found"</span>)</span>
 <span id="cb18-89"><a href="#cb18-89" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">"I'm still learning. Can you tell me more?"</span></span>
-<span id="cb18-90"><a href="#cb18-90" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb18-90"><a href="#cb18-90" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-91"><a href="#cb18-91" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> run(<span class="va">self</span>):</span>
 <span id="cb18-92"><a href="#cb18-92" aria-hidden="true" tabindex="-1"></a>        <span class="co">"""Run the chatbot with error tracing."""</span></span>
 <span id="cb18-93"><a href="#cb18-93" aria-hidden="true" tabindex="-1"></a>        <span class="cf">try</span>:</span>
@@ -969,36 +969,36 @@ Final highest scorer: None with 0</code></pre>
 <span id="cb18-95"><a href="#cb18-95" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.user_name <span class="op">=</span> <span class="bu">input</span>(<span class="st">"What's your name? "</span>)</span>
 <span id="cb18-96"><a href="#cb18-96" aria-hidden="true" tabindex="-1"></a>            logging.info(<span class="ss">f"User identified as </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>user_name<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb18-97"><a href="#cb18-97" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"Nice to meet you, </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>user_name<span class="sc">}</span><span class="ss">!"</span>)</span>
-<span id="cb18-98"><a href="#cb18-98" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb18-98"><a href="#cb18-98" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-99"><a href="#cb18-99" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.add_to_history(<span class="va">self</span>.name, <span class="ss">f"Nice to meet you, </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>user_name<span class="sc">}</span><span class="ss">!"</span>)</span>
-<span id="cb18-100"><a href="#cb18-100" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb18-100"><a href="#cb18-100" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-101"><a href="#cb18-101" aria-hidden="true" tabindex="-1"></a>            <span class="cf">while</span> <span class="va">True</span>:</span>
 <span id="cb18-102"><a href="#cb18-102" aria-hidden="true" tabindex="-1"></a>                <span class="cf">try</span>:</span>
 <span id="cb18-103"><a href="#cb18-103" aria-hidden="true" tabindex="-1"></a>                    user_input <span class="op">=</span> <span class="bu">input</span>(<span class="ss">f"</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>user_name<span class="sc">}</span><span class="ss">&gt; "</span>)</span>
 <span id="cb18-104"><a href="#cb18-104" aria-hidden="true" tabindex="-1"></a>                    <span class="va">self</span>.add_to_history(<span class="va">self</span>.user_name, user_input)</span>
-<span id="cb18-105"><a href="#cb18-105" aria-hidden="true" tabindex="-1"></a>                    </span>
+<span id="cb18-105"><a href="#cb18-105" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-106"><a href="#cb18-106" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">if</span> user_input.lower() <span class="kw">in</span> [<span class="st">"bye"</span>, <span class="st">"goodbye"</span>, <span class="st">"exit"</span>]:</span>
 <span id="cb18-107"><a href="#cb18-107" aria-hidden="true" tabindex="-1"></a>                        response <span class="op">=</span> <span class="ss">f"Goodbye, </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>user_name<span class="sc">}</span><span class="ss">!"</span></span>
 <span id="cb18-108"><a href="#cb18-108" aria-hidden="true" tabindex="-1"></a>                        <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>name<span class="sc">}</span><span class="ss">&gt; </span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb18-109"><a href="#cb18-109" aria-hidden="true" tabindex="-1"></a>                        <span class="va">self</span>.add_to_history(<span class="va">self</span>.name, response)</span>
 <span id="cb18-110"><a href="#cb18-110" aria-hidden="true" tabindex="-1"></a>                        <span class="cf">break</span></span>
-<span id="cb18-111"><a href="#cb18-111" aria-hidden="true" tabindex="-1"></a>                    </span>
+<span id="cb18-111"><a href="#cb18-111" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-112"><a href="#cb18-112" aria-hidden="true" tabindex="-1"></a>                    response <span class="op">=</span> <span class="va">self</span>.get_response(user_input)</span>
 <span id="cb18-113"><a href="#cb18-113" aria-hidden="true" tabindex="-1"></a>                    <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>name<span class="sc">}</span><span class="ss">&gt; </span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb18-114"><a href="#cb18-114" aria-hidden="true" tabindex="-1"></a>                    <span class="va">self</span>.add_to_history(<span class="va">self</span>.name, response)</span>
-<span id="cb18-115"><a href="#cb18-115" aria-hidden="true" tabindex="-1"></a>                </span>
+<span id="cb18-115"><a href="#cb18-115" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-116"><a href="#cb18-116" aria-hidden="true" tabindex="-1"></a>                <span class="cf">except</span> <span class="pp">Exception</span> <span class="im">as</span> e:</span>
 <span id="cb18-117"><a href="#cb18-117" aria-hidden="true" tabindex="-1"></a>                    error_msg <span class="op">=</span> <span class="ss">f"Error in conversation loop: </span><span class="sc">{</span><span class="bu">str</span>(e)<span class="sc">}</span><span class="ss">"</span></span>
 <span id="cb18-118"><a href="#cb18-118" aria-hidden="true" tabindex="-1"></a>                    logging.error(error_msg, exc_info<span class="op">=</span><span class="va">True</span>)</span>
 <span id="cb18-119"><a href="#cb18-119" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">if</span> <span class="va">self</span>.debug_mode:</span>
 <span id="cb18-120"><a href="#cb18-120" aria-hidden="true" tabindex="-1"></a>                        <span class="bu">print</span>(<span class="ss">f"DEBUG ERROR: </span><span class="sc">{</span>error_msg<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb18-121"><a href="#cb18-121" aria-hidden="true" tabindex="-1"></a>                    <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>name<span class="sc">}</span><span class="ss">&gt; Sorry, I encountered a problem. Let's continue."</span>)</span>
-<span id="cb18-122"><a href="#cb18-122" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb18-122"><a href="#cb18-122" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-123"><a href="#cb18-123" aria-hidden="true" tabindex="-1"></a>        <span class="cf">except</span> <span class="pp">Exception</span> <span class="im">as</span> e:</span>
 <span id="cb18-124"><a href="#cb18-124" aria-hidden="true" tabindex="-1"></a>            logging.critical(<span class="ss">f"Critical error in chatbot: </span><span class="sc">{</span><span class="bu">str</span>(e)<span class="sc">}</span><span class="ss">"</span>, exc_info<span class="op">=</span><span class="va">True</span>)</span>
 <span id="cb18-125"><a href="#cb18-125" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"Critical error: </span><span class="sc">{</span><span class="bu">str</span>(e)<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb18-126"><a href="#cb18-126" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">"Check the log file for details."</span>)</span>
-<span id="cb18-127"><a href="#cb18-127" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb18-127"><a href="#cb18-127" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-128"><a href="#cb18-128" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> add_to_history(<span class="va">self</span>, speaker, text):</span>
 <span id="cb18-129"><a href="#cb18-129" aria-hidden="true" tabindex="-1"></a>        <span class="co">"""Add a message to conversation history with timestamp."""</span></span>
 <span id="cb18-130"><a href="#cb18-130" aria-hidden="true" tabindex="-1"></a>        timestamp <span class="op">=</span> datetime.datetime.now().strftime(<span class="st">"%H:%M:%S"</span>)</span>
@@ -1053,19 +1053,19 @@ Final highest scorer: None with 0</code></pre>
 <p>Make implicit assumptions explicit through comments and assertions:</p>
 <div class="sourceCode" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calculate_average(numbers):</span>
 <span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Calculate the average of a list of numbers.</span></span>
-<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="co">    </span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="co">    Args:</span></span>
 <span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a><span class="co">        numbers: A non-empty list of numeric values</span></span>
-<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a><span class="co">        </span></span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a><span class="co">    Returns:</span></span>
 <span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a><span class="co">        The arithmetic mean of the numbers</span></span>
-<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a><span class="co">        </span></span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a><span class="co">    Raises:</span></span>
 <span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a><span class="co">        ZeroDivisionError: If the input list is empty</span></span>
 <span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
 <span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Assumption: numbers is a non-empty list</span></span>
 <span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">assert</span> <span class="bu">len</span>(numbers) <span class="op">&gt;</span> <span class="dv">0</span>, <span class="st">"numbers list cannot be empty"</span></span>
-<span id="cb20-15"><a href="#cb20-15" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb20-15"><a href="#cb20-15" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-16"><a href="#cb20-16" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="bu">sum</span>(numbers) <span class="op">/</span> <span class="bu">len</span>(numbers)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="write-tests" class="level3" data-number="19.14.3">
@@ -1404,7 +1404,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="sourceCode" id="cb23" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> 'Debugging Detectives: Finding and Fixing Code Mysteries'</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Debugging Detectives: Finding and Fixing Code Mysteries"</span></span>
 <span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a><span class="fu"># Chapter 17: Debugging - Finding and Fixing Code Mysteries</span></span>
@@ -1680,12 +1680,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb23-275"><a href="#cb23-275" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> find_highest_scorer(student_scores):</span>
 <span id="cb23-276"><a href="#cb23-276" aria-hidden="true" tabindex="-1"></a>    highest_score <span class="op">=</span> <span class="dv">0</span></span>
 <span id="cb23-277"><a href="#cb23-277" aria-hidden="true" tabindex="-1"></a>    highest_scorer <span class="op">=</span> <span class="va">None</span></span>
-<span id="cb23-278"><a href="#cb23-278" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb23-278"><a href="#cb23-278" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-279"><a href="#cb23-279" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> student, score <span class="kw">in</span> student_scores.items():</span>
 <span id="cb23-280"><a href="#cb23-280" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> score <span class="op">&gt;</span> highest_score:</span>
 <span id="cb23-281"><a href="#cb23-281" aria-hidden="true" tabindex="-1"></a>            highest_score <span class="op">=</span> score</span>
 <span id="cb23-282"><a href="#cb23-282" aria-hidden="true" tabindex="-1"></a>            highest_scorer <span class="op">=</span> student</span>
-<span id="cb23-283"><a href="#cb23-283" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb23-283"><a href="#cb23-283" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-284"><a href="#cb23-284" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> highest_scorer</span>
 <span id="cb23-285"><a href="#cb23-285" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-286"><a href="#cb23-286" aria-hidden="true" tabindex="-1"></a><span class="co"># Test case</span></span>
@@ -1712,7 +1712,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb23-307"><a href="#cb23-307" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Scores received: </span><span class="sc">{</span>student_scores<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb23-308"><a href="#cb23-308" aria-hidden="true" tabindex="-1"></a>    highest_score <span class="op">=</span> <span class="dv">0</span>  <span class="co"># Bug is here - this should be initialized differently</span></span>
 <span id="cb23-309"><a href="#cb23-309" aria-hidden="true" tabindex="-1"></a>    highest_scorer <span class="op">=</span> <span class="va">None</span></span>
-<span id="cb23-310"><a href="#cb23-310" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb23-310"><a href="#cb23-310" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-311"><a href="#cb23-311" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> student, score <span class="kw">in</span> student_scores.items():</span>
 <span id="cb23-312"><a href="#cb23-312" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"Checking </span><span class="sc">{</span>student<span class="sc">}</span><span class="ss"> with score </span><span class="sc">{</span>score<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb23-313"><a href="#cb23-313" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"Current highest: </span><span class="sc">{</span>highest_score<span class="sc">}</span><span class="ss"> by </span><span class="sc">{</span>highest_scorer<span class="sc">}</span><span class="ss">"</span>)</span>
@@ -1720,7 +1720,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb23-315"><a href="#cb23-315" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"New highest score found: </span><span class="sc">{</span>score<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb23-316"><a href="#cb23-316" aria-hidden="true" tabindex="-1"></a>            highest_score <span class="op">=</span> score</span>
 <span id="cb23-317"><a href="#cb23-317" aria-hidden="true" tabindex="-1"></a>            highest_scorer <span class="op">=</span> student</span>
-<span id="cb23-318"><a href="#cb23-318" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb23-318"><a href="#cb23-318" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-319"><a href="#cb23-319" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Final highest scorer: </span><span class="sc">{</span>highest_scorer<span class="sc">}</span><span class="ss"> with </span><span class="sc">{</span>highest_score<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb23-320"><a href="#cb23-320" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> highest_scorer</span>
 <span id="cb23-321"><a href="#cb23-321" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
@@ -1744,17 +1744,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb23-339"><a href="#cb23-339" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> find_highest_scorer(student_scores):</span>
 <span id="cb23-340"><a href="#cb23-340" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> student_scores:</span>
 <span id="cb23-341"><a href="#cb23-341" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">None</span></span>
-<span id="cb23-342"><a href="#cb23-342" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb23-342"><a href="#cb23-342" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-343"><a href="#cb23-343" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Initialize with the first student's score</span></span>
 <span id="cb23-344"><a href="#cb23-344" aria-hidden="true" tabindex="-1"></a>    students <span class="op">=</span> <span class="bu">list</span>(student_scores.keys())</span>
 <span id="cb23-345"><a href="#cb23-345" aria-hidden="true" tabindex="-1"></a>    highest_scorer <span class="op">=</span> students[<span class="dv">0</span>]</span>
 <span id="cb23-346"><a href="#cb23-346" aria-hidden="true" tabindex="-1"></a>    highest_score <span class="op">=</span> student_scores[highest_scorer]</span>
-<span id="cb23-347"><a href="#cb23-347" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb23-347"><a href="#cb23-347" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-348"><a href="#cb23-348" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> student, score <span class="kw">in</span> student_scores.items():</span>
 <span id="cb23-349"><a href="#cb23-349" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> score <span class="op">&gt;</span> highest_score:</span>
 <span id="cb23-350"><a href="#cb23-350" aria-hidden="true" tabindex="-1"></a>            highest_score <span class="op">=</span> score</span>
 <span id="cb23-351"><a href="#cb23-351" aria-hidden="true" tabindex="-1"></a>            highest_scorer <span class="op">=</span> student</span>
-<span id="cb23-352"><a href="#cb23-352" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb23-352"><a href="#cb23-352" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-353"><a href="#cb23-353" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> highest_scorer</span>
 <span id="cb23-354"><a href="#cb23-354" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb23-355"><a href="#cb23-355" aria-hidden="true" tabindex="-1"></a></span>
@@ -1818,7 +1818,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb23-413"><a href="#cb23-413" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> numbers:</span>
 <span id="cb23-414"><a href="#cb23-414" aria-hidden="true" tabindex="-1"></a>        logging.warning(<span class="st">"Empty list provided, returning 0"</span>)</span>
 <span id="cb23-415"><a href="#cb23-415" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="dv">0</span></span>
-<span id="cb23-416"><a href="#cb23-416" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb23-416"><a href="#cb23-416" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-417"><a href="#cb23-417" aria-hidden="true" tabindex="-1"></a>    total <span class="op">=</span> <span class="bu">sum</span>(numbers)</span>
 <span id="cb23-418"><a href="#cb23-418" aria-hidden="true" tabindex="-1"></a>    logging.debug(<span class="ss">f"Sum calculated: </span><span class="sc">{</span>total<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb23-419"><a href="#cb23-419" aria-hidden="true" tabindex="-1"></a>    average <span class="op">=</span> total <span class="op">/</span> <span class="bu">len</span>(numbers)</span>
@@ -1882,7 +1882,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb23-477"><a href="#cb23-477" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-478"><a href="#cb23-478" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> DebugChatbot:</span>
 <span id="cb23-479"><a href="#cb23-479" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""A chatbot with enhanced debugging capabilities."""</span></span>
-<span id="cb23-480"><a href="#cb23-480" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb23-480"><a href="#cb23-480" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-481"><a href="#cb23-481" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, name<span class="op">=</span><span class="st">"PyBot"</span>):</span>
 <span id="cb23-482"><a href="#cb23-482" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.name <span class="op">=</span> name</span>
 <span id="cb23-483"><a href="#cb23-483" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.user_name <span class="op">=</span> <span class="va">None</span></span>
@@ -1891,56 +1891,56 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb23-486"><a href="#cb23-486" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.response_templates <span class="op">=</span> response_templates</span>
 <span id="cb23-487"><a href="#cb23-487" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.debug_mode <span class="op">=</span> <span class="va">False</span></span>
 <span id="cb23-488"><a href="#cb23-488" aria-hidden="true" tabindex="-1"></a>        logging.info(<span class="ss">f"Chatbot </span><span class="sc">{</span>name<span class="sc">}</span><span class="ss"> initialized"</span>)</span>
-<span id="cb23-489"><a href="#cb23-489" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb23-489"><a href="#cb23-489" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-490"><a href="#cb23-490" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> toggle_debug(<span class="va">self</span>):</span>
 <span id="cb23-491"><a href="#cb23-491" aria-hidden="true" tabindex="-1"></a>        <span class="co">"""Toggle debug mode on/off."""</span></span>
 <span id="cb23-492"><a href="#cb23-492" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.debug_mode <span class="op">=</span> <span class="kw">not</span> <span class="va">self</span>.debug_mode</span>
 <span id="cb23-493"><a href="#cb23-493" aria-hidden="true" tabindex="-1"></a>        status <span class="op">=</span> <span class="st">"ON"</span> <span class="cf">if</span> <span class="va">self</span>.debug_mode <span class="cf">else</span> <span class="st">"OFF"</span></span>
 <span id="cb23-494"><a href="#cb23-494" aria-hidden="true" tabindex="-1"></a>        logging.info(<span class="ss">f"Debug mode turned </span><span class="sc">{</span>status<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb23-495"><a href="#cb23-495" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="ss">f"Debug mode is now </span><span class="sc">{</span>status<span class="sc">}</span><span class="ss">"</span></span>
-<span id="cb23-496"><a href="#cb23-496" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb23-496"><a href="#cb23-496" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-497"><a href="#cb23-497" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> debug_print(<span class="va">self</span>, message):</span>
 <span id="cb23-498"><a href="#cb23-498" aria-hidden="true" tabindex="-1"></a>        <span class="co">"""Print debug messages if debug mode is on."""</span></span>
 <span id="cb23-499"><a href="#cb23-499" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.debug_mode:</span>
 <span id="cb23-500"><a href="#cb23-500" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"DEBUG: </span><span class="sc">{</span>message<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb23-501"><a href="#cb23-501" aria-hidden="true" tabindex="-1"></a>        logging.debug(message)</span>
-<span id="cb23-502"><a href="#cb23-502" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb23-502"><a href="#cb23-502" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-503"><a href="#cb23-503" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> get_response(<span class="va">self</span>, user_input):</span>
 <span id="cb23-504"><a href="#cb23-504" aria-hidden="true" tabindex="-1"></a>        <span class="co">"""Generate a response with debugging information."""</span></span>
 <span id="cb23-505"><a href="#cb23-505" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.debug_print(<span class="ss">f"Processing input: '</span><span class="sc">{</span>user_input<span class="sc">}</span><span class="ss">'"</span>)</span>
-<span id="cb23-506"><a href="#cb23-506" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb23-506"><a href="#cb23-506" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-507"><a href="#cb23-507" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> user_input:</span>
 <span id="cb23-508"><a href="#cb23-508" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.debug_print(<span class="st">"Empty input received"</span>)</span>
 <span id="cb23-509"><a href="#cb23-509" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="st">"I didn't catch that. Could you please say something?"</span></span>
-<span id="cb23-510"><a href="#cb23-510" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb23-510"><a href="#cb23-510" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-511"><a href="#cb23-511" aria-hidden="true" tabindex="-1"></a>        user_input <span class="op">=</span> user_input.lower()</span>
 <span id="cb23-512"><a href="#cb23-512" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.debug_print(<span class="ss">f"Lowercase input: '</span><span class="sc">{</span>user_input<span class="sc">}</span><span class="ss">'"</span>)</span>
-<span id="cb23-513"><a href="#cb23-513" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb23-513"><a href="#cb23-513" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-514"><a href="#cb23-514" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Check if this is a debug command</span></span>
 <span id="cb23-515"><a href="#cb23-515" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> user_input <span class="op">==</span> <span class="st">"debug"</span>:</span>
 <span id="cb23-516"><a href="#cb23-516" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="va">self</span>.toggle_debug()</span>
-<span id="cb23-517"><a href="#cb23-517" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb23-517"><a href="#cb23-517" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-518"><a href="#cb23-518" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Check each category of responses</span></span>
 <span id="cb23-519"><a href="#cb23-519" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> category, patterns <span class="kw">in</span> <span class="va">self</span>.response_patterns.items():</span>
 <span id="cb23-520"><a href="#cb23-520" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.debug_print(<span class="ss">f"Checking category: </span><span class="sc">{</span>category<span class="sc">}</span><span class="ss">"</span>)</span>
-<span id="cb23-521"><a href="#cb23-521" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb23-521"><a href="#cb23-521" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-522"><a href="#cb23-522" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> pattern <span class="kw">in</span> patterns:</span>
 <span id="cb23-523"><a href="#cb23-523" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> pattern <span class="kw">in</span> user_input:</span>
 <span id="cb23-524"><a href="#cb23-524" aria-hidden="true" tabindex="-1"></a>                    <span class="va">self</span>.debug_print(<span class="ss">f"Pattern match found: '</span><span class="sc">{</span>pattern<span class="sc">}</span><span class="ss">'"</span>)</span>
-<span id="cb23-525"><a href="#cb23-525" aria-hidden="true" tabindex="-1"></a>                    </span>
+<span id="cb23-525"><a href="#cb23-525" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-526"><a href="#cb23-526" aria-hidden="true" tabindex="-1"></a>                    <span class="co"># Get response templates for this category</span></span>
 <span id="cb23-527"><a href="#cb23-527" aria-hidden="true" tabindex="-1"></a>                    templates <span class="op">=</span> <span class="va">self</span>.response_templates.get(category)</span>
 <span id="cb23-528"><a href="#cb23-528" aria-hidden="true" tabindex="-1"></a>                    <span class="va">self</span>.debug_print(<span class="ss">f"Found </span><span class="sc">{</span><span class="bu">len</span>(templates)<span class="sc">}</span><span class="ss"> possible responses"</span>)</span>
-<span id="cb23-529"><a href="#cb23-529" aria-hidden="true" tabindex="-1"></a>                    </span>
+<span id="cb23-529"><a href="#cb23-529" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-530"><a href="#cb23-530" aria-hidden="true" tabindex="-1"></a>                    <span class="co"># Select a random response</span></span>
 <span id="cb23-531"><a href="#cb23-531" aria-hidden="true" tabindex="-1"></a>                    response <span class="op">=</span> random.choice(templates)</span>
 <span id="cb23-532"><a href="#cb23-532" aria-hidden="true" tabindex="-1"></a>                    <span class="va">self</span>.debug_print(<span class="ss">f"Selected response: '</span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">'"</span>)</span>
 <span id="cb23-533"><a href="#cb23-533" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">return</span> response</span>
-<span id="cb23-534"><a href="#cb23-534" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb23-534"><a href="#cb23-534" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-535"><a href="#cb23-535" aria-hidden="true" tabindex="-1"></a>        <span class="co"># No pattern matched</span></span>
 <span id="cb23-536"><a href="#cb23-536" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.debug_print(<span class="st">"No pattern matches found"</span>)</span>
 <span id="cb23-537"><a href="#cb23-537" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">"I'm still learning. Can you tell me more?"</span></span>
-<span id="cb23-538"><a href="#cb23-538" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb23-538"><a href="#cb23-538" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-539"><a href="#cb23-539" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> run(<span class="va">self</span>):</span>
 <span id="cb23-540"><a href="#cb23-540" aria-hidden="true" tabindex="-1"></a>        <span class="co">"""Run the chatbot with error tracing."""</span></span>
 <span id="cb23-541"><a href="#cb23-541" aria-hidden="true" tabindex="-1"></a>        <span class="cf">try</span>:</span>
@@ -1948,36 +1948,36 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb23-543"><a href="#cb23-543" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.user_name <span class="op">=</span> <span class="bu">input</span>(<span class="st">"What's your name? "</span>)</span>
 <span id="cb23-544"><a href="#cb23-544" aria-hidden="true" tabindex="-1"></a>            logging.info(<span class="ss">f"User identified as </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>user_name<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb23-545"><a href="#cb23-545" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"Nice to meet you, </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>user_name<span class="sc">}</span><span class="ss">!"</span>)</span>
-<span id="cb23-546"><a href="#cb23-546" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb23-546"><a href="#cb23-546" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-547"><a href="#cb23-547" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.add_to_history(<span class="va">self</span>.name, <span class="ss">f"Nice to meet you, </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>user_name<span class="sc">}</span><span class="ss">!"</span>)</span>
-<span id="cb23-548"><a href="#cb23-548" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb23-548"><a href="#cb23-548" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-549"><a href="#cb23-549" aria-hidden="true" tabindex="-1"></a>            <span class="cf">while</span> <span class="va">True</span>:</span>
 <span id="cb23-550"><a href="#cb23-550" aria-hidden="true" tabindex="-1"></a>                <span class="cf">try</span>:</span>
 <span id="cb23-551"><a href="#cb23-551" aria-hidden="true" tabindex="-1"></a>                    user_input <span class="op">=</span> <span class="bu">input</span>(<span class="ss">f"</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>user_name<span class="sc">}</span><span class="ss">&gt; "</span>)</span>
 <span id="cb23-552"><a href="#cb23-552" aria-hidden="true" tabindex="-1"></a>                    <span class="va">self</span>.add_to_history(<span class="va">self</span>.user_name, user_input)</span>
-<span id="cb23-553"><a href="#cb23-553" aria-hidden="true" tabindex="-1"></a>                    </span>
+<span id="cb23-553"><a href="#cb23-553" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-554"><a href="#cb23-554" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">if</span> user_input.lower() <span class="kw">in</span> [<span class="st">"bye"</span>, <span class="st">"goodbye"</span>, <span class="st">"exit"</span>]:</span>
 <span id="cb23-555"><a href="#cb23-555" aria-hidden="true" tabindex="-1"></a>                        response <span class="op">=</span> <span class="ss">f"Goodbye, </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>user_name<span class="sc">}</span><span class="ss">!"</span></span>
 <span id="cb23-556"><a href="#cb23-556" aria-hidden="true" tabindex="-1"></a>                        <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>name<span class="sc">}</span><span class="ss">&gt; </span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb23-557"><a href="#cb23-557" aria-hidden="true" tabindex="-1"></a>                        <span class="va">self</span>.add_to_history(<span class="va">self</span>.name, response)</span>
 <span id="cb23-558"><a href="#cb23-558" aria-hidden="true" tabindex="-1"></a>                        <span class="cf">break</span></span>
-<span id="cb23-559"><a href="#cb23-559" aria-hidden="true" tabindex="-1"></a>                    </span>
+<span id="cb23-559"><a href="#cb23-559" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-560"><a href="#cb23-560" aria-hidden="true" tabindex="-1"></a>                    response <span class="op">=</span> <span class="va">self</span>.get_response(user_input)</span>
 <span id="cb23-561"><a href="#cb23-561" aria-hidden="true" tabindex="-1"></a>                    <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>name<span class="sc">}</span><span class="ss">&gt; </span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb23-562"><a href="#cb23-562" aria-hidden="true" tabindex="-1"></a>                    <span class="va">self</span>.add_to_history(<span class="va">self</span>.name, response)</span>
-<span id="cb23-563"><a href="#cb23-563" aria-hidden="true" tabindex="-1"></a>                </span>
+<span id="cb23-563"><a href="#cb23-563" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-564"><a href="#cb23-564" aria-hidden="true" tabindex="-1"></a>                <span class="cf">except</span> <span class="pp">Exception</span> <span class="im">as</span> e:</span>
 <span id="cb23-565"><a href="#cb23-565" aria-hidden="true" tabindex="-1"></a>                    error_msg <span class="op">=</span> <span class="ss">f"Error in conversation loop: </span><span class="sc">{</span><span class="bu">str</span>(e)<span class="sc">}</span><span class="ss">"</span></span>
 <span id="cb23-566"><a href="#cb23-566" aria-hidden="true" tabindex="-1"></a>                    logging.error(error_msg, exc_info<span class="op">=</span><span class="va">True</span>)</span>
 <span id="cb23-567"><a href="#cb23-567" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">if</span> <span class="va">self</span>.debug_mode:</span>
 <span id="cb23-568"><a href="#cb23-568" aria-hidden="true" tabindex="-1"></a>                        <span class="bu">print</span>(<span class="ss">f"DEBUG ERROR: </span><span class="sc">{</span>error_msg<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb23-569"><a href="#cb23-569" aria-hidden="true" tabindex="-1"></a>                    <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>name<span class="sc">}</span><span class="ss">&gt; Sorry, I encountered a problem. Let's continue."</span>)</span>
-<span id="cb23-570"><a href="#cb23-570" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb23-570"><a href="#cb23-570" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-571"><a href="#cb23-571" aria-hidden="true" tabindex="-1"></a>        <span class="cf">except</span> <span class="pp">Exception</span> <span class="im">as</span> e:</span>
 <span id="cb23-572"><a href="#cb23-572" aria-hidden="true" tabindex="-1"></a>            logging.critical(<span class="ss">f"Critical error in chatbot: </span><span class="sc">{</span><span class="bu">str</span>(e)<span class="sc">}</span><span class="ss">"</span>, exc_info<span class="op">=</span><span class="va">True</span>)</span>
 <span id="cb23-573"><a href="#cb23-573" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"Critical error: </span><span class="sc">{</span><span class="bu">str</span>(e)<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb23-574"><a href="#cb23-574" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">"Check the log file for details."</span>)</span>
-<span id="cb23-575"><a href="#cb23-575" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb23-575"><a href="#cb23-575" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-576"><a href="#cb23-576" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> add_to_history(<span class="va">self</span>, speaker, text):</span>
 <span id="cb23-577"><a href="#cb23-577" aria-hidden="true" tabindex="-1"></a>        <span class="co">"""Add a message to conversation history with timestamp."""</span></span>
 <span id="cb23-578"><a href="#cb23-578" aria-hidden="true" tabindex="-1"></a>        timestamp <span class="op">=</span> datetime.datetime.now().strftime(<span class="st">"%H:%M:%S"</span>)</span>
@@ -2044,19 +2044,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb23-639"><a href="#cb23-639" aria-hidden="true" tabindex="-1"></a><span class="in">```python</span></span>
 <span id="cb23-640"><a href="#cb23-640" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calculate_average(numbers):</span>
 <span id="cb23-641"><a href="#cb23-641" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Calculate the average of a list of numbers.</span></span>
-<span id="cb23-642"><a href="#cb23-642" aria-hidden="true" tabindex="-1"></a><span class="co">    </span></span>
+<span id="cb23-642"><a href="#cb23-642" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-643"><a href="#cb23-643" aria-hidden="true" tabindex="-1"></a><span class="co">    Args:</span></span>
 <span id="cb23-644"><a href="#cb23-644" aria-hidden="true" tabindex="-1"></a><span class="co">        numbers: A non-empty list of numeric values</span></span>
-<span id="cb23-645"><a href="#cb23-645" aria-hidden="true" tabindex="-1"></a><span class="co">        </span></span>
+<span id="cb23-645"><a href="#cb23-645" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-646"><a href="#cb23-646" aria-hidden="true" tabindex="-1"></a><span class="co">    Returns:</span></span>
 <span id="cb23-647"><a href="#cb23-647" aria-hidden="true" tabindex="-1"></a><span class="co">        The arithmetic mean of the numbers</span></span>
-<span id="cb23-648"><a href="#cb23-648" aria-hidden="true" tabindex="-1"></a><span class="co">        </span></span>
+<span id="cb23-648"><a href="#cb23-648" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-649"><a href="#cb23-649" aria-hidden="true" tabindex="-1"></a><span class="co">    Raises:</span></span>
 <span id="cb23-650"><a href="#cb23-650" aria-hidden="true" tabindex="-1"></a><span class="co">        ZeroDivisionError: If the input list is empty</span></span>
 <span id="cb23-651"><a href="#cb23-651" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
 <span id="cb23-652"><a href="#cb23-652" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Assumption: numbers is a non-empty list</span></span>
 <span id="cb23-653"><a href="#cb23-653" aria-hidden="true" tabindex="-1"></a>    <span class="cf">assert</span> <span class="bu">len</span>(numbers) <span class="op">&gt;</span> <span class="dv">0</span>, <span class="st">"numbers list cannot be empty"</span></span>
-<span id="cb23-654"><a href="#cb23-654" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb23-654"><a href="#cb23-654" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-655"><a href="#cb23-655" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="bu">sum</span>(numbers) <span class="op">/</span> <span class="bu">len</span>(numbers)</span>
 <span id="cb23-656"><a href="#cb23-656" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb23-657"><a href="#cb23-657" aria-hidden="true" tabindex="-1"></a></span>

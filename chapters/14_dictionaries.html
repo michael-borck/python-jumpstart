@@ -195,19 +195,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/05_output.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Output: Making Your Code Speak</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Output Odyssey: Making Your Code Speak to the World</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/06_input.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Input: Collecting User Data in Python</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Input Inception: Getting Data from Users into Your Programs</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/07_operators.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Operators: Powering Up Your Python Calculations</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Operator’s Manual: Mastering Python’s Mathematical and Logical Tools</span></span></a>
   </div>
 </li>
       </ul>
@@ -381,7 +381,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/25_python_ai_integration.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Python AI Integration: Connecting Your Code to Intelligent Services</span></span></a>
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">AI Integrator: Connecting Python Applications to AI Services</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -811,12 +811,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb14-65"><a href="#cb14-65" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_response(user_input):</span>
 <span id="cb14-66"><a href="#cb14-66" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Get a response using dictionary-based pattern matching."""</span></span>
 <span id="cb14-67"><a href="#cb14-67" aria-hidden="true" tabindex="-1"></a>    user_input <span class="op">=</span> user_input.lower().strip()</span>
-<span id="cb14-68"><a href="#cb14-68" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb14-68"><a href="#cb14-68" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-69"><a href="#cb14-69" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Update stats</span></span>
 <span id="cb14-70"><a href="#cb14-70" aria-hidden="true" tabindex="-1"></a>    user_stats[<span class="st">"message_count"</span>] <span class="op">+=</span> <span class="dv">1</span></span>
 <span id="cb14-71"><a href="#cb14-71" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> user_input.endswith(<span class="st">"?"</span>):</span>
 <span id="cb14-72"><a href="#cb14-72" aria-hidden="true" tabindex="-1"></a>        user_stats[<span class="st">"question_count"</span>] <span class="op">+=</span> <span class="dv">1</span></span>
-<span id="cb14-73"><a href="#cb14-73" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb14-73"><a href="#cb14-73" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-74"><a href="#cb14-74" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Check for special commands</span></span>
 <span id="cb14-75"><a href="#cb14-75" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> user_input <span class="op">==</span> <span class="st">"stats"</span>:</span>
 <span id="cb14-76"><a href="#cb14-76" aria-hidden="true" tabindex="-1"></a>        user_stats[<span class="st">"command_count"</span>] <span class="op">+=</span> <span class="dv">1</span></span>
@@ -828,7 +828,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb14-82"><a href="#cb14-82" aria-hidden="true" tabindex="-1"></a><span class="ss">- Commands used: </span><span class="sc">{</span>user_stats[<span class="st">'command_count'</span>]<span class="sc">}</span></span>
 <span id="cb14-83"><a href="#cb14-83" aria-hidden="true" tabindex="-1"></a><span class="ss">- Topics mentioned: </span><span class="sc">{</span><span class="st">', '</span><span class="sc">.</span>join(user_stats[<span class="st">'topics'</span>].keys()) <span class="cf">if</span> user_stats[<span class="st">'topics'</span>] <span class="cf">else</span> <span class="st">'None'</span><span class="sc">}</span></span>
 <span id="cb14-84"><a href="#cb14-84" aria-hidden="true" tabindex="-1"></a><span class="ss">        """</span>.strip()</span>
-<span id="cb14-85"><a href="#cb14-85" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb14-85"><a href="#cb14-85" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-86"><a href="#cb14-86" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Check for patterns in our response dictionary</span></span>
 <span id="cb14-87"><a href="#cb14-87" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> category, patterns <span class="kw">in</span> response_patterns.items():</span>
 <span id="cb14-88"><a href="#cb14-88" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> pattern <span class="kw">in</span> patterns:</span>
@@ -838,13 +838,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb14-92"><a href="#cb14-92" aria-hidden="true" tabindex="-1"></a>                    user_stats[<span class="st">"topics"</span>][category] <span class="op">+=</span> <span class="dv">1</span></span>
 <span id="cb14-93"><a href="#cb14-93" aria-hidden="true" tabindex="-1"></a>                <span class="cf">else</span>:</span>
 <span id="cb14-94"><a href="#cb14-94" aria-hidden="true" tabindex="-1"></a>                    user_stats[<span class="st">"topics"</span>][category] <span class="op">=</span> <span class="dv">1</span></span>
-<span id="cb14-95"><a href="#cb14-95" aria-hidden="true" tabindex="-1"></a>                </span>
+<span id="cb14-95"><a href="#cb14-95" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-96"><a href="#cb14-96" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> category <span class="op">==</span> <span class="st">"greetings"</span>:</span>
 <span id="cb14-97"><a href="#cb14-97" aria-hidden="true" tabindex="-1"></a>                    user_stats[<span class="st">"greeting_count"</span>] <span class="op">+=</span> <span class="dv">1</span></span>
-<span id="cb14-98"><a href="#cb14-98" aria-hidden="true" tabindex="-1"></a>                </span>
+<span id="cb14-98"><a href="#cb14-98" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-99"><a href="#cb14-99" aria-hidden="true" tabindex="-1"></a>                <span class="co"># Return a random response from the matching category</span></span>
 <span id="cb14-100"><a href="#cb14-100" aria-hidden="true" tabindex="-1"></a>                <span class="cf">return</span> random.choice(response_templates[category])</span>
-<span id="cb14-101"><a href="#cb14-101" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb14-101"><a href="#cb14-101" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-102"><a href="#cb14-102" aria-hidden="true" tabindex="-1"></a>    <span class="co"># No pattern matched, return an unknown response</span></span>
 <span id="cb14-103"><a href="#cb14-103" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> random.choice(response_templates[<span class="st">"unknown"</span>])</span>
 <span id="cb14-104"><a href="#cb14-104" aria-hidden="true" tabindex="-1"></a></span>
@@ -881,12 +881,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb14-135"><a href="#cb14-135" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="va">True</span>:</span>
 <span id="cb14-136"><a href="#cb14-136" aria-hidden="true" tabindex="-1"></a>    user_input <span class="op">=</span> <span class="bu">input</span>(<span class="ss">f"</span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">&gt; "</span>)</span>
 <span id="cb14-137"><a href="#cb14-137" aria-hidden="true" tabindex="-1"></a>    save_to_history(user_name, user_input)</span>
-<span id="cb14-138"><a href="#cb14-138" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb14-138"><a href="#cb14-138" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-139"><a href="#cb14-139" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> user_input.lower() <span class="kw">in</span> [<span class="st">"bye"</span>, <span class="st">"exit"</span>, <span class="st">"quit"</span>, <span class="st">"goodbye"</span>]:</span>
 <span id="cb14-140"><a href="#cb14-140" aria-hidden="true" tabindex="-1"></a>        duration <span class="op">=</span> datetime.now() <span class="op">-</span> user_stats[<span class="st">"start_time"</span>]</span>
 <span id="cb14-141"><a href="#cb14-141" aria-hidden="true" tabindex="-1"></a>        minutes <span class="op">=</span> <span class="bu">int</span>(duration.total_seconds() <span class="op">//</span> <span class="dv">60</span>)</span>
 <span id="cb14-142"><a href="#cb14-142" aria-hidden="true" tabindex="-1"></a>        seconds <span class="op">=</span> <span class="bu">int</span>(duration.total_seconds() <span class="op">%</span> <span class="dv">60</span>)</span>
-<span id="cb14-143"><a href="#cb14-143" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb14-143"><a href="#cb14-143" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-144"><a href="#cb14-144" aria-hidden="true" tabindex="-1"></a>        response <span class="op">=</span> <span class="ss">f"Goodbye, </span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">! We chatted for </span><span class="sc">{</span>minutes<span class="sc">}</span><span class="ss"> minutes and </span><span class="sc">{</span>seconds<span class="sc">}</span><span class="ss"> seconds."</span></span>
 <span id="cb14-145"><a href="#cb14-145" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss">&gt; </span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb14-146"><a href="#cb14-146" aria-hidden="true" tabindex="-1"></a>        save_to_history(bot_name, response)</span>
@@ -894,7 +894,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb14-148"><a href="#cb14-148" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> user_input.lower() <span class="op">==</span> <span class="st">"history"</span>:</span>
 <span id="cb14-149"><a href="#cb14-149" aria-hidden="true" tabindex="-1"></a>        show_history()</span>
 <span id="cb14-150"><a href="#cb14-150" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span></span>
-<span id="cb14-151"><a href="#cb14-151" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb14-151"><a href="#cb14-151" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-152"><a href="#cb14-152" aria-hidden="true" tabindex="-1"></a>    response <span class="op">=</span> get_response(user_input)</span>
 <span id="cb14-153"><a href="#cb14-153" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss">&gt; </span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb14-154"><a href="#cb14-154" aria-hidden="true" tabindex="-1"></a>    save_to_history(bot_name, response)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -1276,7 +1276,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="sourceCode" id="cb20" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> 'Dictionary Detectives: Mastering Python''s Key-Value Pairs'</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Dictionary Detectives: Mastering Python's Key-Value Pairs"</span></span>
 <span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a><span class="fu"># Chapter 14: Dictionaries - Organizing Data with Key-Value Pairs</span></span>
@@ -1673,12 +1673,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb20-396"><a href="#cb20-396" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_response(user_input):</span>
 <span id="cb20-397"><a href="#cb20-397" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Get a response using dictionary-based pattern matching."""</span></span>
 <span id="cb20-398"><a href="#cb20-398" aria-hidden="true" tabindex="-1"></a>    user_input <span class="op">=</span> user_input.lower().strip()</span>
-<span id="cb20-399"><a href="#cb20-399" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb20-399"><a href="#cb20-399" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-400"><a href="#cb20-400" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Update stats</span></span>
 <span id="cb20-401"><a href="#cb20-401" aria-hidden="true" tabindex="-1"></a>    user_stats[<span class="st">"message_count"</span>] <span class="op">+=</span> <span class="dv">1</span></span>
 <span id="cb20-402"><a href="#cb20-402" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> user_input.endswith(<span class="st">"?"</span>):</span>
 <span id="cb20-403"><a href="#cb20-403" aria-hidden="true" tabindex="-1"></a>        user_stats[<span class="st">"question_count"</span>] <span class="op">+=</span> <span class="dv">1</span></span>
-<span id="cb20-404"><a href="#cb20-404" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb20-404"><a href="#cb20-404" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-405"><a href="#cb20-405" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Check for special commands</span></span>
 <span id="cb20-406"><a href="#cb20-406" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> user_input <span class="op">==</span> <span class="st">"stats"</span>:</span>
 <span id="cb20-407"><a href="#cb20-407" aria-hidden="true" tabindex="-1"></a>        user_stats[<span class="st">"command_count"</span>] <span class="op">+=</span> <span class="dv">1</span></span>
@@ -1690,7 +1690,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb20-413"><a href="#cb20-413" aria-hidden="true" tabindex="-1"></a><span class="ss">- Commands used: </span><span class="sc">{</span>user_stats[<span class="st">'command_count'</span>]<span class="sc">}</span></span>
 <span id="cb20-414"><a href="#cb20-414" aria-hidden="true" tabindex="-1"></a><span class="ss">- Topics mentioned: </span><span class="sc">{</span><span class="st">', '</span><span class="sc">.</span>join(user_stats[<span class="st">'topics'</span>].keys()) <span class="cf">if</span> user_stats[<span class="st">'topics'</span>] <span class="cf">else</span> <span class="st">'None'</span><span class="sc">}</span></span>
 <span id="cb20-415"><a href="#cb20-415" aria-hidden="true" tabindex="-1"></a><span class="ss">        """</span>.strip()</span>
-<span id="cb20-416"><a href="#cb20-416" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb20-416"><a href="#cb20-416" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-417"><a href="#cb20-417" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Check for patterns in our response dictionary</span></span>
 <span id="cb20-418"><a href="#cb20-418" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> category, patterns <span class="kw">in</span> response_patterns.items():</span>
 <span id="cb20-419"><a href="#cb20-419" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> pattern <span class="kw">in</span> patterns:</span>
@@ -1700,13 +1700,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb20-423"><a href="#cb20-423" aria-hidden="true" tabindex="-1"></a>                    user_stats[<span class="st">"topics"</span>][category] <span class="op">+=</span> <span class="dv">1</span></span>
 <span id="cb20-424"><a href="#cb20-424" aria-hidden="true" tabindex="-1"></a>                <span class="cf">else</span>:</span>
 <span id="cb20-425"><a href="#cb20-425" aria-hidden="true" tabindex="-1"></a>                    user_stats[<span class="st">"topics"</span>][category] <span class="op">=</span> <span class="dv">1</span></span>
-<span id="cb20-426"><a href="#cb20-426" aria-hidden="true" tabindex="-1"></a>                </span>
+<span id="cb20-426"><a href="#cb20-426" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-427"><a href="#cb20-427" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> category <span class="op">==</span> <span class="st">"greetings"</span>:</span>
 <span id="cb20-428"><a href="#cb20-428" aria-hidden="true" tabindex="-1"></a>                    user_stats[<span class="st">"greeting_count"</span>] <span class="op">+=</span> <span class="dv">1</span></span>
-<span id="cb20-429"><a href="#cb20-429" aria-hidden="true" tabindex="-1"></a>                </span>
+<span id="cb20-429"><a href="#cb20-429" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-430"><a href="#cb20-430" aria-hidden="true" tabindex="-1"></a>                <span class="co"># Return a random response from the matching category</span></span>
 <span id="cb20-431"><a href="#cb20-431" aria-hidden="true" tabindex="-1"></a>                <span class="cf">return</span> random.choice(response_templates[category])</span>
-<span id="cb20-432"><a href="#cb20-432" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb20-432"><a href="#cb20-432" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-433"><a href="#cb20-433" aria-hidden="true" tabindex="-1"></a>    <span class="co"># No pattern matched, return an unknown response</span></span>
 <span id="cb20-434"><a href="#cb20-434" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> random.choice(response_templates[<span class="st">"unknown"</span>])</span>
 <span id="cb20-435"><a href="#cb20-435" aria-hidden="true" tabindex="-1"></a></span>
@@ -1743,12 +1743,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb20-466"><a href="#cb20-466" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="va">True</span>:</span>
 <span id="cb20-467"><a href="#cb20-467" aria-hidden="true" tabindex="-1"></a>    user_input <span class="op">=</span> <span class="bu">input</span>(<span class="ss">f"</span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">&gt; "</span>)</span>
 <span id="cb20-468"><a href="#cb20-468" aria-hidden="true" tabindex="-1"></a>    save_to_history(user_name, user_input)</span>
-<span id="cb20-469"><a href="#cb20-469" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb20-469"><a href="#cb20-469" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-470"><a href="#cb20-470" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> user_input.lower() <span class="kw">in</span> [<span class="st">"bye"</span>, <span class="st">"exit"</span>, <span class="st">"quit"</span>, <span class="st">"goodbye"</span>]:</span>
 <span id="cb20-471"><a href="#cb20-471" aria-hidden="true" tabindex="-1"></a>        duration <span class="op">=</span> datetime.now() <span class="op">-</span> user_stats[<span class="st">"start_time"</span>]</span>
 <span id="cb20-472"><a href="#cb20-472" aria-hidden="true" tabindex="-1"></a>        minutes <span class="op">=</span> <span class="bu">int</span>(duration.total_seconds() <span class="op">//</span> <span class="dv">60</span>)</span>
 <span id="cb20-473"><a href="#cb20-473" aria-hidden="true" tabindex="-1"></a>        seconds <span class="op">=</span> <span class="bu">int</span>(duration.total_seconds() <span class="op">%</span> <span class="dv">60</span>)</span>
-<span id="cb20-474"><a href="#cb20-474" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb20-474"><a href="#cb20-474" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-475"><a href="#cb20-475" aria-hidden="true" tabindex="-1"></a>        response <span class="op">=</span> <span class="ss">f"Goodbye, </span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">! We chatted for </span><span class="sc">{</span>minutes<span class="sc">}</span><span class="ss"> minutes and </span><span class="sc">{</span>seconds<span class="sc">}</span><span class="ss"> seconds."</span></span>
 <span id="cb20-476"><a href="#cb20-476" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss">&gt; </span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb20-477"><a href="#cb20-477" aria-hidden="true" tabindex="-1"></a>        save_to_history(bot_name, response)</span>
@@ -1756,7 +1756,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb20-479"><a href="#cb20-479" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> user_input.lower() <span class="op">==</span> <span class="st">"history"</span>:</span>
 <span id="cb20-480"><a href="#cb20-480" aria-hidden="true" tabindex="-1"></a>        show_history()</span>
 <span id="cb20-481"><a href="#cb20-481" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span></span>
-<span id="cb20-482"><a href="#cb20-482" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb20-482"><a href="#cb20-482" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-483"><a href="#cb20-483" aria-hidden="true" tabindex="-1"></a>    response <span class="op">=</span> get_response(user_input)</span>
 <span id="cb20-484"><a href="#cb20-484" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>bot_name<span class="sc">}</span><span class="ss">&gt; </span><span class="sc">{</span>response<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb20-485"><a href="#cb20-485" aria-hidden="true" tabindex="-1"></a>    save_to_history(bot_name, response)</span>
@@ -1821,16 +1821,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb20-544"><a href="#cb20-544" aria-hidden="true" tabindex="-1"></a>   <span class="in">```python</span></span>
 <span id="cb20-545"><a href="#cb20-545" aria-hidden="true" tabindex="-1"></a>   <span class="co"># A simple function memoization</span></span>
 <span id="cb20-546"><a href="#cb20-546" aria-hidden="true" tabindex="-1"></a>   fibonacci_cache <span class="op">=</span> {}</span>
-<span id="cb20-547"><a href="#cb20-547" aria-hidden="true" tabindex="-1"></a>   </span>
+<span id="cb20-547"><a href="#cb20-547" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-548"><a href="#cb20-548" aria-hidden="true" tabindex="-1"></a>   <span class="kw">def</span> fibonacci(n):</span>
 <span id="cb20-549"><a href="#cb20-549" aria-hidden="true" tabindex="-1"></a>       <span class="cf">if</span> n <span class="kw">in</span> fibonacci_cache:</span>
 <span id="cb20-550"><a href="#cb20-550" aria-hidden="true" tabindex="-1"></a>           <span class="cf">return</span> fibonacci_cache[n]</span>
-<span id="cb20-551"><a href="#cb20-551" aria-hidden="true" tabindex="-1"></a>       </span>
+<span id="cb20-551"><a href="#cb20-551" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-552"><a href="#cb20-552" aria-hidden="true" tabindex="-1"></a>       <span class="cf">if</span> n <span class="op">&lt;=</span> <span class="dv">1</span>:</span>
 <span id="cb20-553"><a href="#cb20-553" aria-hidden="true" tabindex="-1"></a>           result <span class="op">=</span> n</span>
 <span id="cb20-554"><a href="#cb20-554" aria-hidden="true" tabindex="-1"></a>       <span class="cf">else</span>:</span>
 <span id="cb20-555"><a href="#cb20-555" aria-hidden="true" tabindex="-1"></a>           result <span class="op">=</span> fibonacci(n<span class="op">-</span><span class="dv">1</span>) <span class="op">+</span> fibonacci(n<span class="op">-</span><span class="dv">2</span>)</span>
-<span id="cb20-556"><a href="#cb20-556" aria-hidden="true" tabindex="-1"></a>           </span>
+<span id="cb20-556"><a href="#cb20-556" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-557"><a href="#cb20-557" aria-hidden="true" tabindex="-1"></a>       fibonacci_cache[n] <span class="op">=</span> result</span>
 <span id="cb20-558"><a href="#cb20-558" aria-hidden="true" tabindex="-1"></a>       <span class="cf">return</span> result</span>
 <span id="cb20-559"><a href="#cb20-559" aria-hidden="true" tabindex="-1"></a>   <span class="in">```</span></span>
@@ -1840,7 +1840,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb20-563"><a href="#cb20-563" aria-hidden="true" tabindex="-1"></a>   <span class="co"># Count word frequency in a text</span></span>
 <span id="cb20-564"><a href="#cb20-564" aria-hidden="true" tabindex="-1"></a>   text <span class="op">=</span> <span class="st">"the quick brown fox jumps over the lazy dog"</span></span>
 <span id="cb20-565"><a href="#cb20-565" aria-hidden="true" tabindex="-1"></a>   word_count <span class="op">=</span> {}</span>
-<span id="cb20-566"><a href="#cb20-566" aria-hidden="true" tabindex="-1"></a>   </span>
+<span id="cb20-566"><a href="#cb20-566" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-567"><a href="#cb20-567" aria-hidden="true" tabindex="-1"></a>   <span class="cf">for</span> word <span class="kw">in</span> text.split():</span>
 <span id="cb20-568"><a href="#cb20-568" aria-hidden="true" tabindex="-1"></a>       <span class="cf">if</span> word <span class="kw">in</span> word_count:</span>
 <span id="cb20-569"><a href="#cb20-569" aria-hidden="true" tabindex="-1"></a>           word_count[word] <span class="op">+=</span> <span class="dv">1</span></span>
