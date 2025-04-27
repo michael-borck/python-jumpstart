@@ -9,16 +9,16 @@ comprehensive introduction to Python programming with a modern twist. This
 guide was created specifically for beginners who want to learn just enough
 Python to work effectively in today's AI-assisted programming environment.
 
-“Leverage AI assistants to debug code, explain concepts, and enhance your
-learning, mirroring real-world software development practices.”
+"Leverage AI assistants to debug code, explain concepts, and enhance your
+learning, mirroring real-world software development practices."
 
 This guide recognises that the landscape of programming is changing fast. While
 fundamentals remain essential, the ability to collaborate with AI—using it as a
 learning aid, coding partner, and productivity booster—is a crucial new skill.
 
-“Python Jumpstart: Coding Fundamentals for the AI Era” is your gateway to
+"Python Jumpstart: Coding Fundamentals for the AI Era" is your gateway to
 Python programming, tailored for beginners who want to quickly become effective
-in a world where AI is part of everyday coding. You’ll master the basics, learn
+in a world where AI is part of everyday coding. You'll master the basics, learn
 to work with AI tools, and gain practical skills that are relevant right now
 
 ## Why Learn Python Today? {.unnumbered}
@@ -33,6 +33,7 @@ But if you understand Python — even just the basics — you can:
 - **Tweak AI code** to make it work for your needs
 - **Give better prompts** so AI helps you, not hinders you
 - **Take control of your projects** instead of relying on guesswork
+- **Speak the language of AI** — Python is the default language of AI, and when you ask AI tools to write code, they'll typically respond in Python first
 
 This isn't about becoming a full-time coder. It's about becoming AI-literate, so you can collaborate with AI instead of depending on it.
 
@@ -70,5 +71,3 @@ The guide is organized into several sections:
 5. **Code Quality**: Debugging, testing, and organizing code
 6. **Practical Python**: How to run, install, and get help with Python
 7. **Python in the AI Era**: Using AI assistants and integrating AI into your Python apps
-
-
