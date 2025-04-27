@@ -1221,7 +1221,7 @@ Create a user validation system that:
 ## 14. Cross-References
 
 - **Previous Chapter**: [Input](06_input.qmd) — Learn how to collect information from users
-- **Next Chapter**: [Functions](08_functions.qmd) — Organize code into reusable blocks
+- **Next Chapter**: [Functions](08_using_functions.qmd) — Organize code into reusable blocks
 - **Related Topic**: [Making Decisions](10_making_decisions.qmd) — Expand on the conditional logic introduced here
 - **Project Connection**: [Lists](11_lists.qmd) — Learn how operators work with list data structures
 - **Advanced Application**: [Testing](18_testing.qmd) — See how comparison operators are used in test assertions

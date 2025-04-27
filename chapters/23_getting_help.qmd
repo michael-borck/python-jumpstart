@@ -647,7 +647,7 @@ matching unrelated content that happens to contain greeting words.
 ## Cross-References
 
 - Previous Chapter: [Installation and Practical Considerations](22_how_to_install_python_testing.qmd)
-- Next Chapter: [Taking it Further](24_taking_it_further.ipynb)
+- Next Chapter: [Taking it Further](24_ai_programming_assistants.qmd)
 - Related Topics: Debugging (Chapter 17), Testing (Chapter 18)
 
 ***AI Tip: When your code produces unexpected results, ask your AI assistant to review your code in segments. Rather than sharing the entire project at once, share specific functions or classes and describe how they're behaving differently than expected. This focused approach leads to more precise assistance and better learning.***

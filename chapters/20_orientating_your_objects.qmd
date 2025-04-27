@@ -832,7 +832,7 @@ Each of these can be implemented as a separate class that inherits from the base
 ## Cross-References
 
 - Previous Chapter: [Modules and Packages](19_modules_and_packages.qmd)
-- Next Chapter: [How to Run Python Code](21_how_to_run_python_code.ipynb)
+- Next Chapter: [How to Run Python Code](21_how_to_run_python_code.qmd)
 - Related Topics: Functions (Chapter 9), Error Handling (Chapter 16), Modules and Packages (Chapter 19)
 
 ***AI Tip: When designing classes, don't try to add every possible feature at once. Instead, create a minimal viable class that does one thing well, then gradually extend it. AI assistants can help by suggesting how to refactor your code to make it more maintainable as complexity grows.***

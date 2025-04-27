@@ -732,7 +732,7 @@ Try enhancing it further with:
 ## Cross-References
 
 - Previous Chapter: [Testing](18_testing.qmd)
-- Next Chapter: [Orientating Your Objects](20_orientating_your_objects.ipynb)
+- Next Chapter: [Orientating Your Objects](20_orientating_your_objects.qmd)
 - Related Topics: Functions (Chapter 9), Error Handling (Chapter 16), Testing (Chapter 18)
 
 ***AI Tip: When organizing your code into modules, ask your AI assistant to help identify logical groupings of functions. Describe what your code does, and the AI can suggest a modular structure that follows good design principles.***

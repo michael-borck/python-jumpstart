@@ -1016,7 +1016,7 @@ Create a multiple-choice quiz that:
 
 - **Previous Chapter**: [Output](05_output.qmd) — Learn how to display information to users
 - **Next Chapter**: [Operators](07_operators.qmd) — Manipulate data with mathematical and logical operations
-- **Related Topic**: [Error Handling](16_errors_exceptions.qmd) — Learn to handle invalid input gracefully
+- **Related Topic**: [Error Handling](16_errors_and_exceptions.qmd) — Learn to handle invalid input gracefully
 - **Project Connection**: [Making Decisions](10_making_decisions.qmd) shows how to use input to drive program flow
 - **Advanced Application**: In [Python AI Integration](25_python_ai_integration.qmd), you'll use input to interact with AI services
 

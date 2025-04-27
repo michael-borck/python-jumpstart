@@ -1405,7 +1405,7 @@ Ensure the functions work together cohesively and follow good design practices.
 
 ## 13. Cross-References
 
-- **Previous Chapter**: [Functions](08_functions.qmd) — Learn how to use built-in and library functions
+- **Previous Chapter**: [Functions](08_using_functions.qmd) — Learn how to use built-in and library functions
 - **Next Chapter**: [Making Decisions](10_making_decisions.qmd) — Control program flow with if statements
 - **Related Topic**: [Modules and Packages](19_modules_and_packages.qmd) — Organize your functions into reusable modules
 - **Project Connection**: [Testing](18_testing.qmd) — Learn how to verify your functions work correctly
