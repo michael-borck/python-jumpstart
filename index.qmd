@@ -21,7 +21,7 @@ Python programming, tailored for beginners who want to quickly become effective
 in a world where AI is part of everyday coding. You’ll master the basics, learn
 to work with AI tools, and gain practical skills that are relevant right now
 
-## Why Learn Python Today? 
+## Why Learn Python Today? {.unnumbered}
 
 Because knowing the fundamentals of coding makes you 10x faster and smarter with AI tools tomorrow.
 
@@ -38,7 +38,7 @@ This isn't about becoming a full-time coder. It's about becoming AI-literate, so
 
 **Learn enough Python to lead the AI, not follow it.**
 
-## What's Inside 
+## What's Inside {.unnumbered}
 
 This interactive guide covers everything from basic Python syntax to more advanced topics like object-oriented programming. It has been updated to include:
 
@@ -47,7 +47,7 @@ This interactive guide covers everything from basic Python syntax to more advanc
 - Tips for using AI coding assistants effectively
 - Examples of Python integration with AI services
 
-## Related Resources
+## Related Resources {.unnumbered}
 
 This guide is part of a trilogy of free resources to help you master modern software development:
 
@@ -57,7 +57,7 @@ This guide is part of a trilogy of free resources to help you master modern soft
 
 While this guide focuses on Python fundamentals with AI integration, you'll find references to these complementary resources throughout, particularly in Chapters 17-22 which touch on the production pipeline concepts covered in-depth in "From Zero to Production."
 
-## How to Use This Guide
+## How to Use This Guide {.unnumbered}
 
 Each chapter builds upon the previous one, with interactive code examples you can run directly in your browser. You can follow along sequentially or jump to specific topics that interest you.
 
@@ -71,13 +71,4 @@ The guide is organized into several sections:
 6. **Practical Python**: How to run, install, and get help with Python
 7. **Python in the AI Era**: Using AI assistants and integrating AI into your Python apps
 
-## Interactive Learning 
 
-This guide supports:
-
-- In-browser code execution
-- Copy/paste code examples
-- Dark/light mode for comfortable reading
-- Mobile-friendly format
-
-Happy coding!

@@ -950,7 +950,7 @@ Test your understanding of Python output concepts:
    a) A B C
    b) A/B/C
    c) "A"/"B"/"C"
-   d) A\B\C
+   d) A \ B \ C
 
 2. Which of these correctly formats a float to show exactly 3 decimal places?
    a) `print("Value: %.3f" % value)`
