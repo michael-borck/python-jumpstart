@@ -2,6 +2,7 @@
 title: "Operator's Manual: Mastering Python's Mathematical and Logical Tools"
 ---
 
+
 # Chapter 7: Operators - The Building Blocks of Python Logic
 
 ## Chapter Outline

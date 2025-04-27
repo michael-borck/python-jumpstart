@@ -1602,6 +1602,7 @@ def group_by_attribute(objects, attribute):
     # Return a dictionary mapping attribute values to lists of objects
 ```
 
+
 ## 16. Advanced Topic: Alternative Collection Types
 
 While lists are versatile, Python offers other collection types that may better suit specific needs:

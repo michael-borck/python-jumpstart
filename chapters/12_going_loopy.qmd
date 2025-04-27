@@ -1466,6 +1466,7 @@ In the next chapter, we'll explore how to manipulate strings—text data that yo
 
 In this chapter, we've explored Python's loop structures, which allow you to perform repeated operations efficiently and elegantly. Loops are a fundamental concept in programming, enabling you to process collections of data, respond to user input, and automate repetitive tasks.
 
+
 Key concepts we've covered include:
 
 - **For loops** for iterating through sequences with a known number of elements
